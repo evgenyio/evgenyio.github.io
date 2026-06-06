@@ -101,6 +101,23 @@ Offline setup expectation:
 - The first install/cache pass downloads roughly 84 MB of audio.
 - After that, the app should work offline from the installed PWA or browser cache.
 
+## Icons
+
+Current app icons are generated from:
+
+- `/Users/evgeny.nikiforov/Downloads/ChatGPT Image Jun 6, 2026, 05_38_11 PM.png`
+
+The deploy packager in the source workspace reads that image and generates:
+
+- normal icons with a subtle rounded inner border
+- maskable icons with extra safe padding for Android/PWA masks
+
+If the downloaded source image moves, update `ICON_SOURCE` in:
+
+- `/Users/evgeny.nikiforov/Projects/dutch/scripts/build_deploy_package.py`
+
+Do not hand-edit only the generated icon PNGs if you expect to run the packager again; it will overwrite them.
+
 ## Asset And GitHub Limits
 
 Current deploy size is intentionally modest:
@@ -201,4 +218,3 @@ Expected:
 - Do not regenerate icons from `public/index.html`; icons are standalone files in this deploy repo.
 - If changing the packager, update `/Users/evgeny.nikiforov/Projects/dutch/scripts/build_deploy_package.py`, not only this repo.
 - If changing deployed files directly in this repo, consider whether the packager will overwrite them later.
-
