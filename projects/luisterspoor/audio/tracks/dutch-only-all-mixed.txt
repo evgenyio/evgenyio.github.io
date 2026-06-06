@@ -1,0 +1,1063 @@
+Track: audio/tracks/dutch-only-all-mixed.mp3
+Mode: dutch-only
+Duration: 35:35.270
+
+[00:00.000] He she and they
+EN: She needs a few more minutes.
+NL: Zij heeft nog een paar minuten nodig.
+
+[00:08.551] Decisions and opinions
+EN: That might be too expensive.
+NL: Dat is misschien te duur.
+
+[00:15.523] Formal requests
+EN: Could you please repeat the amount?
+NL: Kunt u het bedrag alstublieft herhalen?
+
+[00:24.446] Small talk and social
+EN: I moved here recently.
+NL: Ik ben hier onlangs naartoe verhuisd.
+
+[00:32.718] Questions about other people
+EN: What did she say about the meeting?
+NL: Wat zei zij over de vergadering?
+
+[00:40.712] Work and meetings
+EN: Let me check the details and get back to you.
+NL: Laat me de details controleren en dan kom ik erop terug.
+
+[00:51.771] We and group plans
+EN: We should check the weather before we go.
+NL: We moeten het weer controleren voordat we gaan.
+
+[01:01.437] Questions about other people
+EN: Did he already pay?
+NL: Heeft hij al betaald?
+
+[01:08.130] Questions about other people
+EN: Who is responsible for this?
+NL: Wie is hiervoor verantwoordelijk?
+
+[01:15.753] Daily logistics
+EN: I have another appointment after this.
+NL: Ik heb hierna nog een afspraak.
+
+[01:23.468] Questions about other people
+EN: Why did he leave early?
+NL: Waarom is hij vroeg vertrokken?
+
+[01:30.811] Problems and repairs
+EN: The payment did not go through.
+NL: De betaling is niet gelukt.
+
+[01:38.155] Decisions and opinions
+EN: It makes sense to wait.
+NL: Het is logisch om te wachten.
+
+[01:45.592] He she and they
+EN: He does not know the answer yet.
+NL: Hij weet het antwoord nog niet.
+
+[01:52.935] Learning and clarification
+EN: I am getting better, but I still need practice.
+NL: Ik word beter, maar ik moet nog steeds oefenen.
+
+[02:02.601] Neutral situations
+EN: The food is already cold.
+NL: Het eten is al koud.
+
+[02:09.666] Daily logistics
+EN: I need to charge my phone.
+NL: Ik moet mijn telefoon opladen.
+
+[02:17.288] He she and they
+EN: She cannot join the call today.
+NL: Zij kan vandaag niet deelnemen aan het gesprek.
+
+[02:27.140] Formal requests
+EN: Could you please speak a little more slowly?
+NL: Kunt u alstublieft iets langzamer spreken?
+
+[02:36.155] Small talk and social
+EN: The weather changes very quickly here.
+NL: Het weer verandert hier heel snel.
+
+[02:43.963] We and group plans
+EN: We can take the train instead.
+NL: We kunnen in plaats daarvan de trein nemen.
+
+[02:53.350] Questions about other people
+EN: Should she receive a copy?
+NL: Moet zij een kopie ontvangen?
+
+[03:00.601] Learning and clarification
+EN: Is this formal or informal?
+NL: Is dit formeel of informeel?
+
+[03:08.131] Small talk and social
+EN: Do you want anything from the cafe?
+NL: Wil je iets uit het cafe?
+
+[03:15.289] He she and they
+EN: They asked us to wait here.
+NL: Ze vroegen ons hier te wachten.
+
+[03:22.725] Neutral situations
+EN: The shop closes at six.
+NL: De winkel sluit om zes uur.
+
+[03:30.533] Problems and repairs
+EN: I think there has been a misunderstanding.
+NL: Ik denk dat er een misverstand is geweest.
+
+[03:39.270] Shopping and restaurants
+EN: I am allergic to nuts.
+NL: Ik ben allergisch voor noten.
+
+[03:46.707] He she and they
+EN: She knows a better route.
+NL: Zij kent een betere route.
+
+[03:54.050] Work and meetings
+EN: I do not have enough context yet.
+NL: Ik heb nog niet genoeg context.
+
+[04:01.673] Health and appointments
+EN: I do not feel well today.
+NL: Ik voel me vandaag niet goed.
+
+[04:08.923] He she and they
+EN: He usually replies quickly.
+NL: Hij reageert meestal snel.
+
+[04:16.360] Work and meetings
+EN: I need to focus for the next hour.
+NL: Ik moet me het komende uur concentreren.
+
+[04:25.004] Home and errands
+EN: The delivery should arrive today.
+NL: De bezorging zou vandaag moeten aankomen.
+
+[04:34.112] Problems and repairs
+EN: I cannot log in to my account.
+NL: Ik kan niet inloggen op mijn account.
+
+[04:42.199] Learning and clarification
+EN: I will look it up later.
+NL: Ik zoek het later op.
+
+[04:49.078] Shopping and restaurants
+EN: Do you have this in a different size?
+NL: Hebben jullie dit in een andere maat?
+
+[04:57.629] Health and appointments
+EN: I need a sick note for work.
+NL: Ik heb een ziekmelding voor mijn werk nodig.
+
+[05:06.831] Home and errands
+EN: I have to call the landlord.
+NL: Ik moet de verhuurder bellen.
+
+[05:13.896] You informal and plural
+EN: You do not need to bring anything.
+NL: Je hoeft niets mee te nemen.
+
+[05:21.054] We and group plans
+EN: We can meet at the station.
+NL: We kunnen op het station afspreken.
+
+[05:29.976] Work and meetings
+EN: I found one issue that we should fix first.
+NL: Ik heb een probleem gevonden dat we eerst moeten oplossen.
+
+[05:40.478] Dutch admin and life
+EN: I need to register at the municipality.
+NL: Ik moet me inschrijven bij de gemeente.
+
+[05:49.029] We and group plans
+EN: We should not make a final decision yet.
+NL: We moeten nog geen definitieve beslissing nemen.
+
+[05:58.602] Questions about other people
+EN: Where are they waiting?
+NL: Waar wachten ze?
+
+[06:04.831] Decisions and opinions
+EN: It is better to ask first.
+NL: Het is beter om eerst te vragen.
+
+[06:12.918] Work and meetings
+EN: I am joining the call now.
+NL: Ik kom nu in het gesprek.
+
+[06:19.983] You informal and plural
+EN: You can send me a message when you arrive.
+NL: Je kunt me een bericht sturen als je aankomt.
+
+[06:28.998] Short notices and fragments
+EN: Rain tomorrow.
+NL: Morgen regen.
+
+[06:35.320] Home and errands
+EN: I have to clean the kitchen.
+NL: Ik moet de keuken schoonmaken.
+
+[06:42.850] Formal requests
+EN: Could you please send someone tomorrow morning?
+NL: Kunt u morgenochtend alstublieft iemand sturen?
+
+[06:52.608] You informal and plural
+EN: You need to press this button first.
+NL: Je moet eerst op deze knop drukken.
+
+[07:00.788] Neutral situations
+EN: The answer depends on the situation.
+NL: Het antwoord hangt af van de situatie.
+
+[07:09.525] Neutral situations
+EN: The package arrived this morning.
+NL: Het pakket is vanochtend aangekomen.
+
+[07:17.890] Shopping and restaurants
+EN: I would like tap water, please.
+NL: Ik wil graag kraanwater, alstublieft.
+
+[07:26.720] Home and errands
+EN: I need to pick up a package.
+NL: Ik moet een pakket ophalen.
+
+[07:33.970] Formal requests
+EN: Could you please help us with this form?
+NL: Kunt u ons alstublieft helpen met dit formulier?
+
+[07:43.265] Shopping and restaurants
+EN: Can I pay by card?
+NL: Kan ik met pin betalen?
+
+[07:50.237] We and group plans
+EN: We are looking for the right platform.
+NL: We zoeken het juiste perron.
+
+[07:57.488] Questions about other people
+EN: When does she arrive?
+NL: Wanneer komt zij aan?
+
+[08:04.460] Formal requests
+EN: Could you please send the confirmation again?
+NL: Kunt u de bevestiging alstublieft opnieuw sturen?
+
+[08:14.961] He she and they
+EN: She sent the document this morning.
+NL: Zij heeft het document vanochtend gestuurd.
+
+[08:24.255] Health and appointments
+EN: I need to reschedule my appointment.
+NL: Ik moet mijn afspraak verzetten.
+
+[08:31.878] Dutch admin and life
+EN: I need to update my address.
+NL: Ik moet mijn adres bijwerken.
+
+[08:39.500] We and group plans
+EN: We have enough time if we start now.
+NL: We hebben genoeg tijd als we nu beginnen.
+
+[08:47.865] Learning and clarification
+EN: I am trying to think in Dutch.
+NL: Ik probeer in het Nederlands te denken.
+
+[08:56.231] Short notices and fragments
+EN: Free entrance today.
+NL: Vandaag gratis toegang.
+
+[09:03.203] Work and meetings
+EN: Can we move this meeting to tomorrow afternoon?
+NL: Kunnen we deze vergadering naar morgenmiddag verplaatsen?
+
+[09:13.519] Decisions and opinions
+EN: That would save a lot of time.
+NL: Dat zou veel tijd besparen.
+
+[09:21.141] Health and appointments
+EN: How often should I take this?
+NL: Hoe vaak moet ik dit innemen?
+
+[09:28.670] Questions about other people
+EN: Can they help us today?
+NL: Kunnen ze ons vandaag helpen?
+
+[09:36.107] Neutral situations
+EN: The information on the website is outdated.
+NL: De informatie op de website is verouderd.
+
+[09:44.751] Daily logistics
+EN: Can we meet near the entrance?
+NL: Kunnen we bij de ingang afspreken?
+
+[09:52.745] Health and appointments
+EN: I am taking this medication.
+NL: Ik gebruik dit medicijn.
+
+[09:59.903] You informal and plural
+EN: You should call them before five.
+NL: Je moet ze voor vijf uur bellen.
+
+[10:07.618] Shopping and restaurants
+EN: Could we sit outside?
+NL: Kunnen we buiten zitten?
+
+[10:14.311] Work and meetings
+EN: I agree with the general direction.
+NL: Ik ben het eens met de algemene richting.
+
+[10:23.420] Home and errands
+EN: The washing machine is still running.
+NL: De wasmachine draait nog.
+
+[10:30.578] He she and they
+EN: They need more information from us.
+NL: Ze hebben meer informatie van ons nodig.
+
+[10:39.408] Problems and repairs
+EN: Something is not working.
+NL: Er werkt iets niet.
+
+[10:46.008] Daily logistics
+EN: I missed the tram.
+NL: Ik heb de tram gemist.
+
+[10:52.887] Short notices and fragments
+EN: Documents required.
+NL: Documenten vereist.
+
+[10:59.860] Neutral situations
+EN: The system is slow today.
+NL: Het systeem is vandaag traag.
+
+[11:07.575] Questions about other people
+EN: Can she call me back?
+NL: Kan zij mij terugbellen?
+
+[11:14.361] Short notices and fragments
+EN: Service temporarily unavailable.
+NL: Dienst tijdelijk niet beschikbaar.
+
+[11:22.169] You informal and plural
+EN: You all need to be here at nine.
+NL: Jullie moeten hier om negen uur zijn.
+
+[11:30.442] Work and meetings
+EN: Can you clarify the expected outcome?
+NL: Kun je het verwachte resultaat verduidelijken?
+
+[11:39.829] Small talk and social
+EN: I am going to grab a coffee.
+NL: Ik ga even koffie halen.
+
+[11:46.894] Decisions and opinions
+EN: This option is easier.
+NL: Deze optie is makkelijker.
+
+[11:54.145] Home and errands
+EN: I need to take out the trash.
+NL: Ik moet het afval buiten zetten.
+
+[12:01.674] Daily logistics
+EN: I will be there in about twenty minutes.
+NL: Ik ben er over ongeveer twintig minuten.
+
+[12:10.225] He she and they
+EN: They do not accept cash here.
+NL: Ze accepteren hier geen contant geld.
+
+[12:18.776] Home and errands
+EN: Something is wrong with the heating.
+NL: Er is iets mis met de verwarming.
+
+[12:27.234] Dutch admin and life
+EN: I need a copy of my passport.
+NL: Ik heb een kopie van mijn paspoort nodig.
+
+[12:35.693] We and group plans
+EN: We need to split the bill.
+NL: We moeten de rekening delen.
+
+[12:43.129] Questions about other people
+EN: Can he bring the documents?
+NL: Kan hij de documenten meenemen?
+
+[12:51.030] Problems and repairs
+EN: When can this be fixed?
+NL: Wanneer kan dit worden gerepareerd?
+
+[12:58.931] He she and they
+EN: They are working on the problem now.
+NL: Ze werken nu aan het probleem.
+
+[13:07.018] Small talk and social
+EN: I live nearby.
+NL: Ik woon hier in de buurt.
+
+[13:13.804] Questions about other people
+EN: How long will they need?
+NL: Hoe lang hebben ze nodig?
+
+[13:20.776] He she and they
+EN: She is waiting near the entrance.
+NL: Zij wacht bij de ingang.
+
+[13:27.656] Learning and clarification
+EN: I did not understand the last part.
+NL: Ik heb het laatste deel niet begrepen.
+
+[13:36.393] Problems and repairs
+EN: I did not receive the confirmation email.
+NL: Ik heb de bevestigingsmail niet ontvangen.
+
+[13:45.222] Small talk and social
+EN: I understand a little, but I speak slowly.
+NL: Ik begrijp een beetje, maar ik spreek langzaam.
+
+[13:54.331] Daily logistics
+EN: I forgot to bring my keys.
+NL: Ik ben vergeten mijn sleutels mee te nemen.
+
+[14:03.253] Dutch admin and life
+EN: I received a letter from the tax office.
+NL: Ik heb een brief van de Belastingdienst ontvangen.
+
+[14:12.455] He she and they
+EN: They are checking the tickets.
+NL: Ze controleren de kaartjes.
+
+[14:19.891] Small talk and social
+EN: How was your weekend?
+NL: Hoe was je weekend?
+
+[14:26.399] Decisions and opinions
+EN: This option is more reliable.
+NL: Deze optie is betrouwbaarder.
+
+[14:34.486] Short notices and fragments
+EN: Payment already received.
+NL: Betaling al ontvangen.
+
+[14:41.644] You informal and plural
+EN: You all received the same email.
+NL: Jullie hebben dezelfde e-mail ontvangen.
+
+[14:50.195] He she and they
+EN: They opened a new cafe nearby.
+NL: Ze hebben hier in de buurt een nieuw cafe geopend.
+
+[14:59.860] You informal and plural
+EN: You look tired today.
+NL: Je ziet er vandaag moe uit.
+
+[15:07.297] Work and meetings
+EN: Could you share your screen?
+NL: Kun je je scherm delen?
+
+[15:14.269] Small talk and social
+EN: How do you say this in Dutch?
+NL: Hoe zeg je dit in het Nederlands?
+
+[15:21.798] Health and appointments
+EN: I have trouble sleeping.
+NL: Ik heb moeite met slapen.
+
+[15:29.049] Neutral situations
+EN: The road is closed until Friday.
+NL: De weg is tot vrijdag afgesloten.
+
+[15:37.600] Problems and repairs
+EN: The light in the hallway is broken.
+NL: Het licht in de gang is kapot.
+
+[15:45.037] We and group plans
+EN: We need a quiet place to talk.
+NL: We hebben een rustige plek nodig om te praten.
+
+[15:54.424] Shopping and restaurants
+EN: Everything was very good, thank you.
+NL: Alles was heel goed, dank je.
+
+[16:01.953] Daily logistics
+EN: I will send you the address.
+NL: Ik stuur je het adres.
+
+[16:08.926] Problems and repairs
+EN: Could you send someone to check it?
+NL: Kunt u iemand sturen om ernaar te kijken?
+
+[16:17.848] Work and meetings
+EN: I will send the update by the end of the day.
+NL: Ik stuur de update voor het einde van de dag.
+
+[16:27.142] Dutch admin and life
+EN: I would like to change my appointment.
+NL: Ik wil graag mijn afspraak wijzigen.
+
+[16:35.693] Shopping and restaurants
+EN: I have a reservation under my name.
+NL: Ik heb een reservering op mijn naam.
+
+[16:43.594] Short notices and fragments
+EN: Seats available upstairs.
+NL: Zitplaatsen boven beschikbaar.
+
+[16:51.310] Home and errands
+EN: We are out of milk.
+NL: De melk is op.
+
+[16:57.539] Daily logistics
+EN: I need to check my calendar first.
+NL: Ik moet eerst mijn agenda controleren.
+
+[17:06.090] Decisions and opinions
+EN: This is not urgent.
+NL: Dit is niet urgent.
+
+[17:12.876] Learning and clarification
+EN: Can I say it this way?
+NL: Kan ik het zo zeggen?
+
+[17:19.477] Dutch admin and life
+EN: I am waiting for my residence card.
+NL: Ik wacht op mijn verblijfskaart.
+
+[17:27.192] Shopping and restaurants
+EN: Where can I find the bread?
+NL: Waar kan ik het brood vinden?
+
+[17:34.164] Work and meetings
+EN: I need to review the document before I can decide.
+NL: Ik moet het document bekijken voordat ik kan beslissen.
+
+[17:44.387] Problems and repairs
+EN: I can explain what happened.
+NL: Ik kan uitleggen wat er is gebeurd.
+
+[17:52.845] We and group plans
+EN: We forgot to book a table.
+NL: We zijn vergeten een tafel te reserveren.
+
+[18:01.768] Decisions and opinions
+EN: That does not seem necessary.
+NL: Dat lijkt niet nodig.
+
+[18:08.462] Learning and clarification
+EN: I know this word, but I forgot it.
+NL: Ik ken dit woord, maar ik ben het vergeten.
+
+[18:16.920] Short notices and fragments
+EN: Tickets available at the machine.
+NL: Kaartjes verkrijgbaar bij de automaat.
+
+[18:25.749] Problems and repairs
+EN: I need help with this.
+NL: Ik heb hier hulp bij nodig.
+
+[18:32.907] Daily logistics
+EN: I can do it today, but not right now.
+NL: Ik kan het vandaag doen, maar niet nu meteen.
+
+[18:42.666] Learning and clarification
+EN: I need a few seconds to answer.
+NL: Ik heb een paar seconden nodig om te antwoorden.
+
+[18:52.796] Home and errands
+EN: Can we stop by the supermarket?
+NL: Kunnen we even langs de supermarkt gaan?
+
+[19:01.161] We and group plans
+EN: We need to leave earlier tomorrow.
+NL: We moeten morgen eerder vertrekken.
+
+[19:09.155] Daily logistics
+EN: I am running a little late.
+NL: Ik ben een beetje laat.
+
+[19:15.942] Formal requests
+EN: Could you please call me when it is ready?
+NL: Kunt u mij alstublieft bellen wanneer het klaar is?
+
+[19:25.793] Small talk and social
+EN: I work mostly from home.
+NL: Ik werk meestal vanuit huis.
+
+[19:33.322] Health and appointments
+EN: I have had a headache since yesterday.
+NL: Ik heb sinds gisteren hoofdpijn.
+
+[19:41.131] Work and meetings
+EN: I want to avoid making this more complicated than necessary.
+NL: Ik wil voorkomen dat we dit ingewikkelder maken dan nodig is.
+
+[19:52.840] He she and they
+EN: They will send the invoice later.
+NL: Ze sturen de factuur later.
+
+[20:00.369] Learning and clarification
+EN: Please correct me if I make a mistake.
+NL: Corrigeer me alsjeblieft als ik een fout maak.
+
+[20:09.570] We and group plans
+EN: We should keep walking.
+NL: We moeten door blijven lopen.
+
+[20:17.007] Health and appointments
+EN: I am not allergic to any medication.
+NL: Ik ben niet allergisch voor medicijnen.
+
+[20:25.465] Short notices and fragments
+EN: No parking today.
+NL: Vandaag niet parkeren.
+
+[20:32.437] Short notices and fragments
+EN: Cash only.
+NL: Alleen contant.
+
+[20:39.038] Problems and repairs
+EN: There is a leak in the bathroom.
+NL: Er is een lekkage in de badkamer.
+
+[20:47.960] Decisions and opinions
+EN: This is exactly what we need.
+NL: Dit is precies wat we nodig hebben.
+
+[20:56.140] Small talk and social
+EN: I am still learning Dutch.
+NL: Ik ben nog Nederlands aan het leren.
+
+[21:04.041] You informal and plural
+EN: You were right about the address.
+NL: Je had gelijk over het adres.
+
+[21:11.570] Problems and repairs
+EN: I took a photo of the problem.
+NL: Ik heb een foto van het probleem gemaakt.
+
+[21:20.122] You informal and plural
+EN: You all can ask questions at the end.
+NL: Jullie kunnen aan het einde vragen stellen.
+
+[21:29.044] We and group plans
+EN: We are almost ready.
+NL: We zijn bijna klaar.
+
+[21:35.831] Shopping and restaurants
+EN: I would like a table for two.
+NL: Ik wil graag een tafel voor twee.
+
+[21:44.660] Work and meetings
+EN: I think we should keep this simple.
+NL: Ik denk dat we dit simpel moeten houden.
+
+[21:53.211] Daily logistics
+EN: I need to leave in ten minutes.
+NL: Ik moet over tien minuten vertrekken.
+
+[22:01.670] Work and meetings
+EN: The deadline is realistic if we reduce the scope.
+NL: De deadline is realistisch als we de scope verkleinen.
+
+[22:12.264] Neutral situations
+EN: The form takes about ten minutes.
+NL: Het formulier kost ongeveer tien minuten.
+
+[22:21.558] Health and appointments
+EN: Could you write that down for me?
+NL: Kunt u dat voor mij opschrijven?
+
+[22:29.366] Dutch admin and life
+EN: I have an appointment at the town hall.
+NL: Ik heb een afspraak op het gemeentehuis.
+
+[22:38.010] He she and they
+EN: He said the meeting starts at ten.
+NL: Hij zei dat de vergadering om tien uur begint.
+
+[22:47.490] Learning and clarification
+EN: Can you say that one more time?
+NL: Kun je dat nog een keer zeggen?
+
+[22:54.462] Dutch admin and life
+EN: Can you send the information by email?
+NL: Kunt u de informatie per e-mail sturen?
+
+[23:03.571] Problems and repairs
+EN: The door does not close properly.
+NL: De deur sluit niet goed.
+
+[23:10.543] You informal and plural
+EN: You all can sit at this table.
+NL: Jullie kunnen aan deze tafel zitten.
+
+[23:18.908] Home and errands
+EN: Let me put this in the fridge.
+NL: Laat me dit in de koelkast zetten.
+
+[23:26.438] Neutral situations
+EN: The price includes delivery.
+NL: De prijs is inclusief bezorging.
+
+[23:34.989] Work and meetings
+EN: Sorry, I was on mute.
+NL: Sorry, mijn microfoon stond uit.
+
+[23:43.168] Neutral situations
+EN: The next appointment is available on Monday.
+NL: De volgende afspraak is beschikbaar op maandag.
+
+[23:52.927] Shopping and restaurants
+EN: Could I get the receipt, please?
+NL: Mag ik de bon, alstublieft?
+
+[24:00.456] Short notices and fragments
+EN: Platform change.
+NL: Perronwijziging.
+
+[24:07.057] Neutral situations
+EN: The room is too noisy for a call.
+NL: De kamer is te lawaaierig voor een gesprek.
+
+[24:16.351] Health and appointments
+EN: The pain is getting worse.
+NL: De pijn wordt erger.
+
+[24:23.045] We and group plans
+EN: We already tried that yesterday.
+NL: We hebben dat gisteren al geprobeerd.
+
+[24:31.224] He she and they
+EN: They are speaking too fast.
+NL: Ze spreken te snel.
+
+[24:38.289] Dutch admin and life
+EN: Which documents do I need to bring?
+NL: Welke documenten moet ik meenemen?
+
+[24:46.562] Decisions and opinions
+EN: It is too early to decide.
+NL: Het is te vroeg om te beslissen.
+
+[24:54.370] Questions about other people
+EN: Should he join the next call?
+NL: Moet hij deelnemen aan het volgende gesprek?
+
+[25:03.385] You informal and plural
+EN: You can leave your coat here.
+NL: Je kunt je jas hier laten.
+
+[25:10.543] Questions about other people
+EN: Did they confirm the appointment?
+NL: Hebben ze de afspraak bevestigd?
+
+[25:18.259] Home and errands
+EN: The internet is not working well.
+NL: Het internet werkt niet goed.
+
+[25:25.602] Daily logistics
+EN: I have to make a quick call.
+NL: Ik moet even snel bellen.
+
+[25:32.574] Health and appointments
+EN: I would like to make an appointment.
+NL: Ik wil graag een afspraak maken.
+
+[25:40.568] Learning and clarification
+EN: Could you type that for me?
+NL: Kun je dat voor me typen?
+
+[25:47.540] Daily logistics
+EN: I am waiting outside.
+NL: Ik wacht buiten.
+
+[25:53.862] Work and meetings
+EN: I will write a short summary after the meeting.
+NL: Ik schrijf na de vergadering een korte samenvatting.
+
+[26:04.271] Short notices and fragments
+EN: Meeting room closed.
+NL: Vergaderruimte gesloten.
+
+[26:11.615] He she and they
+EN: He is already on his way.
+NL: Hij is al onderweg.
+
+[26:18.494] He she and they
+EN: They changed the schedule again.
+NL: Ze hebben de planning weer veranderd.
+
+[26:26.395] Formal requests
+EN: Could you please show me where to sign?
+NL: Kunt u mij alstublieft laten zien waar ik moet tekenen?
+
+[26:37.268] Home and errands
+EN: I will cook dinner tonight.
+NL: Ik kook vanavond.
+
+[26:43.869] Short notices and fragments
+EN: Card payments only.
+NL: Alleen pinbetalingen.
+
+[26:51.119] Problems and repairs
+EN: The app keeps crashing.
+NL: De app blijft crashen.
+
+[26:58.184] Health and appointments
+EN: Is it safe to exercise?
+NL: Is het veilig om te sporten?
+
+[27:05.528] Decisions and opinions
+EN: It is worth trying once.
+NL: Het is de moeite waard om het een keer te proberen.
+
+[27:15.008] Home and errands
+EN: I need to make a grocery list.
+NL: Ik moet een boodschappenlijst maken.
+
+[27:23.188] He she and they
+EN: They said it should be fixed today.
+NL: Ze zeiden dat het vandaag opgelost zou moeten zijn.
+
+[27:33.225] Neutral situations
+EN: The door opens automatically.
+NL: De deur gaat automatisch open.
+
+[27:41.776] Dutch admin and life
+EN: Could you help me fill this in?
+NL: Kunt u me helpen dit in te vullen?
+
+[27:49.863] Short notices and fragments
+EN: Train delayed by ten minutes.
+NL: Trein tien minuten vertraagd.
+
+[27:57.206] Home and errands
+EN: I need to pay the rent.
+NL: Ik moet de huur betalen.
+
+[28:04.179] We and group plans
+EN: We can decide after lunch.
+NL: We kunnen na de lunch beslissen.
+
+[28:12.172] You informal and plural
+EN: You all did a good job.
+NL: Jullie hebben goed werk geleverd.
+
+[28:19.795] Learning and clarification
+EN: I want to practice this phrase again.
+NL: Ik wil deze zin nog een keer oefenen.
+
+[28:28.253] Dutch admin and life
+EN: I need to open a Dutch bank account.
+NL: Ik moet een Nederlandse bankrekening openen.
+
+[28:37.268] Work and meetings
+EN: What is the main problem we are trying to solve?
+NL: Wat is het belangrijkste probleem dat we proberen op te lossen?
+
+[28:48.142] Shopping and restaurants
+EN: Is this still available?
+NL: Is dit nog beschikbaar?
+
+[28:54.928] You informal and plural
+EN: You all should bring your ID cards.
+NL: Jullie moeten jullie identiteitsbewijzen meenemen.
+
+[29:05.058] Home and errands
+EN: Can you help me carry this upstairs?
+NL: Kun je me helpen dit naar boven te dragen?
+
+[29:13.702] Short notices and fragments
+EN: Quiet please.
+NL: Stilte alstublieft.
+
+[29:20.581] Short notices and fragments
+EN: No bicycles inside.
+NL: Geen fietsen binnen.
+
+[29:26.996] Short notices and fragments
+EN: No entry without an appointment.
+NL: Geen toegang zonder afspraak.
+
+[29:34.711] He she and they
+EN: He forgot his phone at home.
+NL: Hij is zijn telefoon thuis vergeten.
+
+[29:43.634] Work and meetings
+EN: This should be good enough for the first version.
+NL: Dit zou goed genoeg moeten zijn voor de eerste versie.
+
+[29:53.671] Health and appointments
+EN: Where is the nearest pharmacy?
+NL: Waar is de dichtstbijzijnde apotheek?
+
+[30:01.944] Learning and clarification
+EN: What is the difference between these two words?
+NL: Wat is het verschil tussen deze twee woorden?
+
+[30:10.588] We and group plans
+EN: We are waiting for one more person.
+NL: We wachten nog op een persoon.
+
+[30:18.210] Formal requests
+EN: Could you please check this document?
+NL: Kunt u dit document alstublieft controleren?
+
+[30:27.968] Small talk and social
+EN: Could you repeat that more slowly?
+NL: Kun je dat langzamer herhalen?
+
+[30:35.962] Learning and clarification
+EN: Can you use a simpler sentence?
+NL: Kun je een eenvoudigere zin gebruiken?
+
+[30:44.885] Small talk and social
+EN: That sounds interesting.
+NL: Dat klinkt interessant.
+
+[30:51.671] Formal requests
+EN: Could you please explain the next step?
+NL: Kunt u de volgende stap alstublieft uitleggen?
+
+[31:00.780] Decisions and opinions
+EN: That depends on the deadline.
+NL: Dat hangt af van de deadline.
+
+[31:08.123] Daily logistics
+EN: I am already on my way.
+NL: Ik ben al onderweg.
+
+[31:14.910] Health and appointments
+EN: I feel better than yesterday.
+NL: Ik voel me beter dan gisteren.
+
+[31:22.811] Health and appointments
+EN: I need a prescription.
+NL: Ik heb een recept nodig.
+
+[31:29.783] Daily logistics
+EN: I need to buy a ticket first.
+NL: Ik moet eerst een kaartje kopen.
+
+[31:37.591] Short notices and fragments
+EN: Maintenance in progress.
+NL: Onderhoud bezig.
+
+[31:44.377] Dutch admin and life
+EN: I am looking for health insurance.
+NL: Ik ben op zoek naar een zorgverzekering.
+
+[31:53.021] Questions about other people
+EN: Which option do you prefer?
+NL: Welke optie heeft jouw voorkeur?
+
+[32:01.480] Small talk and social
+EN: Do you have any plans for tonight?
+NL: Heb je plannen voor vanavond?
+
+[32:08.823] Decisions and opinions
+EN: This is harder than expected.
+NL: Dit is moeilijker dan verwacht.
+
+[32:16.631] Decisions and opinions
+EN: It is probably fine.
+NL: Het is waarschijnlijk prima.
+
+[32:23.789] Dutch admin and life
+EN: I have a BSN number.
+NL: Ik heb een BSN-nummer.
+
+[32:30.854] Neutral situations
+EN: The elevator is out of order.
+NL: De lift is buiten gebruik.
+
+[32:38.012] Problems and repairs
+EN: I would like to speak to someone else.
+NL: Ik wil graag met iemand anders spreken.
+
+[32:46.842] Questions about other people
+EN: Should we ask them again?
+NL: Moeten we het hun nog een keer vragen?
+
+[32:55.300] Learning and clarification
+EN: I understood the general idea.
+NL: Ik heb het algemene idee begrepen.
+
+[33:04.130] Shopping and restaurants
+EN: I am just looking, thank you.
+NL: Ik kijk alleen even, dank je.
+
+[33:11.845] Shopping and restaurants
+EN: Can we have the bill, please?
+NL: Mogen we de rekening, alstublieft?
+
+[33:20.210] Shopping and restaurants
+EN: Could you make it less spicy?
+NL: Kun je het minder pittig maken?
+
+[33:27.833] Formal requests
+EN: Could you please write your name here?
+NL: Kunt u hier alstublieft uw naam schrijven?
+
+[33:36.848] Dutch admin and life
+EN: I do not understand this form.
+NL: Ik begrijp dit formulier niet.
+
+[33:44.099] Short notices and fragments
+EN: Coffee first.
+NL: Eerst koffie.
+
+[33:50.142] Decisions and opinions
+EN: That sounds reasonable.
+NL: Dat klinkt redelijk.
+
+[33:56.650] Neutral situations
+EN: The coffee machine is broken again.
+NL: De koffiemachine is weer kapot.
+
+[34:04.272] You informal and plural
+EN: You can choose whichever option is easier.
+NL: Je kunt de optie kiezen die makkelijker is.
+
+[34:12.731] Shopping and restaurants
+EN: Is there a vegetarian option?
+NL: Is er een vegetarische optie?
+
+[34:20.260] Short notices and fragments
+EN: Office open from nine.
+NL: Kantoor open vanaf negen uur.
+
+[34:28.254] Small talk and social
+EN: I like this neighborhood.
+NL: Ik vind deze buurt leuk.
+
+[34:35.226] Work and meetings
+EN: I need a bit more time to finish this.
+NL: Ik heb wat meer tijd nodig om dit af te maken.
+
+[34:44.520] Work and meetings
+EN: I am blocked until I get access.
+NL: Ik zit vast totdat ik toegang krijg.
+
+[34:52.700] Short notices and fragments
+EN: Dinner at seven.
+NL: Eten om zeven uur.
+
+[35:00.415] You informal and plural
+EN: You all need to wait outside for a moment.
+NL: Jullie moeten even buiten wachten.
+
+[35:08.409] Dutch admin and life
+EN: I prefer to receive letters in English if possible.
+NL: Ik ontvang brieven het liefst in het Engels als dat mogelijk is.
+
+[35:19.282] Small talk and social
+EN: I have never been there before.
+NL: Ik ben daar nog nooit geweest.
+
+[35:26.626] Neutral situations
+EN: The train leaves in five minutes.
+NL: De trein vertrekt over vijf minuten.

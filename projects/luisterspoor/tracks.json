@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "default_track_id": "recall-all-mixed",
+  "tracks": [
+    {
+      "id": "recall-all-mixed",
+      "label": "Recall · Mixed",
+      "mode": "recall",
+      "order": "mixed",
+      "seed": "dutch-v1",
+      "item_count": 265,
+      "duration_seconds": 3261.008,
+      "audio": "audio/tracks/recall-all-mixed.mp3",
+      "manifest": "audio/tracks/recall-all-mixed.json",
+      "text_manifest": "audio/tracks/recall-all-mixed.txt"
+    },
+    {
+      "id": "dutch-only-all-mixed",
+      "label": "Dutch Only · Mixed",
+      "mode": "dutch-only",
+      "order": "mixed",
+      "seed": "dutch-v1",
+      "item_count": 265,
+      "duration_seconds": 2135.27,
+      "audio": "audio/tracks/dutch-only-all-mixed.mp3",
+      "manifest": "audio/tracks/dutch-only-all-mixed.json",
+      "text_manifest": "audio/tracks/dutch-only-all-mixed.txt"
+    }
+  ]
+}

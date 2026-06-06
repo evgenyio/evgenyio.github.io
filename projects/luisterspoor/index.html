@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00a9d0">
+  <meta name="description" content="Offline Dutch listening and recall practice.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <title>luisterspoor</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fcfbf8;
+      color: #0f0f0f;
+      --background: #fcfcfa;
+      --surface: #fcfbf8;
+      --panel: #ffffff;
+      --foreground: #0f0f0f;
+      --muted: #737373;
+      --border-soft: color-mix(in srgb, var(--foreground) 7%, transparent);
+      --accent: #00a9d0;
+      --accent-bright: #1bbee9;
+      --accent-soft: color-mix(in srgb, var(--accent) 8%, transparent);
+      --accent-hover: color-mix(in srgb, var(--accent) 12%, transparent);
+      --lime: #6aba00;
+      --lime-soft: color-mix(in srgb, var(--lime) 12%, transparent);
+      --shadow-inset: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+      --shadow-card: 0 12px 28px -26px rgba(0, 0, 0, 0.55), inset 0 0 0 1px var(--border-soft);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      background: var(--surface);
+      color: var(--foreground);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    main {
+      width: min(100%, 980px);
+      margin: 0 auto;
+      padding: calc(0.75rem + env(safe-area-inset-top)) 0.85rem 1.2rem;
+    }
+    header {
+      display: grid;
+      gap: 0.25rem;
+      min-height: 4rem;
+      align-content: center;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      margin: 0;
+      color: color-mix(in srgb, var(--foreground) 86%, transparent);
+      font-size: clamp(1.7rem, 8vw, 2.45rem);
+      font-weight: 500;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    .eyebrow {
+      margin: 0;
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 17.5rem minmax(0, 1fr);
+      gap: 0.75rem;
+      align-items: start;
+    }
+    .panel {
+      background: color-mix(in srgb, var(--background) 96%, var(--panel) 4%);
+      border-radius: 1rem;
+      padding: 0.85rem;
+      box-shadow: var(--shadow-card);
+    }
+    .track-list {
+      display: grid;
+      gap: 0.55rem;
+    }
+    .track-button {
+      width: 100%;
+      min-height: 3.7rem;
+      border: 0;
+      border-radius: 0.9rem;
+      background: linear-gradient(
+        to bottom,
+        color-mix(in srgb, var(--panel) 94%, var(--foreground) 6%),
+        color-mix(in srgb, var(--background) 94%, var(--foreground) 6%)
+      );
+      box-shadow: var(--shadow-inset);
+      padding: 0.75rem;
+      text-align: left;
+      cursor: pointer;
+      color: color-mix(in srgb, var(--foreground) 88%, transparent);
+      transition:
+        background 150ms ease,
+        color 150ms ease,
+        transform 150ms ease;
+    }
+    .track-button[aria-current="true"] {
+      color: var(--accent);
+      background: var(--accent-soft);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 14%, transparent);
+    }
+    .track-button:active {
+      transform: scale(0.985);
+    }
+    .track-title {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    .track-meta,
+    .muted {
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.35;
+    }
+    audio {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin: 0.6rem 0 0.9rem;
+    }
+    button,
+    select {
+      min-height: 2.35rem;
+      border: 0;
+      border-radius: 999px;
+      background: linear-gradient(
+        to bottom,
+        color-mix(in srgb, var(--panel) 94%, var(--foreground) 6%),
+        color-mix(in srgb, var(--background) 94%, var(--foreground) 6%)
+      );
+      box-shadow: var(--shadow-inset);
+      color: color-mix(in srgb, var(--foreground) 88%, transparent);
+      padding: 0.45rem 0.8rem;
+      font: inherit;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    button:hover,
+    select:hover {
+      color: var(--foreground);
+      background: linear-gradient(
+        to bottom,
+        color-mix(in srgb, var(--panel) 96%, var(--foreground) 4%),
+        color-mix(in srgb, var(--background) 91%, var(--foreground) 9%)
+      );
+    }
+    button:focus-visible,
+    select:focus-visible,
+    audio:focus-visible {
+      outline: 0;
+      box-shadow:
+        var(--shadow-inset),
+        0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+    }
+    .now {
+      display: grid;
+      gap: 0.8rem;
+      min-height: 270px;
+    }
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.4;
+    }
+    .phrase {
+      display: grid;
+      gap: 10px;
+    }
+    .line {
+      background: color-mix(in srgb, var(--background) 96%, var(--panel) 4%);
+      border-radius: 0.95rem;
+      box-shadow: var(--shadow-inset);
+      padding: 0.85rem;
+    }
+    .line span {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .line strong {
+      display: block;
+      color: color-mix(in srgb, var(--foreground) 88%, transparent);
+      font-size: 1.08rem;
+      line-height: 1.35;
+      font-weight: 550;
+      letter-spacing: 0;
+    }
+    .line.nl strong {
+      font-size: clamp(1.3rem, 5.6vw, 1.8rem);
+      line-height: 1.22;
+    }
+    .timeline {
+      display: grid;
+      gap: 0.5rem;
+      max-height: min(44vh, 30rem);
+      overflow: auto;
+      padding-right: 4px;
+    }
+    .timeline-item {
+      display: grid;
+      width: 100%;
+      min-height: auto;
+      gap: 0.25rem;
+      align-items: start;
+      border: 0;
+      border-radius: 0.85rem;
+      background: color-mix(in srgb, var(--background) 96%, var(--panel) 4%);
+      box-shadow: var(--shadow-inset);
+      padding: 0.7rem;
+      text-align: left;
+      white-space: normal;
+      cursor: pointer;
+    }
+    .timeline-item[aria-current="true"] {
+      color: var(--accent);
+      background: var(--accent-soft);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 16%, transparent);
+    }
+    .timeline-item b {
+      display: block;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    .timeline-item span,
+    .timeline-item strong {
+      display: block;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+    .timeline-item strong {
+      color: color-mix(in srgb, var(--foreground) 86%, transparent);
+      font-size: 0.88rem;
+      font-weight: 550;
+      line-height: 1.28;
+    }
+    .timeline-item span {
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.28;
+    }
+    @media (max-width: 860px) {
+      main {
+        padding: calc(0.65rem + env(safe-area-inset-top)) 0.7rem 0.9rem;
+      }
+      .layout {
+        grid-template-columns: 1fr;
+      }
+      .timeline {
+        max-height: 22rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Dutch audio practice</p>
+      <h1>luisterspoor</h1>
+      <div class="muted" id="appStatus">Loading tracks...</div>
+    </header>
+
+    <section class="layout">
+      <aside class="panel">
+        <div class="track-list" id="trackList"></div>
+      </aside>
+
+      <section class="panel">
+        <div class="status-row">
+          <div id="trackLabel">No track loaded</div>
+          <div id="timeLabel">00:00 / 00:00</div>
+        </div>
+        <audio id="player" controls preload="metadata"></audio>
+        <div class="controls">
+          <button type="button" id="back15">-15s</button>
+          <button type="button" id="forward15">+15s</button>
+          <select id="speed" aria-label="Playback speed">
+            <option value="0.85">0.85x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.1">1.1x</option>
+            <option value="1.25">1.25x</option>
+          </select>
+        </div>
+
+        <div class="now">
+          <div class="phrase">
+            <div class="line">
+              <span>English</span>
+              <strong id="enText">Select a track.</strong>
+            </div>
+            <div class="line nl">
+              <span>Dutch</span>
+              <strong id="nlText">Select a track.</strong>
+            </div>
+          </div>
+          <div class="status-row">
+            <div id="segmentLabel">Segment</div>
+            <div id="positionLabel">Phrase</div>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const state = {
+      tracks: [],
+      currentTrack: null,
+      manifest: null,
+      currentItemId: null,
+    };
+
+    const els = {
+      appStatus: document.querySelector('#appStatus'),
+      trackList: document.querySelector('#trackList'),
+      player: document.querySelector('#player'),
+      trackLabel: document.querySelector('#trackLabel'),
+      timeLabel: document.querySelector('#timeLabel'),
+      enText: document.querySelector('#enText'),
+      nlText: document.querySelector('#nlText'),
+      segmentLabel: document.querySelector('#segmentLabel'),
+      positionLabel: document.querySelector('#positionLabel'),
+      timeline: document.querySelector('#timeline'),
+      back15: document.querySelector('#back15'),
+      forward15: document.querySelector('#forward15'),
+      speed: document.querySelector('#speed'),
+    };
+
+    function formatTime(seconds) {
+      if (!Number.isFinite(seconds)) return '00:00';
+      const whole = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(whole / 60);
+      const secs = whole % 60;
+      return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function positionKey(trackId) {
+      return `dutch-player.position.${trackId}`;
+    }
+
+    function renderTracks() {
+      els.trackList.replaceChildren(...state.tracks.map((track) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'track-button';
+        button.dataset.trackId = track.id;
+        button.setAttribute('aria-current', String(state.currentTrack?.id === track.id));
+        button.innerHTML = `
+          <span class="track-title">${track.label}</span>
+          <span class="track-meta">${track.item_count} phrases · ${formatTime(track.duration_seconds)}</span>
+        `;
+        button.addEventListener('click', () => loadTrack(track.id, true));
+        return button;
+      }));
+    }
+
+    async function loadTrack(trackId, autoplay = false) {
+      const track = state.tracks.find((candidate) => candidate.id === trackId) || state.tracks[0];
+      if (!track) return;
+      state.currentTrack = track;
+      state.currentItemId = null;
+      localStorage.setItem('dutch-player.track', track.id);
+      renderTracks();
+
+      const response = await fetch(track.manifest);
+      state.manifest = await response.json();
+      els.player.src = track.audio;
+      els.trackLabel.textContent = track.label;
+      els.appStatus.textContent = `${track.item_count} phrases · ${track.mode} · ${track.order}`;
+      renderTimeline();
+
+      const saved = Number(localStorage.getItem(positionKey(track.id)) || 0);
+      els.player.addEventListener('loadedmetadata', () => {
+        if (Number.isFinite(saved) && saved > 0 && saved < els.player.duration - 2) {
+          els.player.currentTime = saved;
+        }
+        updateCurrentPhrase();
+        if (autoplay) els.player.play().catch(() => {});
+      }, { once: true });
+    }
+
+    function renderTimeline() {
+      const items = state.manifest?.items || [];
+      els.timeline.replaceChildren(...items.map((item) => {
+        const node = document.createElement('button');
+        node.type = 'button';
+        node.className = 'timeline-item';
+        node.dataset.itemId = item.id;
+        node.setAttribute('aria-current', 'false');
+        node.innerHTML = `
+          <b>${formatTime(item.start)} · ${item.category}</b>
+          <strong>${item.en}</strong>
+          <span>${item.nl}</span>
+        `;
+        node.addEventListener('click', () => {
+          els.player.currentTime = item.start;
+          updateCurrentPhrase();
+          els.player.play().catch(() => {});
+        });
+        return node;
+      }));
+    }
+
+    function findCurrentItem(time) {
+      const items = state.manifest?.items || [];
+      return items.find((item) => time >= item.start && time < item.end) || items[items.length - 1];
+    }
+
+    function findCurrentSegment(item, time) {
+      return item?.segments?.find((segment) => time >= segment.start && time < segment.end);
+    }
+
+    function updateCurrentPhrase() {
+      const track = state.currentTrack;
+      const manifest = state.manifest;
+      if (!track || !manifest) return;
+
+      const time = els.player.currentTime;
+      const item = findCurrentItem(time);
+      const segment = findCurrentSegment(item, time);
+      if (!item) return;
+
+      els.enText.textContent = item.en;
+      els.nlText.textContent = item.nl;
+      els.segmentLabel.textContent = segment
+        ? `${segment.type}${segment.language ? ` · ${segment.language.toUpperCase()}` : ''} · ${segment.role}`
+        : 'Segment';
+      els.positionLabel.textContent = `${item.index} / ${manifest.item_count}`;
+      els.timeLabel.textContent = `${formatTime(time)} / ${formatTime(manifest.duration_seconds)}`;
+
+      if (state.currentItemId !== item.id) {
+        state.currentItemId = item.id;
+        for (const node of els.timeline.querySelectorAll('.timeline-item')) {
+          const current = node.dataset.itemId === item.id;
+          node.setAttribute('aria-current', String(current));
+          if (current) node.scrollIntoView({ block: 'nearest' });
+        }
+      }
+    }
+
+    async function init() {
+      const response = await fetch('tracks.json');
+      const index = await response.json();
+      state.tracks = index.tracks || [];
+      const savedTrack = localStorage.getItem('dutch-player.track');
+      const defaultTrack = savedTrack || index.default_track_id;
+      renderTracks();
+      await loadTrack(defaultTrack, false);
+    }
+
+    els.player.addEventListener('timeupdate', () => {
+      updateCurrentPhrase();
+      if (state.currentTrack && Number.isFinite(els.player.currentTime)) {
+        localStorage.setItem(positionKey(state.currentTrack.id), String(els.player.currentTime));
+      }
+    });
+    els.player.addEventListener('pause', () => {
+      if (state.currentTrack) {
+        localStorage.setItem(positionKey(state.currentTrack.id), String(els.player.currentTime));
+      }
+    });
+    els.back15.addEventListener('click', () => {
+      els.player.currentTime = Math.max(0, els.player.currentTime - 15);
+    });
+    els.forward15.addEventListener('click', () => {
+      els.player.currentTime = Math.min(els.player.duration || Infinity, els.player.currentTime + 15);
+    });
+    els.speed.addEventListener('change', () => {
+      els.player.playbackRate = Number(els.speed.value);
+      localStorage.setItem('dutch-player.speed', els.speed.value);
+    });
+
+    const savedSpeed = localStorage.getItem('dutch-player.speed');
+    if (savedSpeed) {
+      els.speed.value = savedSpeed;
+      els.player.playbackRate = Number(savedSpeed);
+    }
+
+    init().catch((error) => {
+      console.error(error);
+      els.appStatus.textContent = 'Could not load tracks. Start the local server and open /public/.';
+    });
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').catch((error) => {
+          console.warn('Service worker registration failed', error);
+        });
+      });
+    }
+  </script>
+</body>
+</html>
