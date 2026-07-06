@@ -1,0 +1,803 @@
+Track: audio/tracks/dutch-only-a1-a2-mixed.mp3
+Mode: dutch-only
+Duration: 22:33.564
+
+[00:00.000] Travel and directions
+EN: The tram is late.
+NL: De tram is te laat.
+
+[00:06.694] Time and plans
+EN: I am late.
+NL: Ik ben laat.
+
+[00:12.737] Work and study
+EN: I need a break.
+NL: Ik heb pauze nodig.
+
+[00:19.430] Home
+EN: I live in Amsterdam.
+NL: Ik woon in Amsterdam.
+
+[00:26.310] Daily basics
+EN: I have my bag.
+NL: Ik heb mijn tas.
+
+[00:32.539] Food and shopping
+EN: I do not need a bag.
+NL: Ik heb geen tasje nodig.
+
+[00:39.511] Daily basics
+EN: I need help.
+NL: Ik heb hulp nodig.
+
+[00:46.297] Food and shopping
+EN: I would like tea.
+NL: Ik wil graag thee.
+
+[00:53.455] Home
+EN: My bike is outside.
+NL: Mijn fiets staat buiten.
+
+[01:00.427] Learning and clarification
+EN: How do you say this?
+NL: Hoe zeg je dit?
+
+[01:06.285] Food and shopping
+EN: The food is good.
+NL: Het eten is lekker.
+
+[01:13.164] Travel and directions
+EN: It is far away.
+NL: Het is ver weg.
+
+[01:19.393] Food and shopping
+EN: No sugar, please.
+NL: Geen suiker, alstublieft.
+
+[01:26.644] Travel and directions
+EN: Turn right there.
+NL: Ga daar rechtsaf.
+
+[01:33.152] Social and people
+EN: Thanks for your help.
+NL: Bedankt voor je hulp.
+
+[01:39.753] Food and shopping
+EN: Do you have apples?
+NL: Hebben jullie appels?
+
+[01:46.632] Daily basics
+EN: I do not understand.
+NL: Ik begrijp het niet.
+
+[01:53.232] Work and study
+EN: I write a message.
+NL: Ik schrijf een bericht.
+
+[01:59.926] Services and appointments
+EN: I do not understand this letter.
+NL: Ik begrijp deze brief niet.
+
+[02:07.084] Health and feelings
+EN: Where is the doctor?
+NL: Waar is de dokter?
+
+[02:13.499] Work and study
+EN: I cannot hear you.
+NL: Ik kan je niet horen.
+
+[02:20.378] Time and plans
+EN: I have a free evening.
+NL: Ik heb een vrije avond.
+
+[02:27.722] Travel and directions
+EN: I have a ticket.
+NL: Ik heb een kaartje.
+
+[02:34.229] Work and study
+EN: The meeting is online.
+NL: De vergadering is online.
+
+[02:41.387] Learning and clarification
+EN: Can I try again?
+NL: Mag ik het nog eens proberen?
+
+[02:48.545] Learning and clarification
+EN: I speak a little Dutch.
+NL: Ik spreek een beetje Nederlands.
+
+[02:56.911] Home
+EN: The shower is warm.
+NL: De douche is warm.
+
+[03:03.697] Home
+EN: The kitchen is small.
+NL: De keuken is klein.
+
+[03:10.391] Work and study
+EN: I study Dutch.
+NL: Ik leer Nederlands.
+
+[03:17.548] Home
+EN: The trash is full.
+NL: De prullenbak is vol.
+
+[03:24.335] Time and plans
+EN: The meeting starts at nine.
+NL: De vergadering begint om negen uur.
+
+[03:33.072] Travel and directions
+EN: I need a ticket.
+NL: Ik heb een kaartje nodig.
+
+[03:40.137] Learning and clarification
+EN: I learn new words.
+NL: Ik leer nieuwe woorden.
+
+[03:47.109] Social and people
+EN: That is nice.
+NL: Dat is leuk.
+
+[03:53.338] Travel and directions
+EN: The bus is here.
+NL: De bus is er.
+
+[03:59.381] Services and appointments
+EN: Can I pay here?
+NL: Kan ik hier betalen?
+
+[04:06.261] Time and plans
+EN: The shop opens at nine.
+NL: De winkel gaat om negen uur open.
+
+[04:15.648] Home
+EN: The door is open.
+NL: De deur is open.
+
+[04:22.248] Food and shopping
+EN: That is expensive.
+NL: Dat is duur.
+
+[04:28.292] Social and people
+EN: Nice to meet you.
+NL: Leuk je te ontmoeten.
+
+[04:34.985] Services and appointments
+EN: I have an appointment at the town hall.
+NL: Ik heb een afspraak bij het gemeentehuis.
+
+[04:44.001] Travel and directions
+EN: Which platform is it?
+NL: Welk perron is het?
+
+[04:50.508] Food and shopping
+EN: Where is the cheese?
+NL: Waar is de kaas?
+
+[04:56.923] Services and appointments
+EN: I want to change my appointment.
+NL: Ik wil mijn afspraak verzetten.
+
+[05:04.546] Health and feelings
+EN: Is this serious?
+NL: Is dit ernstig?
+
+[05:11.053] Daily basics
+EN: I am ready.
+NL: Ik ben klaar.
+
+[05:17.097] Travel and directions
+EN: Go straight ahead.
+NL: Ga rechtdoor.
+
+[05:23.233] Health and feelings
+EN: It hurts here.
+NL: Het doet hier pijn.
+
+[05:29.927] Time and plans
+EN: What time is it?
+NL: Hoe laat is het?
+
+[05:36.156] Learning and clarification
+EN: Can you repeat that?
+NL: Kunt u dat herhalen?
+
+[05:42.942] Work and study
+EN: I will ask the teacher.
+NL: Ik vraag het aan de docent.
+
+[05:50.286] Daily basics
+EN: I am coming now.
+NL: Ik kom nu.
+
+[05:56.050] Time and plans
+EN: See you later.
+NL: Tot later.
+
+[06:02.187] Daily basics
+EN: I have time.
+NL: Ik heb tijd.
+
+[06:08.416] Time and plans
+EN: I came yesterday.
+NL: Ik ben gisteren gekomen.
+
+[06:15.574] Work and study
+EN: I need a computer.
+NL: Ik heb een computer nodig.
+
+[06:22.917] Social and people
+EN: I am happy.
+NL: Ik ben blij.
+
+[06:28.775] Learning and clarification
+EN: Dutch is difficult.
+NL: Nederlands is moeilijk.
+
+[06:35.468] Learning and clarification
+EN: I want to learn this.
+NL: Ik wil dit leren.
+
+[06:41.976] Time and plans
+EN: I am here every day.
+NL: Ik ben hier elke dag.
+
+[06:48.670] Social and people
+EN: What is your name?
+NL: Hoe heet je?
+
+[06:54.806] Daily basics
+EN: I do not know.
+NL: Ik weet het niet.
+
+[07:01.035] Learning and clarification
+EN: I practice every day.
+NL: Ik oefen elke dag.
+
+[07:07.821] Social and people
+EN: Can I join?
+NL: Mag ik meedoen?
+
+[07:14.143] Travel and directions
+EN: I walk to work.
+NL: Ik loop naar mijn werk.
+
+[07:20.930] Health and feelings
+EN: I am very tired.
+NL: Ik ben erg moe.
+
+[07:27.716] Work and study
+EN: I read the text.
+NL: Ik lees de tekst.
+
+[07:34.224] Time and plans
+EN: We are too early.
+NL: We zijn te vroeg.
+
+[07:40.732] Learning and clarification
+EN: Please speak slowly.
+NL: Spreek alstublieft langzaam.
+
+[07:48.075] Time and plans
+EN: The shop closes at six.
+NL: De winkel sluit om zes uur.
+
+[07:55.605] Health and feelings
+EN: I feel sick.
+NL: Ik voel me ziek.
+
+[08:01.834] Social and people
+EN: He is my neighbor.
+NL: Hij is mijn buurman.
+
+[08:08.528] Home
+EN: I need to clean.
+NL: Ik moet schoonmaken.
+
+[08:15.314] Daily basics
+EN: I am looking for my keys.
+NL: Ik zoek mijn sleutels.
+
+[08:22.286] Daily basics
+EN: I am free today.
+NL: Ik ben vandaag vrij.
+
+[08:29.072] Work and study
+EN: I work today.
+NL: Ik werk vandaag.
+
+[08:35.487] Food and shopping
+EN: Can I have the bill?
+NL: Mag ik de rekening?
+
+[08:41.995] Social and people
+EN: I live here now.
+NL: Ik woon hier nu.
+
+[08:48.317] Daily basics
+EN: I am going outside.
+NL: Ik ga naar buiten.
+
+[08:54.639] Home
+EN: The heater is not working.
+NL: De verwarming werkt niet.
+
+[09:01.704] Food and shopping
+EN: Do you have a bag?
+NL: Heeft u een tasje?
+
+[09:08.305] Health and feelings
+EN: My head hurts.
+NL: Ik heb hoofdpijn.
+
+[09:14.998] Daily basics
+EN: I am sorry.
+NL: Het spijt me.
+
+[09:21.320] Daily basics
+EN: I am staying here.
+NL: Ik blijf hier.
+
+[09:27.642] Services and appointments
+EN: My address has changed.
+NL: Mijn adres is veranderd.
+
+[09:34.707] Food and shopping
+EN: I am hungry.
+NL: Ik heb honger.
+
+[09:40.751] Services and appointments
+EN: I need my ID card.
+NL: Ik heb mijn identiteitskaart nodig.
+
+[09:49.488] Food and shopping
+EN: I pay by card.
+NL: Ik betaal met pin.
+
+[09:56.181] Home
+EN: I am cooking.
+NL: Ik ben aan het koken.
+
+[10:02.875] Travel and directions
+EN: I am lost.
+NL: Ik ben verdwaald.
+
+[10:09.382] Time and plans
+EN: Can we meet at ten?
+NL: Kunnen we om tien uur afspreken?
+
+[10:17.098] Health and feelings
+EN: I take medicine.
+NL: Ik neem medicijnen.
+
+[10:24.255] Work and study
+EN: I have a question.
+NL: Ik heb een vraag.
+
+[10:30.577] Travel and directions
+EN: It is nearby.
+NL: Het is dichtbij.
+
+[10:37.364] Social and people
+EN: I am tired.
+NL: Ik ben moe.
+
+[10:43.221] Food and shopping
+EN: That is cheap.
+NL: Dat is goedkoop.
+
+[10:49.636] Work and study
+EN: I finish at five.
+NL: Ik ben om vijf uur klaar.
+
+[10:56.701] Food and shopping
+EN: I am thirsty.
+NL: Ik heb dorst.
+
+[11:02.838] Travel and directions
+EN: We go by bike.
+NL: We gaan met de fiets.
+
+[11:09.345] Time and plans
+EN: Monday is better.
+NL: Maandag is beter.
+
+[11:16.039] Social and people
+EN: Where are you from?
+NL: Waar kom je vandaan?
+
+[11:22.547] Work and study
+EN: The lesson is finished.
+NL: De les is afgelopen.
+
+[11:29.612] Time and plans
+EN: I will come tomorrow.
+NL: Ik kom morgen.
+
+[11:35.934] Home
+EN: There is no internet.
+NL: Er is geen internet.
+
+[11:42.720] Time and plans
+EN: The train is on time.
+NL: De trein is op tijd.
+
+[11:49.321] Home
+EN: This is my room.
+NL: Dit is mijn kamer.
+
+[11:56.107] Home
+EN: The bathroom is upstairs.
+NL: De badkamer is boven.
+
+[12:03.172] Services and appointments
+EN: I need to log in.
+NL: Ik moet inloggen.
+
+[12:09.680] Health and feelings
+EN: I need water.
+NL: Ik heb water nodig.
+
+[12:16.373] Health and feelings
+EN: I cannot sleep.
+NL: Ik kan niet slapen.
+
+[12:22.881] Time and plans
+EN: It is eight o'clock.
+NL: Het is acht uur.
+
+[12:29.482] Services and appointments
+EN: I have to wait.
+NL: Ik moet wachten.
+
+[12:35.804] Home
+EN: The light is on.
+NL: Het licht is aan.
+
+[12:42.126] Learning and clarification
+EN: I do not know this word.
+NL: Ik ken dit woord niet.
+
+[12:49.098] Daily basics
+EN: I forgot my phone.
+NL: Ik ben mijn telefoon vergeten.
+
+[12:56.813] Services and appointments
+EN: I want to make an appointment.
+NL: Ik wil een afspraak maken.
+
+[13:04.250] Travel and directions
+EN: Where is the station?
+NL: Waar is het station?
+
+[13:10.943] Daily basics
+EN: I am almost ready.
+NL: Ik ben bijna klaar.
+
+[13:17.637] Travel and directions
+EN: Is this seat free?
+NL: Is deze plek vrij?
+
+[13:24.423] Social and people
+EN: She is my colleague.
+NL: Zij is mijn collega.
+
+[13:31.209] Time and plans
+EN: I need five minutes.
+NL: Ik heb vijf minuten nodig.
+
+[13:38.460] Services and appointments
+EN: I forgot my password.
+NL: Ik ben mijn wachtwoord vergeten.
+
+[13:46.083] Home
+EN: The key is on the table.
+NL: De sleutel ligt op tafel.
+
+[13:53.333] Work and study
+EN: The screen is black.
+NL: Het scherm is zwart.
+
+[13:59.934] Work and study
+EN: This word is new.
+NL: Dit woord is nieuw.
+
+[14:06.535] Learning and clarification
+EN: Is this correct?
+NL: Is dit goed?
+
+[14:12.578] Services and appointments
+EN: This is my new address.
+NL: Dit is mijn nieuwe adres.
+
+[14:19.550] Travel and directions
+EN: Turn left here.
+NL: Ga hier linksaf.
+
+[14:26.244] Work and study
+EN: I start at nine.
+NL: Ik begin om negen uur.
+
+[14:33.309] Daily basics
+EN: That is not possible.
+NL: Dat kan niet.
+
+[14:39.259] Food and shopping
+EN: I want bread.
+NL: Ik wil brood.
+
+[14:45.395] Social and people
+EN: Are you busy?
+NL: Ben je druk?
+
+[14:51.346] Learning and clarification
+EN: Can you write it down?
+NL: Kunt u het opschrijven?
+
+[14:58.504] Social and people
+EN: I am from another country.
+NL: Ik kom uit een ander land.
+
+[15:05.569] Food and shopping
+EN: The soup is hot.
+NL: De soep is heet.
+
+[15:11.984] Services and appointments
+EN: I have a question about this form.
+NL: Ik heb een vraag over dit formulier.
+
+[15:20.628] Learning and clarification
+EN: I understand you.
+NL: Ik begrijp u.
+
+[15:26.857] Services and appointments
+EN: I need my passport.
+NL: Ik heb mijn paspoort nodig.
+
+[15:33.922] Services and appointments
+EN: Please send me an email.
+NL: Stuur mij alstublieft een e-mail.
+
+[15:41.823] Learning and clarification
+EN: I know this word.
+NL: Ik ken dit woord.
+
+[15:48.331] Learning and clarification
+EN: I need an example.
+NL: Ik heb een voorbeeld nodig.
+
+[15:55.396] Health and feelings
+EN: I have a cold.
+NL: Ik ben verkouden.
+
+[16:02.089] Health and feelings
+EN: Can I make an appointment?
+NL: Kan ik een afspraak maken?
+
+[16:09.433] Services and appointments
+EN: The website does not work.
+NL: De website werkt niet.
+
+[16:16.405] Health and feelings
+EN: I need a doctor.
+NL: Ik heb een dokter nodig.
+
+[16:23.377] Social and people
+EN: We are together.
+NL: Wij zijn samen.
+
+[16:29.885] Learning and clarification
+EN: I make mistakes.
+NL: Ik maak fouten.
+
+[16:36.207] Daily basics
+EN: I understand.
+NL: Ik begrijp het.
+
+[16:42.436] Work and study
+EN: I send it later.
+NL: Ik stuur het later.
+
+[16:49.037] Learning and clarification
+EN: What does this mean?
+NL: Wat betekent dit?
+
+[16:55.451] Food and shopping
+EN: With milk, please.
+NL: Met melk, alstublieft.
+
+[17:02.516] Health and feelings
+EN: My stomach hurts.
+NL: Ik heb buikpijn.
+
+[17:09.024] Services and appointments
+EN: Where do I sign?
+NL: Waar moet ik tekenen?
+
+[17:15.625] Social and people
+EN: They are my friends.
+NL: Zij zijn mijn vrienden.
+
+[17:22.318] Social and people
+EN: I like it.
+NL: Ik vind het leuk.
+
+[17:28.547] Social and people
+EN: Good idea.
+NL: Goed idee.
+
+[17:34.312] Food and shopping
+EN: I need milk.
+NL: Ik heb melk nodig.
+
+[17:41.006] Health and feelings
+EN: I need a pharmacy.
+NL: Ik heb een apotheek nodig.
+
+[17:48.256] Services and appointments
+EN: Can you help me?
+NL: Kunt u mij helpen?
+
+[17:55.043] Social and people
+EN: This is a friend of mine.
+NL: Dit is een vriend van mij.
+
+[18:02.015] Time and plans
+EN: I work on Tuesday.
+NL: Ik werk op dinsdag.
+
+[18:08.709] Travel and directions
+EN: I need to transfer.
+NL: Ik moet overstappen.
+
+[18:15.959] Time and plans
+EN: The appointment is today.
+NL: De afspraak is vandaag.
+
+[18:22.932] Learning and clarification
+EN: This sentence is easy.
+NL: Deze zin is makkelijk.
+
+[18:29.904] Health and feelings
+EN: I have a fever.
+NL: Ik heb koorts.
+
+[18:36.040] Learning and clarification
+EN: I am not sure.
+NL: Ik weet het niet zeker.
+
+[18:42.919] Work and study
+EN: I am learning a lot.
+NL: Ik leer veel.
+
+[18:49.055] Services and appointments
+EN: I need a receipt.
+NL: Ik heb een bon nodig.
+
+[18:56.399] Home
+EN: The light is off.
+NL: Het licht is uit.
+
+[19:02.814] Time and plans
+EN: See you tomorrow.
+NL: Tot morgen.
+
+[19:08.950] Health and feelings
+EN: I feel better.
+NL: Ik voel me beter.
+
+[19:15.458] Home
+EN: Please close the window.
+NL: Doe het raam dicht, alsjeblieft.
+
+[19:23.173] Home
+EN: Can you open the door?
+NL: Kun je de deur opendoen?
+
+[19:30.238] Work and study
+EN: I cannot find the file.
+NL: Ik kan het bestand niet vinden.
+
+[19:37.953] Services and appointments
+EN: I need a copy.
+NL: Ik heb een kopie nodig.
+
+[19:45.111] Home
+EN: The water is cold.
+NL: Het water is koud.
+
+[19:51.712] Health and feelings
+EN: I need help now.
+NL: Ik heb nu hulp nodig.
+
+[19:58.591] Food and shopping
+EN: I would like a coffee.
+NL: Ik wil graag koffie.
+
+[20:05.470] Daily basics
+EN: I do not have time.
+NL: Ik heb geen tijd.
+
+[20:11.792] Health and feelings
+EN: I need to sit down.
+NL: Ik moet even zitten.
+
+[20:18.393] Time and plans
+EN: I need to leave early.
+NL: Ik moet vroeg vertrekken.
+
+[20:25.272] Daily basics
+EN: I am busy now.
+NL: Ik ben nu bezig.
+
+[20:31.780] Daily basics
+EN: That is okay.
+NL: Dat is goed.
+
+[20:37.638] Learning and clarification
+EN: Please correct me.
+NL: Corrigeer me alstublieft.
+
+[20:44.610] Travel and directions
+EN: This is my stop.
+NL: Dit is mijn halte.
+
+[20:51.211] Food and shopping
+EN: I pay in cash.
+NL: Ik betaal contant.
+
+[20:57.904] Home
+EN: I am washing clothes.
+NL: Ik ben kleren aan het wassen.
+
+[21:05.248] Social and people
+EN: I am not angry.
+NL: Ik ben niet boos.
+
+[21:11.848] Daily basics
+EN: I am at home.
+NL: Ik ben thuis.
+
+[21:17.892] Travel and directions
+EN: I get off here.
+NL: Ik stap hier uit.
+
+[21:24.492] Health and feelings
+EN: I have an appointment.
+NL: Ik heb een afspraak.
+
+[21:31.186] Work and study
+EN: The homework is easy.
+NL: Het huiswerk is makkelijk.
+
+[21:38.251] Travel and directions
+EN: The train is full.
+NL: De trein is vol.
+
+[21:45.223] Social and people
+EN: I do not like it.
+NL: Ik vind het niet leuk.
+
+[21:52.009] Services and appointments
+EN: Thank you for the information.
+NL: Bedankt voor de informatie.
+
+[21:59.353] Work and study
+EN: Can you hear me?
+NL: Kun je me horen?
+
+[22:05.675] Travel and directions
+EN: Can you show me the way?
+NL: Kunt u mij de weg wijzen?
+
+[22:12.833] Home
+EN: The window is closed.
+NL: Het raam is dicht.
+
+[22:19.527] Food and shopping
+EN: How much does this cost?
+NL: Hoeveel kost dit?
+
+[22:26.034] Health and feelings
+EN: I am allergic to nuts.
+NL: Ik ben allergisch voor noten.

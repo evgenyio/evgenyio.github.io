@@ -397,7 +397,12 @@
       state.manifest = await response.json();
       els.player.src = track.audio;
       els.trackLabel.textContent = track.label;
-      els.appStatus.textContent = `${track.item_count} phrases · ${track.mode} · ${track.order}`;
+      els.appStatus.textContent = [
+        `${track.item_count} phrases`,
+        track.level,
+        track.mode,
+        track.order,
+      ].filter(Boolean).join(' · ');
       renderTimeline();
 
       const saved = Number(localStorage.getItem(positionKey(track.id)) || 0);
