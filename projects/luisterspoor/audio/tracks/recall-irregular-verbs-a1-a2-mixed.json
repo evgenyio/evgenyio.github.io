@@ -1,0 +1,4011 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-08-23T19:04:37+00:00",
+  "mode": "recall",
+  "order": "mixed",
+  "seed": "dutch-irregular-verbs-v1",
+  "level": "A1-A2",
+  "label": "A1-A2 Irregular Verbs · Present & Past",
+  "mode_pattern": [
+    {
+      "kind": "en",
+      "role": "prompt",
+      "pause_seconds": 0.0
+    },
+    {
+      "kind": "pause",
+      "role": "recall_pause",
+      "pause_seconds": 3.0
+    },
+    {
+      "kind": "nl",
+      "role": "answer",
+      "pause_seconds": 0.0
+    },
+    {
+      "kind": "pause",
+      "role": "review_pause",
+      "pause_seconds": 1.5
+    },
+    {
+      "kind": "nl",
+      "role": "repeat",
+      "pause_seconds": 0.0
+    },
+    {
+      "kind": "pause",
+      "role": "item_pause",
+      "pause_seconds": 2.0
+    }
+  ],
+  "category": null,
+  "track": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.mp3",
+  "manifest": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.json",
+  "text_manifest": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.txt",
+  "duration_seconds": 1716.604,
+  "item_count": 30,
+  "items": [
+    {
+      "index": 1,
+      "id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden",
+      "en": "can; to be able to",
+      "nl": "Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.",
+      "start": 0.0,
+      "end": 62.042,
+      "duration_seconds": 62.042,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "can; to be able to",
+          "file": "audio/items/en/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.c75eff873b.mp3",
+          "start": 0.0,
+          "end": 1.486,
+          "duration_seconds": 1.486
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1.486,
+          "end": 4.486,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.",
+          "file": "audio/items/nl/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.f6df7f46a5.mp3",
+          "start": 4.486,
+          "end": 31.514,
+          "duration_seconds": 27.028
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 31.514,
+          "end": 33.014,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.",
+          "file": "audio/items/nl/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.f6df7f46a5.mp3",
+          "start": 33.014,
+          "end": 60.042,
+          "duration_seconds": 27.028
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 60.042,
+          "end": 62.042,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to speak",
+      "nl": "Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.",
+      "start": 62.042,
+      "end": 118.883,
+      "duration_seconds": 56.841,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to speak",
+          "file": "audio/items/en/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.7b1c5b5978.mp3",
+          "start": 62.042,
+          "end": 62.971,
+          "duration_seconds": 0.929
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 62.971,
+          "end": 65.971,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.",
+          "file": "audio/items/nl/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.102b633d7f.mp3",
+          "start": 65.971,
+          "end": 90.677,
+          "duration_seconds": 24.706
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 90.677,
+          "end": 92.177,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.",
+          "file": "audio/items/nl/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.102b633d7f.mp3",
+          "start": 92.177,
+          "end": 116.883,
+          "duration_seconds": 24.706
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 116.883,
+          "end": 118.883,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to drink",
+      "nl": "Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.",
+      "start": 118.883,
+      "end": 173.634,
+      "duration_seconds": 54.751,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to drink",
+          "file": "audio/items/en/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.aa685ddf99.mp3",
+          "start": 118.883,
+          "end": 119.765,
+          "duration_seconds": 0.882
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 119.765,
+          "end": 122.765,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.",
+          "file": "audio/items/nl/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.6347e6d911.mp3",
+          "start": 122.765,
+          "end": 146.45,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 146.45,
+          "end": 147.95,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.",
+          "file": "audio/items/nl/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.6347e6d911.mp3",
+          "start": 147.95,
+          "end": 171.634,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 171.634,
+          "end": 173.634,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to read",
+      "nl": "Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.",
+      "start": 173.634,
+      "end": 228.339,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to read",
+          "file": "audio/items/en/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.3d527aec69.mp3",
+          "start": 173.634,
+          "end": 174.47,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 174.47,
+          "end": 177.47,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.",
+          "file": "audio/items/nl/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.67d4257931.mp3",
+          "start": 177.47,
+          "end": 201.154,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 201.154,
+          "end": 202.654,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.",
+          "file": "audio/items/nl/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.67d4257931.mp3",
+          "start": 202.654,
+          "end": 226.339,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 226.339,
+          "end": 228.339,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to sleep",
+      "nl": "Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.",
+      "start": 228.339,
+      "end": 283.136,
+      "duration_seconds": 54.798,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to sleep",
+          "file": "audio/items/en/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.ae872e432b.mp3",
+          "start": 228.339,
+          "end": 229.267,
+          "duration_seconds": 0.929
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 229.267,
+          "end": 232.267,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.",
+          "file": "audio/items/nl/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.d084603147.mp3",
+          "start": 232.267,
+          "end": 255.952,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 255.952,
+          "end": 257.452,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.",
+          "file": "audio/items/nl/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.d084603147.mp3",
+          "start": 257.452,
+          "end": 281.136,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 281.136,
+          "end": 283.136,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden",
+      "en": "must; to have to",
+      "nl": "Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.",
+      "start": 283.136,
+      "end": 347.64,
+      "duration_seconds": 64.503,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "must; to have to",
+          "file": "audio/items/en/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.0cc6f65d2f.mp3",
+          "start": 283.136,
+          "end": 284.576,
+          "duration_seconds": 1.44
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 284.576,
+          "end": 287.576,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.",
+          "file": "audio/items/nl/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.8374818bc5.mp3",
+          "start": 287.576,
+          "end": 315.858,
+          "duration_seconds": 28.282
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 315.858,
+          "end": 317.358,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.",
+          "file": "audio/items/nl/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.8374818bc5.mp3",
+          "start": 317.358,
+          "end": 345.64,
+          "duration_seconds": 28.282
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 345.64,
+          "end": 347.64,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to eat",
+      "nl": "Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.",
+      "start": 347.64,
+      "end": 402.484,
+      "duration_seconds": 54.844,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to eat",
+          "file": "audio/items/en/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.c3f26f4280.mp3",
+          "start": 347.64,
+          "end": 348.615,
+          "duration_seconds": 0.975
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 348.615,
+          "end": 351.615,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.",
+          "file": "audio/items/nl/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.626c4c04a6.mp3",
+          "start": 351.615,
+          "end": 375.299,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 375.299,
+          "end": 376.799,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.",
+          "file": "audio/items/nl/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.626c4c04a6.mp3",
+          "start": 376.799,
+          "end": 400.484,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 400.484,
+          "end": 402.484,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to think",
+      "nl": "Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.",
+      "start": 402.484,
+      "end": 457.188,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to think",
+          "file": "audio/items/en/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.c16c51afb8.mp3",
+          "start": 402.484,
+          "end": 403.32,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 403.32,
+          "end": 406.32,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.",
+          "file": "audio/items/nl/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.fc9d96b7f9.mp3",
+          "start": 406.32,
+          "end": 430.004,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 430.004,
+          "end": 431.504,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.",
+          "file": "audio/items/nl/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.fc9d96b7f9.mp3",
+          "start": 431.504,
+          "end": 455.188,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 455.188,
+          "end": 457.188,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to bring",
+      "nl": "Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.",
+      "start": 457.188,
+      "end": 514.865,
+      "duration_seconds": 57.677,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to bring",
+          "file": "audio/items/en/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.3c19147920.mp3",
+          "start": 457.188,
+          "end": 458.024,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 458.024,
+          "end": 461.024,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.",
+          "file": "audio/items/nl/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.8389fb9639.mp3",
+          "start": 461.024,
+          "end": 486.195,
+          "duration_seconds": 25.17
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 486.195,
+          "end": 487.695,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.",
+          "file": "audio/items/nl/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.8389fb9639.mp3",
+          "start": 487.695,
+          "end": 512.865,
+          "duration_seconds": 25.17
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 512.865,
+          "end": 514.865,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to write",
+      "nl": "Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.",
+      "start": 514.865,
+      "end": 571.474,
+      "duration_seconds": 56.609,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to write",
+          "file": "audio/items/en/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.5902f5ec77.mp3",
+          "start": 514.865,
+          "end": 515.84,
+          "duration_seconds": 0.975
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 515.84,
+          "end": 518.84,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.",
+          "file": "audio/items/nl/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.143bd7ee74.mp3",
+          "start": 518.84,
+          "end": 543.407,
+          "duration_seconds": 24.567
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 543.407,
+          "end": 544.907,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.",
+          "file": "audio/items/nl/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.143bd7ee74.mp3",
+          "start": 544.907,
+          "end": 569.474,
+          "duration_seconds": 24.567
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 569.474,
+          "end": 571.474,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to drive",
+      "nl": "Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.",
+      "start": 571.474,
+      "end": 638.438,
+      "duration_seconds": 66.965,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to drive",
+          "file": "audio/items/en/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.627866cfa0.mp3",
+          "start": 571.474,
+          "end": 572.495,
+          "duration_seconds": 1.022
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 572.495,
+          "end": 575.495,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.",
+          "file": "audio/items/nl/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.4c16edf562.mp3",
+          "start": 575.495,
+          "end": 605.217,
+          "duration_seconds": 29.722
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 605.217,
+          "end": 606.717,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.",
+          "file": "audio/items/nl/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.4c16edf562.mp3",
+          "start": 606.717,
+          "end": 636.438,
+          "duration_seconds": 29.722
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 636.438,
+          "end": 638.438,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to hold; to like (houden van)",
+      "nl": "Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.",
+      "start": 638.438,
+      "end": 698.855,
+      "duration_seconds": 60.417,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to hold; to like (houden van)",
+          "file": "audio/items/en/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.314882433b.mp3",
+          "start": 638.438,
+          "end": 640.993,
+          "duration_seconds": 2.554
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 640.993,
+          "end": 643.993,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.",
+          "file": "audio/items/nl/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.d20bd16180.mp3",
+          "start": 643.993,
+          "end": 669.674,
+          "duration_seconds": 25.681
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 669.674,
+          "end": 671.174,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.",
+          "file": "audio/items/nl/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.d20bd16180.mp3",
+          "start": 671.174,
+          "end": 696.855,
+          "duration_seconds": 25.681
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 696.855,
+          "end": 698.855,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to take",
+      "nl": "Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.",
+      "start": 698.855,
+      "end": 753.56,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to take",
+          "file": "audio/items/en/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.abf6d7f8d9.mp3",
+          "start": 698.855,
+          "end": 699.691,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 699.691,
+          "end": 702.691,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.",
+          "file": "audio/items/nl/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.fca52d1fce.mp3",
+          "start": 702.691,
+          "end": 726.375,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 726.375,
+          "end": 727.875,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.",
+          "file": "audio/items/nl/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.fca52d1fce.mp3",
+          "start": 727.875,
+          "end": 751.56,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 751.56,
+          "end": 753.56,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to want",
+      "nl": "Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.",
+      "start": 753.56,
+      "end": 823.357,
+      "duration_seconds": 69.798,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to want",
+          "file": "audio/items/en/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.aeb80bd1bf.mp3",
+          "start": 753.56,
+          "end": 754.349,
+          "duration_seconds": 0.789
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 754.349,
+          "end": 757.349,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.",
+          "file": "audio/items/nl/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.2b4f987445.mp3",
+          "start": 757.349,
+          "end": 788.603,
+          "duration_seconds": 31.254
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 788.603,
+          "end": 790.103,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.",
+          "file": "audio/items/nl/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.2b4f987445.mp3",
+          "start": 790.103,
+          "end": 821.357,
+          "duration_seconds": 31.254
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 821.357,
+          "end": 823.357,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to buy",
+      "nl": "Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.",
+      "start": 823.357,
+      "end": 878.062,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to buy",
+          "file": "audio/items/en/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.5358d052dc.mp3",
+          "start": 823.357,
+          "end": 824.193,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 824.193,
+          "end": 827.193,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.",
+          "file": "audio/items/nl/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.2c212ac75c.mp3",
+          "start": 827.193,
+          "end": 850.878,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 850.878,
+          "end": 852.378,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.",
+          "file": "audio/items/nl/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.2c212ac75c.mp3",
+          "start": 852.378,
+          "end": 876.062,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 876.062,
+          "end": 878.062,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to know (a fact)",
+      "nl": "Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.",
+      "start": 878.062,
+      "end": 933.742,
+      "duration_seconds": 55.68,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to know (a fact)",
+          "file": "audio/items/en/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.5953048125.mp3",
+          "start": 878.062,
+          "end": 879.873,
+          "duration_seconds": 1.811
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 879.873,
+          "end": 882.873,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.",
+          "file": "audio/items/nl/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.514c80b197.mp3",
+          "start": 882.873,
+          "end": 906.558,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 906.558,
+          "end": 908.058,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.",
+          "file": "audio/items/nl/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.514c80b197.mp3",
+          "start": 908.058,
+          "end": 931.742,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 931.742,
+          "end": 933.742,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to say",
+      "nl": "Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.",
+      "start": 933.742,
+      "end": 988.446,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to say",
+          "file": "audio/items/en/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.ad1fae1bd3.mp3",
+          "start": 933.742,
+          "end": 934.578,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 934.578,
+          "end": 937.578,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.",
+          "file": "audio/items/nl/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.755aef3cda.mp3",
+          "start": 937.578,
+          "end": 961.262,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 961.262,
+          "end": 962.762,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.",
+          "file": "audio/items/nl/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.755aef3cda.mp3",
+          "start": 962.762,
+          "end": 986.446,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 986.446,
+          "end": 988.446,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to have",
+      "nl": "Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.",
+      "start": 988.446,
+      "end": 1043.198,
+      "duration_seconds": 54.751,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to have",
+          "file": "audio/items/en/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.4efa2ec2b1.mp3",
+          "start": 988.446,
+          "end": 989.329,
+          "duration_seconds": 0.882
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 989.329,
+          "end": 992.329,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.",
+          "file": "audio/items/nl/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.d617943d3a.mp3",
+          "start": 992.329,
+          "end": 1016.013,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1016.013,
+          "end": 1017.513,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.",
+          "file": "audio/items/nl/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.d617943d3a.mp3",
+          "start": 1017.513,
+          "end": 1041.198,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1041.198,
+          "end": 1043.198,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden",
+      "en": "may; to be allowed to",
+      "nl": "Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.",
+      "start": 1043.198,
+      "end": 1104.311,
+      "duration_seconds": 61.113,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "may; to be allowed to",
+          "file": "audio/items/en/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.409a8a3758.mp3",
+          "start": 1043.198,
+          "end": 1045.241,
+          "duration_seconds": 2.043
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1045.241,
+          "end": 1048.241,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.",
+          "file": "audio/items/nl/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.1612c75dc5.mp3",
+          "start": 1048.241,
+          "end": 1074.526,
+          "duration_seconds": 26.285
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1074.526,
+          "end": 1076.026,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.",
+          "file": "audio/items/nl/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.1612c75dc5.mp3",
+          "start": 1076.026,
+          "end": 1102.311,
+          "duration_seconds": 26.285
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1102.311,
+          "end": 1104.311,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to stand",
+      "nl": "Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.",
+      "start": 1104.311,
+      "end": 1159.248,
+      "duration_seconds": 54.937,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to stand",
+          "file": "audio/items/en/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.d2d55c341c.mp3",
+          "start": 1104.311,
+          "end": 1105.379,
+          "duration_seconds": 1.068
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1105.379,
+          "end": 1108.379,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.",
+          "file": "audio/items/nl/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.94db767c49.mp3",
+          "start": 1108.379,
+          "end": 1132.063,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1132.063,
+          "end": 1133.563,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.",
+          "file": "audio/items/nl/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.94db767c49.mp3",
+          "start": 1133.563,
+          "end": 1157.248,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1157.248,
+          "end": 1159.248,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to stay",
+      "nl": "Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.",
+      "start": 1159.248,
+      "end": 1213.952,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to stay",
+          "file": "audio/items/en/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.962227c154.mp3",
+          "start": 1159.248,
+          "end": 1160.084,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1160.084,
+          "end": 1163.084,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.",
+          "file": "audio/items/nl/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.f7e9b8f360.mp3",
+          "start": 1163.084,
+          "end": 1186.768,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1186.768,
+          "end": 1188.268,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.",
+          "file": "audio/items/nl/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.f7e9b8f360.mp3",
+          "start": 1188.268,
+          "end": 1211.952,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1211.952,
+          "end": 1213.952,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to get; to receive",
+      "nl": "Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.",
+      "start": 1213.952,
+      "end": 1269.539,
+      "duration_seconds": 55.587,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to get; to receive",
+          "file": "audio/items/en/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.1f0d69bb9c.mp3",
+          "start": 1213.952,
+          "end": 1215.671,
+          "duration_seconds": 1.718
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1215.671,
+          "end": 1218.671,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.",
+          "file": "audio/items/nl/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.14dffba826.mp3",
+          "start": 1218.671,
+          "end": 1242.355,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1242.355,
+          "end": 1243.855,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.",
+          "file": "audio/items/nl/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.14dffba826.mp3",
+          "start": 1243.855,
+          "end": 1267.539,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1267.539,
+          "end": 1269.539,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to give",
+      "nl": "Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.",
+      "start": 1269.539,
+      "end": 1324.151,
+      "duration_seconds": 54.612,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to give",
+          "file": "audio/items/en/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.4e89ea2e69.mp3",
+          "start": 1269.539,
+          "end": 1270.282,
+          "duration_seconds": 0.743
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1270.282,
+          "end": 1273.282,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.",
+          "file": "audio/items/nl/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.bc251dd1d1.mp3",
+          "start": 1273.282,
+          "end": 1296.967,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1296.967,
+          "end": 1298.467,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.",
+          "file": "audio/items/nl/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.bc251dd1d1.mp3",
+          "start": 1298.467,
+          "end": 1322.151,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1322.151,
+          "end": 1324.151,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to come",
+      "nl": "Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.",
+      "start": 1324.151,
+      "end": 1378.902,
+      "duration_seconds": 54.751,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to come",
+          "file": "audio/items/en/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.ef5b697f5b.mp3",
+          "start": 1324.151,
+          "end": 1325.033,
+          "duration_seconds": 0.882
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1325.033,
+          "end": 1328.033,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.",
+          "file": "audio/items/nl/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.4f8663fecc.mp3",
+          "start": 1328.033,
+          "end": 1351.718,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1351.718,
+          "end": 1353.218,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.",
+          "file": "audio/items/nl/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.4f8663fecc.mp3",
+          "start": 1353.218,
+          "end": 1376.902,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1376.902,
+          "end": 1378.902,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to go",
+      "nl": "Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.",
+      "start": 1378.902,
+      "end": 1433.514,
+      "duration_seconds": 54.612,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to go",
+          "file": "audio/items/en/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.cbd74c1a58.mp3",
+          "start": 1378.902,
+          "end": 1379.645,
+          "duration_seconds": 0.743
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1379.645,
+          "end": 1382.645,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.",
+          "file": "audio/items/nl/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.ee5075b691.mp3",
+          "start": 1382.645,
+          "end": 1406.33,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1406.33,
+          "end": 1407.83,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.",
+          "file": "audio/items/nl/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.ee5075b691.mp3",
+          "start": 1407.83,
+          "end": 1431.514,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1431.514,
+          "end": 1433.514,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to walk",
+      "nl": "Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.",
+      "start": 1433.514,
+      "end": 1497.832,
+      "duration_seconds": 64.318,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to walk",
+          "file": "audio/items/en/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.7f3dad94f3.mp3",
+          "start": 1433.514,
+          "end": 1434.489,
+          "duration_seconds": 0.975
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1434.489,
+          "end": 1437.489,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.",
+          "file": "audio/items/nl/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.ea56581876.mp3",
+          "start": 1437.489,
+          "end": 1465.91,
+          "duration_seconds": 28.421
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1465.91,
+          "end": 1467.41,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.",
+          "file": "audio/items/nl/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.ea56581876.mp3",
+          "start": 1467.41,
+          "end": 1495.832,
+          "duration_seconds": 28.421
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1495.832,
+          "end": 1497.832,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to be",
+      "nl": "Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.",
+      "start": 1497.832,
+      "end": 1552.443,
+      "duration_seconds": 54.612,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to be",
+          "file": "audio/items/en/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.3a7e4483f9.mp3",
+          "start": 1497.832,
+          "end": 1498.575,
+          "duration_seconds": 0.743
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1498.575,
+          "end": 1501.575,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.",
+          "file": "audio/items/nl/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.c7fc9366c2.mp3",
+          "start": 1501.575,
+          "end": 1525.259,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1525.259,
+          "end": 1526.759,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.",
+          "file": "audio/items/nl/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.c7fc9366c2.mp3",
+          "start": 1526.759,
+          "end": 1550.443,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1550.443,
+          "end": 1552.443,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to see",
+      "nl": "Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.",
+      "start": 1552.443,
+      "end": 1607.148,
+      "duration_seconds": 54.705,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to see",
+          "file": "audio/items/en/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.be5382916f.mp3",
+          "start": 1552.443,
+          "end": 1553.279,
+          "duration_seconds": 0.836
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1553.279,
+          "end": 1556.279,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.",
+          "file": "audio/items/nl/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.1335bbea5d.mp3",
+          "start": 1556.279,
+          "end": 1579.964,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1579.964,
+          "end": 1581.464,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.",
+          "file": "audio/items/nl/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.1335bbea5d.mp3",
+          "start": 1581.464,
+          "end": 1605.148,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1605.148,
+          "end": 1607.148,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to find",
+      "nl": "Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.",
+      "start": 1607.148,
+      "end": 1661.992,
+      "duration_seconds": 54.844,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to find",
+          "file": "audio/items/en/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fe8ff3aa3d.mp3",
+          "start": 1607.148,
+          "end": 1608.123,
+          "duration_seconds": 0.975
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1608.123,
+          "end": 1611.123,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.",
+          "file": "audio/items/nl/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fd60a15903.mp3",
+          "start": 1611.123,
+          "end": 1634.808,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1634.808,
+          "end": 1636.308,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.",
+          "file": "audio/items/nl/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fd60a15903.mp3",
+          "start": 1636.308,
+          "end": 1659.992,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1659.992,
+          "end": 1661.992,
+          "duration_seconds": 2.0
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden",
+      "en": "to do",
+      "nl": "Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.",
+      "start": 1661.992,
+      "end": 1716.604,
+      "duration_seconds": 54.612,
+      "segments": [
+        {
+          "type": "speech",
+          "role": "prompt",
+          "language": "en",
+          "text": "to do",
+          "file": "audio/items/en/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.0dc14e0059.mp3",
+          "start": 1661.992,
+          "end": 1662.735,
+          "duration_seconds": 0.743
+        },
+        {
+          "type": "pause",
+          "role": "recall_pause",
+          "start": 1662.735,
+          "end": 1665.735,
+          "duration_seconds": 3.0
+        },
+        {
+          "type": "speech",
+          "role": "answer",
+          "language": "nl",
+          "text": "Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.",
+          "file": "audio/items/nl/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.e6170fbbce.mp3",
+          "start": 1665.735,
+          "end": 1689.419,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "review_pause",
+          "start": 1689.419,
+          "end": 1690.919,
+          "duration_seconds": 1.5
+        },
+        {
+          "type": "speech",
+          "role": "repeat",
+          "language": "nl",
+          "text": "Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.",
+          "file": "audio/items/nl/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.e6170fbbce.mp3",
+          "start": 1690.919,
+          "end": 1714.604,
+          "duration_seconds": 23.684
+        },
+        {
+          "type": "pause",
+          "role": "item_pause",
+          "start": 1714.604,
+          "end": 1716.604,
+          "duration_seconds": 2.0
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "can; to be able to",
+      "file": "audio/items/en/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.c75eff873b.mp3",
+      "start": 0.0,
+      "end": 1.486,
+      "duration_seconds": 1.486,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1.486,
+      "end": 4.486,
+      "duration_seconds": 3.0,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.",
+      "file": "audio/items/nl/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.f6df7f46a5.mp3",
+      "start": 4.486,
+      "end": 31.514,
+      "duration_seconds": 27.028,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 31.514,
+      "end": 33.014,
+      "duration_seconds": 1.5,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.",
+      "file": "audio/items/nl/can-to-be-able-to-c75eff873b.UNBIyLbt.eleven_multilingual_v2.f6df7f46a5.mp3",
+      "start": 33.014,
+      "end": 60.042,
+      "duration_seconds": 27.028,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 60.042,
+      "end": 62.042,
+      "duration_seconds": 2.0,
+      "item_index": 1,
+      "item_id": "can-to-be-able-to-c75eff873b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to speak",
+      "file": "audio/items/en/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.7b1c5b5978.mp3",
+      "start": 62.042,
+      "end": 62.971,
+      "duration_seconds": 0.929,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 62.971,
+      "end": 65.971,
+      "duration_seconds": 3.0,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.",
+      "file": "audio/items/nl/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.102b633d7f.mp3",
+      "start": 65.971,
+      "end": 90.677,
+      "duration_seconds": 24.706,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 90.677,
+      "end": 92.177,
+      "duration_seconds": 1.5,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.",
+      "file": "audio/items/nl/to-speak-7b1c5b5978.UNBIyLbt.eleven_multilingual_v2.102b633d7f.mp3",
+      "start": 92.177,
+      "end": 116.883,
+      "duration_seconds": 24.706,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 116.883,
+      "end": 118.883,
+      "duration_seconds": 2.0,
+      "item_index": 2,
+      "item_id": "to-speak-7b1c5b5978",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to drink",
+      "file": "audio/items/en/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.aa685ddf99.mp3",
+      "start": 118.883,
+      "end": 119.765,
+      "duration_seconds": 0.882,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 119.765,
+      "end": 122.765,
+      "duration_seconds": 3.0,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.",
+      "file": "audio/items/nl/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.6347e6d911.mp3",
+      "start": 122.765,
+      "end": 146.45,
+      "duration_seconds": 23.684,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 146.45,
+      "end": 147.95,
+      "duration_seconds": 1.5,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.",
+      "file": "audio/items/nl/to-drink-aa685ddf99.UNBIyLbt.eleven_multilingual_v2.6347e6d911.mp3",
+      "start": 147.95,
+      "end": 171.634,
+      "duration_seconds": 23.684,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 171.634,
+      "end": 173.634,
+      "duration_seconds": 2.0,
+      "item_index": 3,
+      "item_id": "to-drink-aa685ddf99",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to read",
+      "file": "audio/items/en/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.3d527aec69.mp3",
+      "start": 173.634,
+      "end": 174.47,
+      "duration_seconds": 0.836,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 174.47,
+      "end": 177.47,
+      "duration_seconds": 3.0,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.",
+      "file": "audio/items/nl/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.67d4257931.mp3",
+      "start": 177.47,
+      "end": 201.154,
+      "duration_seconds": 23.684,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 201.154,
+      "end": 202.654,
+      "duration_seconds": 1.5,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.",
+      "file": "audio/items/nl/to-read-3d527aec69.UNBIyLbt.eleven_multilingual_v2.67d4257931.mp3",
+      "start": 202.654,
+      "end": 226.339,
+      "duration_seconds": 23.684,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 226.339,
+      "end": 228.339,
+      "duration_seconds": 2.0,
+      "item_index": 4,
+      "item_id": "to-read-3d527aec69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to sleep",
+      "file": "audio/items/en/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.ae872e432b.mp3",
+      "start": 228.339,
+      "end": 229.267,
+      "duration_seconds": 0.929,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 229.267,
+      "end": 232.267,
+      "duration_seconds": 3.0,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.",
+      "file": "audio/items/nl/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.d084603147.mp3",
+      "start": 232.267,
+      "end": 255.952,
+      "duration_seconds": 23.684,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 255.952,
+      "end": 257.452,
+      "duration_seconds": 1.5,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.",
+      "file": "audio/items/nl/to-sleep-ae872e432b.UNBIyLbt.eleven_multilingual_v2.d084603147.mp3",
+      "start": 257.452,
+      "end": 281.136,
+      "duration_seconds": 23.684,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 281.136,
+      "end": 283.136,
+      "duration_seconds": 2.0,
+      "item_index": 5,
+      "item_id": "to-sleep-ae872e432b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "must; to have to",
+      "file": "audio/items/en/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.0cc6f65d2f.mp3",
+      "start": 283.136,
+      "end": 284.576,
+      "duration_seconds": 1.44,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 284.576,
+      "end": 287.576,
+      "duration_seconds": 3.0,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.",
+      "file": "audio/items/nl/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.8374818bc5.mp3",
+      "start": 287.576,
+      "end": 315.858,
+      "duration_seconds": 28.282,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 315.858,
+      "end": 317.358,
+      "duration_seconds": 1.5,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.",
+      "file": "audio/items/nl/must-to-have-to-0cc6f65d2f.UNBIyLbt.eleven_multilingual_v2.8374818bc5.mp3",
+      "start": 317.358,
+      "end": 345.64,
+      "duration_seconds": 28.282,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 345.64,
+      "end": 347.64,
+      "duration_seconds": 2.0,
+      "item_index": 6,
+      "item_id": "must-to-have-to-0cc6f65d2f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to eat",
+      "file": "audio/items/en/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.c3f26f4280.mp3",
+      "start": 347.64,
+      "end": 348.615,
+      "duration_seconds": 0.975,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 348.615,
+      "end": 351.615,
+      "duration_seconds": 3.0,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.",
+      "file": "audio/items/nl/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.626c4c04a6.mp3",
+      "start": 351.615,
+      "end": 375.299,
+      "duration_seconds": 23.684,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 375.299,
+      "end": 376.799,
+      "duration_seconds": 1.5,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.",
+      "file": "audio/items/nl/to-eat-c3f26f4280.UNBIyLbt.eleven_multilingual_v2.626c4c04a6.mp3",
+      "start": 376.799,
+      "end": 400.484,
+      "duration_seconds": 23.684,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 400.484,
+      "end": 402.484,
+      "duration_seconds": 2.0,
+      "item_index": 7,
+      "item_id": "to-eat-c3f26f4280",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to think",
+      "file": "audio/items/en/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.c16c51afb8.mp3",
+      "start": 402.484,
+      "end": 403.32,
+      "duration_seconds": 0.836,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 403.32,
+      "end": 406.32,
+      "duration_seconds": 3.0,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.",
+      "file": "audio/items/nl/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.fc9d96b7f9.mp3",
+      "start": 406.32,
+      "end": 430.004,
+      "duration_seconds": 23.684,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 430.004,
+      "end": 431.504,
+      "duration_seconds": 1.5,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.",
+      "file": "audio/items/nl/to-think-c16c51afb8.UNBIyLbt.eleven_multilingual_v2.fc9d96b7f9.mp3",
+      "start": 431.504,
+      "end": 455.188,
+      "duration_seconds": 23.684,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 455.188,
+      "end": 457.188,
+      "duration_seconds": 2.0,
+      "item_index": 8,
+      "item_id": "to-think-c16c51afb8",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to bring",
+      "file": "audio/items/en/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.3c19147920.mp3",
+      "start": 457.188,
+      "end": 458.024,
+      "duration_seconds": 0.836,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 458.024,
+      "end": 461.024,
+      "duration_seconds": 3.0,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.",
+      "file": "audio/items/nl/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.8389fb9639.mp3",
+      "start": 461.024,
+      "end": 486.195,
+      "duration_seconds": 25.17,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 486.195,
+      "end": 487.695,
+      "duration_seconds": 1.5,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.",
+      "file": "audio/items/nl/to-bring-3c19147920.UNBIyLbt.eleven_multilingual_v2.8389fb9639.mp3",
+      "start": 487.695,
+      "end": 512.865,
+      "duration_seconds": 25.17,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 512.865,
+      "end": 514.865,
+      "duration_seconds": 2.0,
+      "item_index": 9,
+      "item_id": "to-bring-3c19147920",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to write",
+      "file": "audio/items/en/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.5902f5ec77.mp3",
+      "start": 514.865,
+      "end": 515.84,
+      "duration_seconds": 0.975,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 515.84,
+      "end": 518.84,
+      "duration_seconds": 3.0,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.",
+      "file": "audio/items/nl/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.143bd7ee74.mp3",
+      "start": 518.84,
+      "end": 543.407,
+      "duration_seconds": 24.567,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 543.407,
+      "end": 544.907,
+      "duration_seconds": 1.5,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.",
+      "file": "audio/items/nl/to-write-5902f5ec77.UNBIyLbt.eleven_multilingual_v2.143bd7ee74.mp3",
+      "start": 544.907,
+      "end": 569.474,
+      "duration_seconds": 24.567,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 569.474,
+      "end": 571.474,
+      "duration_seconds": 2.0,
+      "item_index": 10,
+      "item_id": "to-write-5902f5ec77",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to drive",
+      "file": "audio/items/en/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.627866cfa0.mp3",
+      "start": 571.474,
+      "end": 572.495,
+      "duration_seconds": 1.022,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 572.495,
+      "end": 575.495,
+      "duration_seconds": 3.0,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.",
+      "file": "audio/items/nl/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.4c16edf562.mp3",
+      "start": 575.495,
+      "end": 605.217,
+      "duration_seconds": 29.722,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 605.217,
+      "end": 606.717,
+      "duration_seconds": 1.5,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.",
+      "file": "audio/items/nl/to-drive-627866cfa0.UNBIyLbt.eleven_multilingual_v2.4c16edf562.mp3",
+      "start": 606.717,
+      "end": 636.438,
+      "duration_seconds": 29.722,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 636.438,
+      "end": 638.438,
+      "duration_seconds": 2.0,
+      "item_index": 11,
+      "item_id": "to-drive-627866cfa0",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to hold; to like (houden van)",
+      "file": "audio/items/en/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.314882433b.mp3",
+      "start": 638.438,
+      "end": 640.993,
+      "duration_seconds": 2.554,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 640.993,
+      "end": 643.993,
+      "duration_seconds": 3.0,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.",
+      "file": "audio/items/nl/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.d20bd16180.mp3",
+      "start": 643.993,
+      "end": 669.674,
+      "duration_seconds": 25.681,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 669.674,
+      "end": 671.174,
+      "duration_seconds": 1.5,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.",
+      "file": "audio/items/nl/to-hold-to-like-houden-van-314882433b.UNBIyLbt.eleven_multilingual_v2.d20bd16180.mp3",
+      "start": 671.174,
+      "end": 696.855,
+      "duration_seconds": 25.681,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 696.855,
+      "end": 698.855,
+      "duration_seconds": 2.0,
+      "item_index": 12,
+      "item_id": "to-hold-to-like-houden-van-314882433b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to take",
+      "file": "audio/items/en/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.abf6d7f8d9.mp3",
+      "start": 698.855,
+      "end": 699.691,
+      "duration_seconds": 0.836,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 699.691,
+      "end": 702.691,
+      "duration_seconds": 3.0,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.",
+      "file": "audio/items/nl/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.fca52d1fce.mp3",
+      "start": 702.691,
+      "end": 726.375,
+      "duration_seconds": 23.684,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 726.375,
+      "end": 727.875,
+      "duration_seconds": 1.5,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.",
+      "file": "audio/items/nl/to-take-abf6d7f8d9.UNBIyLbt.eleven_multilingual_v2.fca52d1fce.mp3",
+      "start": 727.875,
+      "end": 751.56,
+      "duration_seconds": 23.684,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 751.56,
+      "end": 753.56,
+      "duration_seconds": 2.0,
+      "item_index": 13,
+      "item_id": "to-take-abf6d7f8d9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to want",
+      "file": "audio/items/en/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.aeb80bd1bf.mp3",
+      "start": 753.56,
+      "end": 754.349,
+      "duration_seconds": 0.789,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 754.349,
+      "end": 757.349,
+      "duration_seconds": 3.0,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.",
+      "file": "audio/items/nl/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.2b4f987445.mp3",
+      "start": 757.349,
+      "end": 788.603,
+      "duration_seconds": 31.254,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 788.603,
+      "end": 790.103,
+      "duration_seconds": 1.5,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.",
+      "file": "audio/items/nl/to-want-aeb80bd1bf.UNBIyLbt.eleven_multilingual_v2.2b4f987445.mp3",
+      "start": 790.103,
+      "end": 821.357,
+      "duration_seconds": 31.254,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 821.357,
+      "end": 823.357,
+      "duration_seconds": 2.0,
+      "item_index": 14,
+      "item_id": "to-want-aeb80bd1bf",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to buy",
+      "file": "audio/items/en/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.5358d052dc.mp3",
+      "start": 823.357,
+      "end": 824.193,
+      "duration_seconds": 0.836,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 824.193,
+      "end": 827.193,
+      "duration_seconds": 3.0,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.",
+      "file": "audio/items/nl/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.2c212ac75c.mp3",
+      "start": 827.193,
+      "end": 850.878,
+      "duration_seconds": 23.684,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 850.878,
+      "end": 852.378,
+      "duration_seconds": 1.5,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.",
+      "file": "audio/items/nl/to-buy-5358d052dc.UNBIyLbt.eleven_multilingual_v2.2c212ac75c.mp3",
+      "start": 852.378,
+      "end": 876.062,
+      "duration_seconds": 23.684,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 876.062,
+      "end": 878.062,
+      "duration_seconds": 2.0,
+      "item_index": 15,
+      "item_id": "to-buy-5358d052dc",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to know (a fact)",
+      "file": "audio/items/en/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.5953048125.mp3",
+      "start": 878.062,
+      "end": 879.873,
+      "duration_seconds": 1.811,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 879.873,
+      "end": 882.873,
+      "duration_seconds": 3.0,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.",
+      "file": "audio/items/nl/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.514c80b197.mp3",
+      "start": 882.873,
+      "end": 906.558,
+      "duration_seconds": 23.684,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 906.558,
+      "end": 908.058,
+      "duration_seconds": 1.5,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.",
+      "file": "audio/items/nl/to-know-a-fact-5953048125.UNBIyLbt.eleven_multilingual_v2.514c80b197.mp3",
+      "start": 908.058,
+      "end": 931.742,
+      "duration_seconds": 23.684,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 931.742,
+      "end": 933.742,
+      "duration_seconds": 2.0,
+      "item_index": 16,
+      "item_id": "to-know-a-fact-5953048125",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to say",
+      "file": "audio/items/en/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.ad1fae1bd3.mp3",
+      "start": 933.742,
+      "end": 934.578,
+      "duration_seconds": 0.836,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 934.578,
+      "end": 937.578,
+      "duration_seconds": 3.0,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.",
+      "file": "audio/items/nl/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.755aef3cda.mp3",
+      "start": 937.578,
+      "end": 961.262,
+      "duration_seconds": 23.684,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 961.262,
+      "end": 962.762,
+      "duration_seconds": 1.5,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.",
+      "file": "audio/items/nl/to-say-ad1fae1bd3.UNBIyLbt.eleven_multilingual_v2.755aef3cda.mp3",
+      "start": 962.762,
+      "end": 986.446,
+      "duration_seconds": 23.684,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 986.446,
+      "end": 988.446,
+      "duration_seconds": 2.0,
+      "item_index": 17,
+      "item_id": "to-say-ad1fae1bd3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to have",
+      "file": "audio/items/en/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.4efa2ec2b1.mp3",
+      "start": 988.446,
+      "end": 989.329,
+      "duration_seconds": 0.882,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 989.329,
+      "end": 992.329,
+      "duration_seconds": 3.0,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.",
+      "file": "audio/items/nl/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.d617943d3a.mp3",
+      "start": 992.329,
+      "end": 1016.013,
+      "duration_seconds": 23.684,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1016.013,
+      "end": 1017.513,
+      "duration_seconds": 1.5,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.",
+      "file": "audio/items/nl/to-have-4efa2ec2b1.UNBIyLbt.eleven_multilingual_v2.d617943d3a.mp3",
+      "start": 1017.513,
+      "end": 1041.198,
+      "duration_seconds": 23.684,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1041.198,
+      "end": 1043.198,
+      "duration_seconds": 2.0,
+      "item_index": 18,
+      "item_id": "to-have-4efa2ec2b1",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "may; to be allowed to",
+      "file": "audio/items/en/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.409a8a3758.mp3",
+      "start": 1043.198,
+      "end": 1045.241,
+      "duration_seconds": 2.043,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1045.241,
+      "end": 1048.241,
+      "duration_seconds": 3.0,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.",
+      "file": "audio/items/nl/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.1612c75dc5.mp3",
+      "start": 1048.241,
+      "end": 1074.526,
+      "duration_seconds": 26.285,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1074.526,
+      "end": 1076.026,
+      "duration_seconds": 1.5,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.",
+      "file": "audio/items/nl/may-to-be-allowed-to-409a8a3758.UNBIyLbt.eleven_multilingual_v2.1612c75dc5.mp3",
+      "start": 1076.026,
+      "end": 1102.311,
+      "duration_seconds": 26.285,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1102.311,
+      "end": 1104.311,
+      "duration_seconds": 2.0,
+      "item_index": 19,
+      "item_id": "may-to-be-allowed-to-409a8a3758",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to stand",
+      "file": "audio/items/en/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.d2d55c341c.mp3",
+      "start": 1104.311,
+      "end": 1105.379,
+      "duration_seconds": 1.068,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1105.379,
+      "end": 1108.379,
+      "duration_seconds": 3.0,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.",
+      "file": "audio/items/nl/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.94db767c49.mp3",
+      "start": 1108.379,
+      "end": 1132.063,
+      "duration_seconds": 23.684,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1132.063,
+      "end": 1133.563,
+      "duration_seconds": 1.5,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.",
+      "file": "audio/items/nl/to-stand-d2d55c341c.UNBIyLbt.eleven_multilingual_v2.94db767c49.mp3",
+      "start": 1133.563,
+      "end": 1157.248,
+      "duration_seconds": 23.684,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1157.248,
+      "end": 1159.248,
+      "duration_seconds": 2.0,
+      "item_index": 20,
+      "item_id": "to-stand-d2d55c341c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to stay",
+      "file": "audio/items/en/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.962227c154.mp3",
+      "start": 1159.248,
+      "end": 1160.084,
+      "duration_seconds": 0.836,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1160.084,
+      "end": 1163.084,
+      "duration_seconds": 3.0,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.",
+      "file": "audio/items/nl/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.f7e9b8f360.mp3",
+      "start": 1163.084,
+      "end": 1186.768,
+      "duration_seconds": 23.684,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1186.768,
+      "end": 1188.268,
+      "duration_seconds": 1.5,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.",
+      "file": "audio/items/nl/to-stay-962227c154.UNBIyLbt.eleven_multilingual_v2.f7e9b8f360.mp3",
+      "start": 1188.268,
+      "end": 1211.952,
+      "duration_seconds": 23.684,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1211.952,
+      "end": 1213.952,
+      "duration_seconds": 2.0,
+      "item_index": 21,
+      "item_id": "to-stay-962227c154",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to get; to receive",
+      "file": "audio/items/en/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.1f0d69bb9c.mp3",
+      "start": 1213.952,
+      "end": 1215.671,
+      "duration_seconds": 1.718,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1215.671,
+      "end": 1218.671,
+      "duration_seconds": 3.0,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.",
+      "file": "audio/items/nl/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.14dffba826.mp3",
+      "start": 1218.671,
+      "end": 1242.355,
+      "duration_seconds": 23.684,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1242.355,
+      "end": 1243.855,
+      "duration_seconds": 1.5,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.",
+      "file": "audio/items/nl/to-get-to-receive-1f0d69bb9c.UNBIyLbt.eleven_multilingual_v2.14dffba826.mp3",
+      "start": 1243.855,
+      "end": 1267.539,
+      "duration_seconds": 23.684,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1267.539,
+      "end": 1269.539,
+      "duration_seconds": 2.0,
+      "item_index": 22,
+      "item_id": "to-get-to-receive-1f0d69bb9c",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to give",
+      "file": "audio/items/en/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.4e89ea2e69.mp3",
+      "start": 1269.539,
+      "end": 1270.282,
+      "duration_seconds": 0.743,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1270.282,
+      "end": 1273.282,
+      "duration_seconds": 3.0,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.",
+      "file": "audio/items/nl/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.bc251dd1d1.mp3",
+      "start": 1273.282,
+      "end": 1296.967,
+      "duration_seconds": 23.684,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1296.967,
+      "end": 1298.467,
+      "duration_seconds": 1.5,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.",
+      "file": "audio/items/nl/to-give-4e89ea2e69.UNBIyLbt.eleven_multilingual_v2.bc251dd1d1.mp3",
+      "start": 1298.467,
+      "end": 1322.151,
+      "duration_seconds": 23.684,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1322.151,
+      "end": 1324.151,
+      "duration_seconds": 2.0,
+      "item_index": 23,
+      "item_id": "to-give-4e89ea2e69",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to come",
+      "file": "audio/items/en/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.ef5b697f5b.mp3",
+      "start": 1324.151,
+      "end": 1325.033,
+      "duration_seconds": 0.882,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1325.033,
+      "end": 1328.033,
+      "duration_seconds": 3.0,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.",
+      "file": "audio/items/nl/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.4f8663fecc.mp3",
+      "start": 1328.033,
+      "end": 1351.718,
+      "duration_seconds": 23.684,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1351.718,
+      "end": 1353.218,
+      "duration_seconds": 1.5,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.",
+      "file": "audio/items/nl/to-come-ef5b697f5b.UNBIyLbt.eleven_multilingual_v2.4f8663fecc.mp3",
+      "start": 1353.218,
+      "end": 1376.902,
+      "duration_seconds": 23.684,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1376.902,
+      "end": 1378.902,
+      "duration_seconds": 2.0,
+      "item_index": 24,
+      "item_id": "to-come-ef5b697f5b",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to go",
+      "file": "audio/items/en/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.cbd74c1a58.mp3",
+      "start": 1378.902,
+      "end": 1379.645,
+      "duration_seconds": 0.743,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1379.645,
+      "end": 1382.645,
+      "duration_seconds": 3.0,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.",
+      "file": "audio/items/nl/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.ee5075b691.mp3",
+      "start": 1382.645,
+      "end": 1406.33,
+      "duration_seconds": 23.684,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1406.33,
+      "end": 1407.83,
+      "duration_seconds": 1.5,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.",
+      "file": "audio/items/nl/to-go-cbd74c1a58.UNBIyLbt.eleven_multilingual_v2.ee5075b691.mp3",
+      "start": 1407.83,
+      "end": 1431.514,
+      "duration_seconds": 23.684,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1431.514,
+      "end": 1433.514,
+      "duration_seconds": 2.0,
+      "item_index": 25,
+      "item_id": "to-go-cbd74c1a58",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to walk",
+      "file": "audio/items/en/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.7f3dad94f3.mp3",
+      "start": 1433.514,
+      "end": 1434.489,
+      "duration_seconds": 0.975,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1434.489,
+      "end": 1437.489,
+      "duration_seconds": 3.0,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.",
+      "file": "audio/items/nl/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.ea56581876.mp3",
+      "start": 1437.489,
+      "end": 1465.91,
+      "duration_seconds": 28.421,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1465.91,
+      "end": 1467.41,
+      "duration_seconds": 1.5,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.",
+      "file": "audio/items/nl/to-walk-7f3dad94f3.UNBIyLbt.eleven_multilingual_v2.ea56581876.mp3",
+      "start": 1467.41,
+      "end": 1495.832,
+      "duration_seconds": 28.421,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1495.832,
+      "end": 1497.832,
+      "duration_seconds": 2.0,
+      "item_index": 26,
+      "item_id": "to-walk-7f3dad94f3",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to be",
+      "file": "audio/items/en/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.3a7e4483f9.mp3",
+      "start": 1497.832,
+      "end": 1498.575,
+      "duration_seconds": 0.743,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1498.575,
+      "end": 1501.575,
+      "duration_seconds": 3.0,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.",
+      "file": "audio/items/nl/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.c7fc9366c2.mp3",
+      "start": 1501.575,
+      "end": 1525.259,
+      "duration_seconds": 23.684,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1525.259,
+      "end": 1526.759,
+      "duration_seconds": 1.5,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.",
+      "file": "audio/items/nl/to-be-3a7e4483f9.UNBIyLbt.eleven_multilingual_v2.c7fc9366c2.mp3",
+      "start": 1526.759,
+      "end": 1550.443,
+      "duration_seconds": 23.684,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1550.443,
+      "end": 1552.443,
+      "duration_seconds": 2.0,
+      "item_index": 27,
+      "item_id": "to-be-3a7e4483f9",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to see",
+      "file": "audio/items/en/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.be5382916f.mp3",
+      "start": 1552.443,
+      "end": 1553.279,
+      "duration_seconds": 0.836,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1553.279,
+      "end": 1556.279,
+      "duration_seconds": 3.0,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.",
+      "file": "audio/items/nl/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.1335bbea5d.mp3",
+      "start": 1556.279,
+      "end": 1579.964,
+      "duration_seconds": 23.684,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1579.964,
+      "end": 1581.464,
+      "duration_seconds": 1.5,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.",
+      "file": "audio/items/nl/to-see-be5382916f.UNBIyLbt.eleven_multilingual_v2.1335bbea5d.mp3",
+      "start": 1581.464,
+      "end": 1605.148,
+      "duration_seconds": 23.684,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1605.148,
+      "end": 1607.148,
+      "duration_seconds": 2.0,
+      "item_index": 28,
+      "item_id": "to-see-be5382916f",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to find",
+      "file": "audio/items/en/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fe8ff3aa3d.mp3",
+      "start": 1607.148,
+      "end": 1608.123,
+      "duration_seconds": 0.975,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1608.123,
+      "end": 1611.123,
+      "duration_seconds": 3.0,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.",
+      "file": "audio/items/nl/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fd60a15903.mp3",
+      "start": 1611.123,
+      "end": 1634.808,
+      "duration_seconds": 23.684,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1634.808,
+      "end": 1636.308,
+      "duration_seconds": 1.5,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.",
+      "file": "audio/items/nl/to-find-fe8ff3aa3d.UNBIyLbt.eleven_multilingual_v2.fd60a15903.mp3",
+      "start": 1636.308,
+      "end": 1659.992,
+      "duration_seconds": 23.684,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1659.992,
+      "end": 1661.992,
+      "duration_seconds": 2.0,
+      "item_index": 29,
+      "item_id": "to-find-fe8ff3aa3d",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "prompt",
+      "language": "en",
+      "text": "to do",
+      "file": "audio/items/en/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.0dc14e0059.mp3",
+      "start": 1661.992,
+      "end": 1662.735,
+      "duration_seconds": 0.743,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "recall_pause",
+      "start": 1662.735,
+      "end": 1665.735,
+      "duration_seconds": 3.0,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "answer",
+      "language": "nl",
+      "text": "Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.",
+      "file": "audio/items/nl/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.e6170fbbce.mp3",
+      "start": 1665.735,
+      "end": 1689.419,
+      "duration_seconds": 23.684,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "review_pause",
+      "start": 1689.419,
+      "end": 1690.919,
+      "duration_seconds": 1.5,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "speech",
+      "role": "repeat",
+      "language": "nl",
+      "text": "Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.",
+      "file": "audio/items/nl/to-do-0dc14e0059.UNBIyLbt.eleven_multilingual_v2.e6170fbbce.mp3",
+      "start": 1690.919,
+      "end": 1714.604,
+      "duration_seconds": 23.684,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    },
+    {
+      "type": "pause",
+      "role": "item_pause",
+      "start": 1714.604,
+      "end": 1716.604,
+      "duration_seconds": 2.0,
+      "item_index": 30,
+      "item_id": "to-do-0dc14e0059",
+      "category": "Onregelmatige werkwoorden"
+    }
+  ]
+}
