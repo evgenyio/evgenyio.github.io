@@ -1,123 +1,303 @@
 Track: audio/tracks/recall-irregular-verbs-a1-a2-mixed.mp3
 Mode: recall
-Duration: 28:36.604
+Duration: 40:19.632
 
 [00:00.000] Onregelmatige werkwoorden
+EN: to swim
+NL: Zwemmen. Ik zwem. Jij zwemt. Hij zwemt. Wij zwemmen. Ik zwom. Wij zwommen. Gezwommen.
+
+[00:33.807] Onregelmatige werkwoorden
+EN: to fall
+NL: Vallen. Ik val. Jij valt. Hij valt. Wij vallen. Ik viel. Wij vielen. Gevallen.
+
+[01:06.824] Onregelmatige werkwoorden
+EN: to choose
+NL: Kiezen. Ik kies. Jij kiest. Hij kiest. Wij kiezen. Ik koos. Wij kozen. Gekozen.
+
+[01:30.785] Onregelmatige werkwoorden
+EN: to give back
+NL: Teruggeven. Ik geef terug. Jij geeft terug. Hij geeft terug. Wij geven terug. Ik gaf terug. Wij gaven terug. Teruggegeven.
+
+[02:05.474] Onregelmatige werkwoorden
 EN: can; to be able to
-NL: Het werkwoord kunnen. Tegenwoordige tijd. Ik kan. Jij kunt. Hij of zij kan. Wij kunnen. Onvoltooid verleden tijd. Enkelvoud: kon. Meervoud: konden. Voltooid deelwoord: gekund. Met een tweede werkwoord gebruik je in de voltooide tijd kunnen in plaats van gekund. Nu kan ik komen. Gisteren kon ik niet komen. Ik heb niet kunnen komen.
+NL: Kunnen. Ik kan. Jij kunt. Hij kan. Wij kunnen. Ik kon. Wij konden. Gekund.
 
-[01:02.042] Onregelmatige werkwoorden
+[02:37.145] Onregelmatige werkwoorden
 EN: to speak
-NL: Het werkwoord spreken. Tegenwoordige tijd. Ik spreek. Jij spreekt. Hij of zij spreekt. Wij spreken. Onvoltooid verleden tijd. Enkelvoud: sprak. Meervoud: spraken. Voltooid deelwoord: gesproken. Hulpwerkwoord: hebben. Nu spreek ik Nederlands. Gisteren sprak ik Nederlands. Ik heb Nederlands gesproken.
+NL: Spreken. Ik spreek. Jij spreekt. Hij spreekt. Wij spreken. Ik sprak. Wij spraken. Gesproken.
 
-[01:58.883] Onregelmatige werkwoorden
+[03:09.744] Onregelmatige werkwoorden
+EN: to lose
+NL: Verliezen. Ik verlies. Jij verliest. Hij verliest. Wij verliezen. Ik verloor. Wij verloren. Verloren.
+
+[03:47.080] Onregelmatige werkwoorden
+EN: to call; to shout
+NL: Roepen. Ik roep. Jij roept. Hij roept. Wij roepen. Ik riep. Wij riepen. Geroepen.
+
+[04:17.775] Onregelmatige werkwoorden
 EN: to drink
-NL: Het werkwoord drinken. Tegenwoordige tijd. Ik drink. Jij drinkt. Hij of zij drinkt. Wij drinken. Onvoltooid verleden tijd. Enkelvoud: dronk. Meervoud: dronken. Voltooid deelwoord: gedronken. Hulpwerkwoord: hebben. Nu drink ik water. Gisteren dronk ik koffie. Ik heb koffie gedronken.
+NL: Drinken. Ik drink. Jij drinkt. Hij drinkt. Wij drinken. Ik dronk. Wij dronken. Gedronken.
 
-[02:53.634] Onregelmatige werkwoorden
+[04:39.925] Onregelmatige werkwoorden
+EN: to break
+NL: Breken. Ik breek. Jij breekt. Hij breekt. Wij breken. Ik brak. Wij braken. Gebroken.
+
+[05:13.686] Onregelmatige werkwoorden
+EN: to hang
+NL: Hangen. Ik hang. Jij hangt. Hij hangt. Wij hangen. Ik hing. Wij hingen. Gehangen.
+
+[05:46.424] Onregelmatige werkwoorden
 EN: to read
-NL: Het werkwoord lezen. Tegenwoordige tijd. Ik lees. Jij leest. Hij of zij leest. Wij lezen. Onvoltooid verleden tijd. Enkelvoud: las. Meervoud: lazen. Voltooid deelwoord: gelezen. Hulpwerkwoord: hebben. Nu lees ik een boek. Gisteren las ik de krant. Ik heb de krant gelezen.
+NL: Lezen. Ik lees. Jij leest. Hij leest. Wij lezen. Ik las. Wij lazen. Gelezen.
 
-[03:48.339] Onregelmatige werkwoorden
+[06:21.438] Onregelmatige werkwoorden
 EN: to sleep
-NL: Het werkwoord slapen. Tegenwoordige tijd. Ik slaap. Jij slaapt. Hij of zij slaapt. Wij slapen. Onvoltooid verleden tijd. Enkelvoud: sliep. Meervoud: sliepen. Voltooid deelwoord: geslapen. Hulpwerkwoord: hebben. Elke nacht slaap ik acht uur. Vannacht sliep ik goed. Ik heb goed geslapen.
+NL: Slapen. Ik slaap. Jij slaapt. Hij slaapt. Wij slapen. Ik sliep. Wij sliepen. Geslapen.
 
-[04:43.136] Onregelmatige werkwoorden
+[06:51.808] Onregelmatige werkwoorden
+EN: to participate
+NL: Deelnemen. Ik neem deel. Jij neemt deel. Hij neemt deel. Wij nemen deel. Ik nam deel. Wij namen deel. Deelgenomen.
+
+[07:30.352] Onregelmatige werkwoorden
+EN: to put on
+NL: Aantrekken. Ik trek aan. Jij trekt aan. Hij trekt aan. Wij trekken aan. Ik trok aan. Wij trokken aan. Aangetrokken.
+
+[07:59.654] Onregelmatige werkwoorden
+EN: to take off
+NL: Uittrekken. Ik trek uit. Jij trekt uit. Hij trekt uit. Wij trekken uit. Ik trok uit. Wij trokken uit. Uitgetrokken.
+
+[08:32.950] Onregelmatige werkwoorden
+EN: to hold on
+NL: Vasthouden. Ik houd vast. Jij houdt vast. Hij houdt vast. Wij houden vast. Ik hield vast. Wij hielden vast. Vastgehouden.
+
+[09:11.215] Onregelmatige werkwoorden
 EN: must; to have to
-NL: Het werkwoord moeten. Tegenwoordige tijd. Ik moet. Jij moet. Hij of zij moet. Wij moeten. Onvoltooid verleden tijd. Enkelvoud: moest. Meervoud: moesten. Voltooid deelwoord: gemoeten. Met een tweede werkwoord gebruik je in de voltooide tijd moeten in plaats van gemoeten. Nu moet ik werken. Gisteren moest ik werken. Ik heb moeten werken.
+NL: Moeten. Ik moet. Jij moet. Hij moet. Wij moeten. Ik moest. Wij moesten. Gemoeten.
 
-[05:47.640] Onregelmatige werkwoorden
+[09:45.997] Onregelmatige werkwoorden
 EN: to eat
-NL: Het werkwoord eten. Tegenwoordige tijd. Ik eet. Jij eet. Hij of zij eet. Wij eten. Onvoltooid verleden tijd. Enkelvoud: at. Meervoud: aten. Voltooid deelwoord: gegeten. Hulpwerkwoord: hebben. Nu eet ik een appel. Gisteren at ik soep. Ik heb soep gegeten.
+NL: Eten. Ik eet. Jij eet. Hij eet. Wij eten. Ik at. Wij aten. Gegeten.
 
-[06:42.484] Onregelmatige werkwoorden
+[10:18.549] Onregelmatige werkwoorden
 EN: to think
-NL: Het werkwoord denken. Tegenwoordige tijd. Ik denk. Jij denkt. Hij of zij denkt. Wij denken. Onvoltooid verleden tijd. Enkelvoud: dacht. Meervoud: dachten. Voltooid deelwoord: gedacht. Hulpwerkwoord: hebben. Nu denk ik aan jou. Gisteren dacht ik aan jou. Ik heb aan jou gedacht.
+NL: Denken. Ik denk. Jij denkt. Hij denkt. Wij denken. Ik dacht. Wij dachten. Gedacht.
 
-[07:37.188] Onregelmatige werkwoorden
+[10:47.526] Onregelmatige werkwoorden
 EN: to bring
-NL: Het werkwoord brengen. Tegenwoordige tijd. Ik breng. Jij brengt. Hij of zij brengt. Wij brengen. Onvoltooid verleden tijd. Enkelvoud: bracht. Meervoud: brachten. Voltooid deelwoord: gebracht. Hulpwerkwoord: hebben. Nu breng ik de kinderen naar school. Gisteren bracht ik ze naar school. Ik heb ze naar school gebracht.
+NL: Brengen. Ik breng. Jij brengt. Hij brengt. Wij brengen. Ik bracht. Wij brachten. Gebracht.
 
-[08:34.865] Onregelmatige werkwoorden
+[11:20.404] Onregelmatige werkwoorden
+EN: to sing
+NL: Zingen. Ik zing. Jij zingt. Hij zingt. Wij zingen. Ik zong. Wij zongen. Gezongen.
+
+[11:48.220] Onregelmatige werkwoorden
 EN: to write
-NL: Het werkwoord schrijven. Tegenwoordige tijd. Ik schrijf. Jij schrijft. Hij of zij schrijft. Wij schrijven. Onvoltooid verleden tijd. Enkelvoud: schreef. Meervoud: schreven. Voltooid deelwoord: geschreven. Hulpwerkwoord: hebben. Nu schrijf ik een e-mail. Gisteren schreef ik een brief. Ik heb een brief geschreven.
+NL: Schrijven. Ik schrijf. Jij schrijft. Hij schrijft. Wij schrijven. Ik schreef. Wij schreven. Geschreven.
 
-[09:31.474] Onregelmatige werkwoorden
+[12:23.188] Onregelmatige werkwoorden
+EN: to go out
+NL: Uitgaan. Ik ga uit. Jij gaat uit. Hij gaat uit. Wij gaan uit. Ik ging uit. Wij gingen uit. Uitgegaan.
+
+[12:54.487] Onregelmatige werkwoorden
 EN: to drive
-NL: Het werkwoord rijden. Tegenwoordige tijd. Ik rijd. Jij rijdt. Hij of zij rijdt. Wij rijden. Onvoltooid verleden tijd. Enkelvoud: reed. Meervoud: reden. Voltooid deelwoord: gereden. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu rijd ik naar mijn werk. Gisteren reed ik naar Utrecht. Ik ben naar Utrecht gereden.
+NL: Rijden. Ik rijd. Jij rijdt. Hij rijdt. Wij rijden. Ik reed. Wij reden. Gereden.
 
-[10:38.438] Onregelmatige werkwoorden
+[13:24.021] Onregelmatige werkwoorden
 EN: to hold; to like (houden van)
-NL: Het werkwoord houden. Tegenwoordige tijd. Ik houd. Je hoort ook vaak: ik hou. Jij houdt. Hij of zij houdt. Wij houden. Onvoltooid verleden tijd. Enkelvoud: hield. Meervoud: hielden. Voltooid deelwoord: gehouden. Hulpwerkwoord: hebben. Nu houd ik van muziek. Vroeger hield ik van voetbal. Ik heb altijd van muziek gehouden.
+NL: Houden. Ik houd. Jij houdt. Hij houdt. Wij houden. Ik hield. Wij hielden. Gehouden.
 
-[11:38.855] Onregelmatige werkwoorden
+[13:58.431] Onregelmatige werkwoorden
 EN: to take
-NL: Het werkwoord nemen. Tegenwoordige tijd. Ik neem. Jij neemt. Hij of zij neemt. Wij nemen. Onvoltooid verleden tijd. Enkelvoud: nam. Meervoud: namen. Voltooid deelwoord: genomen. Hulpwerkwoord: hebben. Nu neem ik de trein. Gisteren nam ik de bus. Ik heb de bus genomen.
+NL: Nemen. Ik neem. Jij neemt. Hij neemt. Wij nemen. Ik nam. Wij namen. Genomen.
 
-[12:33.560] Onregelmatige werkwoorden
+[14:31.866] Onregelmatige werkwoorden
 EN: to want
-NL: Het werkwoord willen. Tegenwoordige tijd. Ik wil. Jij wilt. Hij of zij wil. Wij willen. Onvoltooid verleden tijd. Enkelvoud: wilde. Ook mogelijk: wou. Meervoud: wilden. Ook mogelijk: wouden. Voltooid deelwoord: gewild. Met een tweede werkwoord gebruik je in de voltooide tijd willen in plaats van gewild. Nu wil ik helpen. Gisteren wilde ik helpen. Ik heb willen helpen.
+NL: Willen. Ik wil. Jij wilt. Hij wil. Wij willen. Ik wilde. Wij wilden. Gewild.
 
-[13:43.357] Onregelmatige werkwoorden
+[15:05.441] Onregelmatige werkwoorden
+EN: to look; to watch
+NL: Kijken. Ik kijk. Jij kijkt. Hij kijkt. Wij kijken. Ik keek. Wij keken. Gekeken.
+
+[15:36.693] Onregelmatige werkwoorden
 EN: to buy
-NL: Het werkwoord kopen. Tegenwoordige tijd. Ik koop. Jij koopt. Hij of zij koopt. Wij kopen. Onvoltooid verleden tijd. Enkelvoud: kocht. Meervoud: kochten. Voltooid deelwoord: gekocht. Hulpwerkwoord: hebben. Nu koop ik brood. Gisteren kocht ik melk. Ik heb melk gekocht.
+NL: Kopen. Ik koop. Jij koopt. Hij koopt. Wij kopen. Ik kocht. Wij kochten. Gekocht.
 
-[14:38.062] Onregelmatige werkwoorden
+[16:01.398] Onregelmatige werkwoorden
 EN: to know (a fact)
-NL: Het werkwoord weten. Tegenwoordige tijd. Ik weet. Jij weet. Hij of zij weet. Wij weten. Onvoltooid verleden tijd. Enkelvoud: wist. Meervoud: wisten. Voltooid deelwoord: geweten. Hulpwerkwoord: hebben. Nu weet ik het. Gisteren wist ik het niet. Ik heb dat nooit geweten.
+NL: Weten. Ik weet. Jij weet. Hij weet. Wij weten. Ik wist. Wij wisten. Geweten.
 
-[15:33.742] Onregelmatige werkwoorden
+[16:37.016] Onregelmatige werkwoorden
 EN: to say
-NL: Het werkwoord zeggen. Tegenwoordige tijd. Ik zeg. Jij zegt. Hij of zij zegt. Wij zeggen. Onvoltooid verleden tijd. Enkelvoud: zei. Meervoud: zeiden. Voltooid deelwoord: gezegd. Hulpwerkwoord: hebben. Nu zeg ik de waarheid. Gisteren zei ik de waarheid. Ik heb de waarheid gezegd.
+NL: Zeggen. Ik zeg. Jij zegt. Hij zegt. Wij zeggen. Ik zei. Wij zeiden. Gezegd.
 
-[16:28.446] Onregelmatige werkwoorden
+[17:03.392] Onregelmatige werkwoorden
+EN: to offer
+NL: Bieden. Ik bied. Jij biedt. Hij biedt. Wij bieden. Ik bood. Wij boden. Geboden.
+
+[17:35.620] Onregelmatige werkwoorden
+EN: to understand
+NL: Begrijpen. Ik begrijp. Jij begrijpt. Hij begrijpt. Wij begrijpen. Ik begreep. Wij begrepen. Begrepen.
+
+[18:07.615] Onregelmatige werkwoorden
+EN: to help
+NL: Helpen. Ik help. Jij helpt. Hij helpt. Wij helpen. Ik hielp. Wij hielpen. Geholpen.
+
+[18:40.911] Onregelmatige werkwoorden
 EN: to have
-NL: Het werkwoord hebben. Tegenwoordige tijd. Ik heb. Jij hebt. Hij of zij heeft. Wij hebben. Onvoltooid verleden tijd. Enkelvoud: had. Meervoud: hadden. Voltooid deelwoord: gehad. Hulpwerkwoord: hebben. Nu heb ik tijd. Gisteren had ik tijd. Ik heb tijd gehad.
+NL: Hebben. Ik heb. Jij hebt. Hij heeft. Wij hebben. Ik had. Wij hadden. Gehad.
 
-[17:23.198] Onregelmatige werkwoorden
+[19:12.628] Onregelmatige werkwoorden
 EN: may; to be allowed to
-NL: Het werkwoord mogen. Tegenwoordige tijd. Ik mag. Jij mag. Hij of zij mag. Wij mogen. Onvoltooid verleden tijd. Enkelvoud: mocht. Meervoud: mochten. Voltooid deelwoord: gemogen. Met een tweede werkwoord gebruik je in de voltooide tijd mogen in plaats van gemogen. Nu mag ik binnenkomen. Gisteren mocht ik niet binnenkomen. Ik heb binnen mogen komen.
+NL: Mogen. Ik mag. Jij mag. Hij mag. Wij mogen. Ik mocht. Wij mochten. Gemogen.
 
-[18:24.311] Onregelmatige werkwoorden
+[19:34.825] Onregelmatige werkwoorden
+EN: to arrive
+NL: Aankomen. Ik kom aan. Jij komt aan. Hij komt aan. Wij komen aan. Ik kwam aan. Wij kwamen aan. Aangekomen.
+
+[20:12.671] Onregelmatige werkwoorden
+EN: to carry; to wear
+NL: Dragen. Ik draag. Jij draagt. Hij draagt. Wij dragen. Ik droeg. Wij droegen. Gedragen.
+
+[20:44.388] Onregelmatige werkwoorden
+EN: to let; to leave
+NL: Laten. Ik laat. Jij laat. Hij laat. Wij laten. Ik liet. Wij lieten. Gelaten.
+
+[21:18.799] Onregelmatige werkwoorden
+EN: to fly
+NL: Vliegen. Ik vlieg. Jij vliegt. Hij vliegt. Wij vliegen. Ik vloog. Wij vlogen. Gevlogen.
+
+[21:44.711] Onregelmatige werkwoorden
 EN: to stand
-NL: Het werkwoord staan. Tegenwoordige tijd. Ik sta. Jij staat. Hij of zij staat. Wij staan. Onvoltooid verleden tijd. Enkelvoud: stond. Meervoud: stonden. Voltooid deelwoord: gestaan. Hulpwerkwoord: hebben. De fiets staat buiten. Gisteren stond de fiets buiten. De fiets heeft buiten gestaan.
+NL: Staan. Ik sta. Jij staat. Hij staat. Wij staan. Ik stond. Wij stonden. Gestaan.
 
-[19:19.248] Onregelmatige werkwoorden
+[22:17.821] Onregelmatige werkwoorden
+EN: to ask
+NL: Vragen. Ik vraag. Jij vraagt. Hij vraagt. Wij vragen. Ik vroeg. Wij vroegen. Gevraagd.
+
+[22:34.027] Onregelmatige werkwoorden
+EN: to close
+NL: Sluiten. Ik sluit. Jij sluit. Hij sluit. Wij sluiten. Ik sloot. Wij sloten. Gesloten.
+
+[23:06.254] Onregelmatige werkwoorden
 EN: to stay
-NL: Het werkwoord blijven. Tegenwoordige tijd. Ik blijf. Jij blijft. Hij of zij blijft. Wij blijven. Onvoltooid verleden tijd. Enkelvoud: bleef. Meervoud: bleven. Voltooid deelwoord: gebleven. Hulpwerkwoord: zijn. Vandaag blijf ik thuis. Gisteren bleef ik thuis. Ik ben thuis gebleven.
+NL: Blijven. Ik blijf. Jij blijft. Hij blijft. Wij blijven. Ik bleef. Wij bleven. Gebleven.
 
-[20:13.952] Onregelmatige werkwoorden
+[23:37.925] Onregelmatige werkwoorden
 EN: to get; to receive
-NL: Het werkwoord krijgen. Tegenwoordige tijd. Ik krijg. Jij krijgt. Hij of zij krijgt. Wij krijgen. Onvoltooid verleden tijd. Enkelvoud: kreeg. Meervoud: kregen. Voltooid deelwoord: gekregen. Hulpwerkwoord: hebben. Nu krijg ik een pakket. Gisteren kreeg ik een brief. Ik heb een brief gekregen.
+NL: Krijgen. Ik krijg. Jij krijgt. Hij krijgt. Wij krijgen. Ik kreeg. Wij kregen. Gekregen.
 
-[21:09.539] Onregelmatige werkwoorden
+[24:08.713] Onregelmatige werkwoorden
 EN: to give
-NL: Het werkwoord geven. Tegenwoordige tijd. Ik geef. Jij geeft. Hij of zij geeft. Wij geven. Onvoltooid verleden tijd. Enkelvoud: gaf. Meervoud: gaven. Voltooid deelwoord: gegeven. Hulpwerkwoord: hebben. Nu geef ik haar een boek. Gisteren gaf ik haar bloemen. Ik heb haar bloemen gegeven.
+NL: Geven. Ik geef. Jij geeft. Hij geeft. Wij geven. Ik gaf. Wij gaven. Gegeven.
 
-[22:04.151] Onregelmatige werkwoorden
+[24:43.727] Onregelmatige werkwoorden
+EN: to jump
+NL: Springen. Ik spring. Jij springt. Hij springt. Wij springen. Ik sprong. Wij sprongen. Gesprongen.
+
+[25:18.695] Onregelmatige werkwoorden
+EN: to come home
+NL: Thuiskomen. Ik kom thuis. Jij komt thuis. Hij komt thuis. Wij komen thuis. Ik kwam thuis. Wij kwamen thuis. Thuisgekomen.
+
+[25:56.031] Onregelmatige werkwoorden
 EN: to come
-NL: Het werkwoord komen. Tegenwoordige tijd. Ik kom. Jij komt. Hij of zij komt. Wij komen. Onvoltooid verleden tijd. Enkelvoud: kwam. Meervoud: kwamen. Voltooid deelwoord: gekomen. Hulpwerkwoord: zijn. Zij komt op tijd. Gisteren kwam zij te laat. Zij is te laat gekomen.
+NL: Komen. Ik kom. Jij komt. Hij komt. Wij komen. Ik kwam. Wij kwamen. Gekomen.
 
-[22:58.902] Onregelmatige werkwoorden
+[26:28.676] Onregelmatige werkwoorden
 EN: to go
-NL: Het werkwoord gaan. Tegenwoordige tijd. Ik ga. Jij gaat. Hij of zij gaat. Wij gaan. Onvoltooid verleden tijd. Enkelvoud: ging. Meervoud: gingen. Voltooid deelwoord: gegaan. Hulpwerkwoord: zijn. Nu ga ik naar mijn werk. Gisteren ging ik naar mijn werk. Ik ben naar mijn werk gegaan.
+NL: Gaan. Ik ga. Jij gaat. Hij gaat. Wij gaan. Ik ging. Wij gingen. Gegaan.
 
-[23:53.514] Onregelmatige werkwoorden
+[27:04.526] Onregelmatige werkwoorden
+EN: to win
+NL: Winnen. Ik win. Jij wint. Hij wint. Wij winnen. Ik won. Wij wonnen. Gewonnen.
+
+[27:37.822] Onregelmatige werkwoorden
+EN: to pull
+NL: Trekken. Ik trek. Jij trekt. Hij trekt. Wij trekken. Ik trok. Wij trokken. Getrokken.
+
+[28:07.914] Onregelmatige werkwoorden
+EN: to get up
+NL: Opstaan. Ik sta op. Jij staat op. Hij staat op. Wij staan op. Ik stond op. Wij stonden op. Opgestaan.
+
+[28:45.854] Onregelmatige werkwoorden
 EN: to walk
-NL: Het werkwoord lopen. Tegenwoordige tijd. Ik loop. Jij loopt. Hij of zij loopt. Wij lopen. Onvoltooid verleden tijd. Enkelvoud: liep. Meervoud: liepen. Voltooid deelwoord: gelopen. Bij een verplaatsing gebruik je zijn. Als het alleen om de activiteit gaat, gebruik je hebben. Nu loop ik naar het station. Gisteren liep ik naar huis. Ik ben naar huis gelopen.
+NL: Lopen. Ik loop. Jij loopt. Hij loopt. Wij lopen. Ik liep. Wij liepen. Gelopen.
 
-[24:57.832] Onregelmatige werkwoorden
+[29:17.477] Onregelmatige werkwoorden
+EN: to catch
+NL: Vangen. Ik vang. Jij vangt. Hij vangt. Wij vangen. Ik ving. Wij vingen. Gevangen.
+
+[29:48.266] Onregelmatige werkwoorden
+EN: to bite
+NL: Bijten. Ik bijt. Jij bijt. Hij bijt. Wij bijten. Ik beet. Wij beten. Gebeten.
+
+[30:22.583] Onregelmatige werkwoorden
+EN: to become
+NL: Worden. Ik word. Jij wordt. Hij wordt. Wij worden. Ik werd. Wij werden. Geworden.
+
+[30:58.294] Onregelmatige werkwoorden
 EN: to be
-NL: Het werkwoord zijn. Tegenwoordige tijd. Ik ben. Jij bent. Hij of zij is. Wij zijn. Onvoltooid verleden tijd. Enkelvoud: was. Meervoud: waren. Voltooid deelwoord: geweest. Hulpwerkwoord: zijn. Nu ben ik thuis. Gisteren was ik thuis. Ik ben thuis geweest.
+NL: Zijn. Ik ben. Jij bent. Hij is. Wij zijn. Ik was. Wij waren. Geweest.
 
-[25:52.443] Onregelmatige werkwoorden
+[31:31.822] Onregelmatige werkwoorden
+EN: to take along
+NL: Meenemen. Ik neem mee. Jij neemt mee. Hij neemt mee. Wij nemen mee. Ik nam mee. Wij namen mee. Meegenomen.
+
+[32:11.480] Onregelmatige werkwoorden
+EN: to arrange; to meet
+NL: Afspreken. Ik spreek af. Jij spreekt af. Hij spreekt af. Wij spreken af. Ik sprak af. Wij spraken af. Afgesproken.
+
+[32:46.587] Onregelmatige werkwoorden
+EN: to get back
+NL: Terugkrijgen. Ik krijg terug. Jij krijgt terug. Hij krijgt terug. Wij krijgen terug. Ik kreeg terug. Wij kregen terug. Teruggekregen.
+
+[33:20.904] Onregelmatige werkwoorden
 EN: to see
-NL: Het werkwoord zien. Tegenwoordige tijd. Ik zie. Jij ziet. Hij of zij ziet. Wij zien. Onvoltooid verleden tijd. Enkelvoud: zag. Meervoud: zagen. Voltooid deelwoord: gezien. Hulpwerkwoord: hebben. Nu zie ik mijn buurman. Gisteren zag ik mijn buurman. Ik heb mijn buurman gezien.
+NL: Zien. Ik zie. Jij ziet. Hij ziet. Wij zien. Ik zag. Wij zagen. Gezien.
 
-[26:47.148] Onregelmatige werkwoorden
+[33:54.432] Onregelmatige werkwoorden
+EN: to disappear
+NL: Verdwijnen. Ik verdwijn. Jij verdwijnt. Hij verdwijnt. Wij verdwijnen. Ik verdween. Wij verdwenen. Verdwenen.
+
+[34:30.375] Onregelmatige werkwoorden
+EN: to hit
+NL: Slaan. Ik sla. Jij slaat. Hij slaat. Wij slaan. Ik sloeg. Wij sloegen. Geslagen.
+
+[35:03.764] Onregelmatige werkwoorden
+EN: to forget
+NL: Vergeten. Ik vergeet. Jij vergeet. Hij vergeet. Wij vergeten. Ik vergat. Wij vergaten. Vergeten.
+
+[35:41.565] Onregelmatige werkwoorden
+EN: to sit
+NL: Zitten. Ik zit. Jij zit. Hij zit. Wij zitten. Ik zat. Wij zaten. Gezeten.
+
+[36:14.582] Onregelmatige werkwoorden
+EN: to go away
+NL: Weggaan. Ik ga weg. Jij gaat weg. Hij gaat weg. Wij gaan weg. Ik ging weg. Wij gingen weg. Weggegaan.
+
+[36:38.172] Onregelmatige werkwoorden
+EN: to come back
+NL: Terugkomen. Ik kom terug. Jij komt terug. Hij komt terug. Wij komen terug. Ik kwam terug. Wij kwamen terug. Teruggekomen.
+
+[37:06.266] Onregelmatige werkwoorden
 EN: to find
-NL: Het werkwoord vinden. Tegenwoordige tijd. Ik vind. Jij vindt. Hij of zij vindt. Wij vinden. Onvoltooid verleden tijd. Enkelvoud: vond. Meervoud: vonden. Voltooid deelwoord: gevonden. Hulpwerkwoord: hebben. Ik vind vaak mooie boeken. Gisteren vond ik een mooi boek. Ik heb een mooi boek gevonden.
+NL: Vinden. Ik vind. Jij vindt. Hij vindt. Wij vinden. Ik vond. Wij vonden. Gevonden.
 
-[27:41.992] Onregelmatige werkwoorden
+[37:36.683] Onregelmatige werkwoorden
+EN: to be lying
+NL: Liggen. Ik lig. Jij ligt. Hij ligt. Wij liggen. Ik lag. Wij lagen. Gelegen.
+
+[38:08.167] Onregelmatige werkwoorden
+EN: to begin
+NL: Beginnen. Ik begin. Jij begint. Hij begint. Wij beginnen. Ik begon. Wij begonnen. Begonnen.
+
+[38:40.534] Onregelmatige werkwoorden
 EN: to do
-NL: Het werkwoord doen. Tegenwoordige tijd. Ik doe. Jij doet. Hij of zij doet. Wij doen. Onvoltooid verleden tijd. Enkelvoud: deed. Meervoud: deden. Voltooid deelwoord: gedaan. Hulpwerkwoord: hebben. Nu doe ik de afwas. Gisteren deed ik de afwas. Ik heb de afwas gedaan.
+NL: Doen. Ik doe. Jij doet. Hij doet. Wij doen. Ik deed. Wij deden. Gedaan.
+
+[39:10.905] Onregelmatige werkwoorden
+EN: to search; to look for
+NL: Zoeken. Ik zoek. Jij zoekt. Hij zoekt. Wij zoeken. Ik zocht. Wij zochten. Gezocht.
+
+[39:43.550] Onregelmatige werkwoorden
+EN: to leave; to depart
+NL: Vertrekken. Ik vertrek. Jij vertrekt. Hij vertrekt. Wij vertrekken. Ik vertrok. Wij vertrokken. Vertrokken.

@@ -61,8 +61,8 @@
       "mode": "recall",
       "order": "mixed",
       "seed": "dutch-irregular-verbs-v1",
-      "item_count": 30,
-      "duration_seconds": 1716.604,
+      "item_count": 75,
+      "duration_seconds": 2419.632,
       "audio": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.mp3",
       "manifest": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.json",
       "text_manifest": "audio/tracks/recall-irregular-verbs-a1-a2-mixed.txt"

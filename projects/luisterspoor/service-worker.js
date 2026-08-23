@@ -1,4 +1,4 @@
-const CACHE_NAME = 'luisterspoor-v4';
+const CACHE_NAME = 'luisterspoor-v5';
 
 const APP_SHELL = [
   './',
@@ -25,11 +25,19 @@ async function trackAssets() {
   return [...assets];
 }
 
+async function cacheReloaded(cache, assets) {
+  for (const asset of assets) {
+    const response = await fetch(asset, { cache: 'reload' });
+    if (!response.ok) throw new Error(`Failed to cache ${asset}: ${response.status}`);
+    await cache.put(asset, response);
+  }
+}
+
 async function precache() {
   const cache = await caches.open(CACHE_NAME);
-  await cache.addAll(APP_SHELL);
+  await cacheReloaded(cache, APP_SHELL);
   const assets = await trackAssets();
-  await cache.addAll(assets);
+  await cacheReloaded(cache, assets);
 }
 
 self.addEventListener('install', (event) => {
