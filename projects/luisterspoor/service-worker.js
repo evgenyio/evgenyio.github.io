@@ -1,4 +1,4 @@
-const CACHE_NAME = 'luisterspoor-v5';
+const CACHE_NAME = 'luisterspoor-v6';
 
 const APP_SHELL = [
   './',

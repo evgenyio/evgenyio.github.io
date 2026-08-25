@@ -1,303 +1,303 @@
 Track: audio/tracks/recall-irregular-verbs-a1-a2-mixed.mp3
-Mode: recall
-Duration: 40:19.632
+Mode: single-pass
+Duration: 19:53.249
 
 [00:00.000] Onregelmatige werkwoorden
-EN: to swim
-NL: Zwemmen. Ik zwem. Jij zwemt. Hij zwemt. Wij zwemmen. Ik zwom. Wij zwommen. Gezwommen.
-
-[00:33.807] Onregelmatige werkwoorden
-EN: to fall
-NL: Vallen. Ik val. Jij valt. Hij valt. Wij vallen. Ik viel. Wij vielen. Gevallen.
-
-[01:06.824] Onregelmatige werkwoorden
-EN: to choose
-NL: Kiezen. Ik kies. Jij kiest. Hij kiest. Wij kiezen. Ik koos. Wij kozen. Gekozen.
-
-[01:30.785] Onregelmatige werkwoorden
-EN: to give back
-NL: Teruggeven. Ik geef terug. Jij geeft terug. Hij geeft terug. Wij geven terug. Ik gaf terug. Wij gaven terug. Teruggegeven.
-
-[02:05.474] Onregelmatige werkwoorden
-EN: can; to be able to
-NL: Kunnen. Ik kan. Jij kunt. Hij kan. Wij kunnen. Ik kon. Wij konden. Gekund.
-
-[02:37.145] Onregelmatige werkwoorden
-EN: to speak
-NL: Spreken. Ik spreek. Jij spreekt. Hij spreekt. Wij spreken. Ik sprak. Wij spraken. Gesproken.
-
-[03:09.744] Onregelmatige werkwoorden
-EN: to lose
-NL: Verliezen. Ik verlies. Jij verliest. Hij verliest. Wij verliezen. Ik verloor. Wij verloren. Verloren.
-
-[03:47.080] Onregelmatige werkwoorden
-EN: to call; to shout
-NL: Roepen. Ik roep. Jij roept. Hij roept. Wij roepen. Ik riep. Wij riepen. Geroepen.
-
-[04:17.775] Onregelmatige werkwoorden
-EN: to drink
-NL: Drinken. Ik drink. Jij drinkt. Hij drinkt. Wij drinken. Ik dronk. Wij dronken. Gedronken.
-
-[04:39.925] Onregelmatige werkwoorden
-EN: to break
-NL: Breken. Ik breek. Jij breekt. Hij breekt. Wij breken. Ik brak. Wij braken. Gebroken.
-
-[05:13.686] Onregelmatige werkwoorden
-EN: to hang
-NL: Hangen. Ik hang. Jij hangt. Hij hangt. Wij hangen. Ik hing. Wij hingen. Gehangen.
-
-[05:46.424] Onregelmatige werkwoorden
-EN: to read
-NL: Lezen. Ik lees. Jij leest. Hij leest. Wij lezen. Ik las. Wij lazen. Gelezen.
-
-[06:21.438] Onregelmatige werkwoorden
-EN: to sleep
-NL: Slapen. Ik slaap. Jij slaapt. Hij slaapt. Wij slapen. Ik sliep. Wij sliepen. Geslapen.
-
-[06:51.808] Onregelmatige werkwoorden
-EN: to participate
-NL: Deelnemen. Ik neem deel. Jij neemt deel. Hij neemt deel. Wij nemen deel. Ik nam deel. Wij namen deel. Deelgenomen.
-
-[07:30.352] Onregelmatige werkwoorden
-EN: to put on
-NL: Aantrekken. Ik trek aan. Jij trekt aan. Hij trekt aan. Wij trekken aan. Ik trok aan. Wij trokken aan. Aangetrokken.
-
-[07:59.654] Onregelmatige werkwoorden
-EN: to take off
-NL: Uittrekken. Ik trek uit. Jij trekt uit. Hij trekt uit. Wij trekken uit. Ik trok uit. Wij trokken uit. Uitgetrokken.
-
-[08:32.950] Onregelmatige werkwoorden
-EN: to hold on
-NL: Vasthouden. Ik houd vast. Jij houdt vast. Hij houdt vast. Wij houden vast. Ik hield vast. Wij hielden vast. Vastgehouden.
-
-[09:11.215] Onregelmatige werkwoorden
-EN: must; to have to
-NL: Moeten. Ik moet. Jij moet. Hij moet. Wij moeten. Ik moest. Wij moesten. Gemoeten.
-
-[09:45.997] Onregelmatige werkwoorden
-EN: to eat
-NL: Eten. Ik eet. Jij eet. Hij eet. Wij eten. Ik at. Wij aten. Gegeten.
-
-[10:18.549] Onregelmatige werkwoorden
-EN: to think
-NL: Denken. Ik denk. Jij denkt. Hij denkt. Wij denken. Ik dacht. Wij dachten. Gedacht.
-
-[10:47.526] Onregelmatige werkwoorden
-EN: to bring
-NL: Brengen. Ik breng. Jij brengt. Hij brengt. Wij brengen. Ik bracht. Wij brachten. Gebracht.
-
-[11:20.404] Onregelmatige werkwoorden
-EN: to sing
-NL: Zingen. Ik zing. Jij zingt. Hij zingt. Wij zingen. Ik zong. Wij zongen. Gezongen.
-
-[11:48.220] Onregelmatige werkwoorden
-EN: to write
-NL: Schrijven. Ik schrijf. Jij schrijft. Hij schrijft. Wij schrijven. Ik schreef. Wij schreven. Geschreven.
-
-[12:23.188] Onregelmatige werkwoorden
-EN: to go out
-NL: Uitgaan. Ik ga uit. Jij gaat uit. Hij gaat uit. Wij gaan uit. Ik ging uit. Wij gingen uit. Uitgegaan.
-
-[12:54.487] Onregelmatige werkwoorden
-EN: to drive
-NL: Rijden. Ik rijd. Jij rijdt. Hij rijdt. Wij rijden. Ik reed. Wij reden. Gereden.
-
-[13:24.021] Onregelmatige werkwoorden
-EN: to hold; to like (houden van)
-NL: Houden. Ik houd. Jij houdt. Hij houdt. Wij houden. Ik hield. Wij hielden. Gehouden.
-
-[13:58.431] Onregelmatige werkwoorden
-EN: to take
-NL: Nemen. Ik neem. Jij neemt. Hij neemt. Wij nemen. Ik nam. Wij namen. Genomen.
-
-[14:31.866] Onregelmatige werkwoorden
-EN: to want
-NL: Willen. Ik wil. Jij wilt. Hij wil. Wij willen. Ik wilde. Wij wilden. Gewild.
-
-[15:05.441] Onregelmatige werkwoorden
-EN: to look; to watch
-NL: Kijken. Ik kijk. Jij kijkt. Hij kijkt. Wij kijken. Ik keek. Wij keken. Gekeken.
-
-[15:36.693] Onregelmatige werkwoorden
-EN: to buy
-NL: Kopen. Ik koop. Jij koopt. Hij koopt. Wij kopen. Ik kocht. Wij kochten. Gekocht.
-
-[16:01.398] Onregelmatige werkwoorden
-EN: to know (a fact)
-NL: Weten. Ik weet. Jij weet. Hij weet. Wij weten. Ik wist. Wij wisten. Geweten.
-
-[16:37.016] Onregelmatige werkwoorden
-EN: to say
-NL: Zeggen. Ik zeg. Jij zegt. Hij zegt. Wij zeggen. Ik zei. Wij zeiden. Gezegd.
-
-[17:03.392] Onregelmatige werkwoorden
-EN: to offer
-NL: Bieden. Ik bied. Jij biedt. Hij biedt. Wij bieden. Ik bood. Wij boden. Geboden.
-
-[17:35.620] Onregelmatige werkwoorden
-EN: to understand
-NL: Begrijpen. Ik begrijp. Jij begrijpt. Hij begrijpt. Wij begrijpen. Ik begreep. Wij begrepen. Begrepen.
-
-[18:07.615] Onregelmatige werkwoorden
-EN: to help
-NL: Helpen. Ik help. Jij helpt. Hij helpt. Wij helpen. Ik hielp. Wij hielpen. Geholpen.
-
-[18:40.911] Onregelmatige werkwoorden
-EN: to have
-NL: Hebben. Ik heb. Jij hebt. Hij heeft. Wij hebben. Ik had. Wij hadden. Gehad.
-
-[19:12.628] Onregelmatige werkwoorden
-EN: may; to be allowed to
-NL: Mogen. Ik mag. Jij mag. Hij mag. Wij mogen. Ik mocht. Wij mochten. Gemogen.
-
-[19:34.825] Onregelmatige werkwoorden
-EN: to arrive
-NL: Aankomen. Ik kom aan. Jij komt aan. Hij komt aan. Wij komen aan. Ik kwam aan. Wij kwamen aan. Aangekomen.
-
-[20:12.671] Onregelmatige werkwoorden
-EN: to carry; to wear
-NL: Dragen. Ik draag. Jij draagt. Hij draagt. Wij dragen. Ik droeg. Wij droegen. Gedragen.
-
-[20:44.388] Onregelmatige werkwoorden
-EN: to let; to leave
-NL: Laten. Ik laat. Jij laat. Hij laat. Wij laten. Ik liet. Wij lieten. Gelaten.
-
-[21:18.799] Onregelmatige werkwoorden
-EN: to fly
-NL: Vliegen. Ik vlieg. Jij vliegt. Hij vliegt. Wij vliegen. Ik vloog. Wij vlogen. Gevlogen.
-
-[21:44.711] Onregelmatige werkwoorden
-EN: to stand
-NL: Staan. Ik sta. Jij staat. Hij staat. Wij staan. Ik stond. Wij stonden. Gestaan.
-
-[22:17.821] Onregelmatige werkwoorden
-EN: to ask
-NL: Vragen. Ik vraag. Jij vraagt. Hij vraagt. Wij vragen. Ik vroeg. Wij vroegen. Gevraagd.
-
-[22:34.027] Onregelmatige werkwoorden
-EN: to close
-NL: Sluiten. Ik sluit. Jij sluit. Hij sluit. Wij sluiten. Ik sloot. Wij sloten. Gesloten.
-
-[23:06.254] Onregelmatige werkwoorden
-EN: to stay
-NL: Blijven. Ik blijf. Jij blijft. Hij blijft. Wij blijven. Ik bleef. Wij bleven. Gebleven.
-
-[23:37.925] Onregelmatige werkwoorden
-EN: to get; to receive
-NL: Krijgen. Ik krijg. Jij krijgt. Hij krijgt. Wij krijgen. Ik kreeg. Wij kregen. Gekregen.
-
-[24:08.713] Onregelmatige werkwoorden
-EN: to give
-NL: Geven. Ik geef. Jij geeft. Hij geeft. Wij geven. Ik gaf. Wij gaven. Gegeven.
-
-[24:43.727] Onregelmatige werkwoorden
-EN: to jump
-NL: Springen. Ik spring. Jij springt. Hij springt. Wij springen. Ik sprong. Wij sprongen. Gesprongen.
-
-[25:18.695] Onregelmatige werkwoorden
-EN: to come home
-NL: Thuiskomen. Ik kom thuis. Jij komt thuis. Hij komt thuis. Wij komen thuis. Ik kwam thuis. Wij kwamen thuis. Thuisgekomen.
-
-[25:56.031] Onregelmatige werkwoorden
-EN: to come
-NL: Komen. Ik kom. Jij komt. Hij komt. Wij komen. Ik kwam. Wij kwamen. Gekomen.
-
-[26:28.676] Onregelmatige werkwoorden
-EN: to go
-NL: Gaan. Ik ga. Jij gaat. Hij gaat. Wij gaan. Ik ging. Wij gingen. Gegaan.
-
-[27:04.526] Onregelmatige werkwoorden
-EN: to win
-NL: Winnen. Ik win. Jij wint. Hij wint. Wij winnen. Ik won. Wij wonnen. Gewonnen.
-
-[27:37.822] Onregelmatige werkwoorden
-EN: to pull
-NL: Trekken. Ik trek. Jij trekt. Hij trekt. Wij trekken. Ik trok. Wij trokken. Getrokken.
-
-[28:07.914] Onregelmatige werkwoorden
-EN: to get up
-NL: Opstaan. Ik sta op. Jij staat op. Hij staat op. Wij staan op. Ik stond op. Wij stonden op. Opgestaan.
-
-[28:45.854] Onregelmatige werkwoorden
-EN: to walk
-NL: Lopen. Ik loop. Jij loopt. Hij loopt. Wij lopen. Ik liep. Wij liepen. Gelopen.
-
-[29:17.477] Onregelmatige werkwoorden
-EN: to catch
-NL: Vangen. Ik vang. Jij vangt. Hij vangt. Wij vangen. Ik ving. Wij vingen. Gevangen.
-
-[29:48.266] Onregelmatige werkwoorden
-EN: to bite
-NL: Bijten. Ik bijt. Jij bijt. Hij bijt. Wij bijten. Ik beet. Wij beten. Gebeten.
-
-[30:22.583] Onregelmatige werkwoorden
-EN: to become
-NL: Worden. Ik word. Jij wordt. Hij wordt. Wij worden. Ik werd. Wij werden. Geworden.
-
-[30:58.294] Onregelmatige werkwoorden
 EN: to be
 NL: Zijn. Ik ben. Jij bent. Hij is. Wij zijn. Ik was. Wij waren. Geweest.
 
-[31:31.822] Onregelmatige werkwoorden
-EN: to take along
-NL: Meenemen. Ik neem mee. Jij neemt mee. Hij neemt mee. Wij nemen mee. Ik nam mee. Wij namen mee. Meegenomen.
+[00:16.386] Onregelmatige werkwoorden
+EN: to have
+NL: Hebben. Ik heb. Jij hebt. Hij heeft. Wij hebben. Ik had. Wij hadden. Gehad.
 
-[32:11.480] Onregelmatige werkwoorden
-EN: to arrange; to meet
-NL: Afspreken. Ik spreek af. Jij spreekt af. Hij spreekt af. Wij spreken af. Ik sprak af. Wij spraken af. Afgesproken.
+[00:31.935] Onregelmatige werkwoorden
+EN: to go
+NL: Gaan. Ik ga. Jij gaat. Hij gaat. Wij gaan. Ik ging. Wij gingen. Gegaan.
 
-[32:46.587] Onregelmatige werkwoorden
-EN: to get back
-NL: Terugkrijgen. Ik krijg terug. Jij krijgt terug. Hij krijgt terug. Wij krijgen terug. Ik kreeg terug. Wij kregen terug. Teruggekregen.
+[00:49.482] Onregelmatige werkwoorden
+EN: can; to be able to
+NL: Kunnen. Ik kan. Jij kunt. Hij kan. Wij kunnen. Ik kon. Wij konden. Gekund.
 
-[33:20.904] Onregelmatige werkwoorden
-EN: to see
-NL: Zien. Ik zie. Jij ziet. Hij ziet. Wij zien. Ik zag. Wij zagen. Gezien.
-
-[33:54.432] Onregelmatige werkwoorden
-EN: to disappear
-NL: Verdwijnen. Ik verdwijn. Jij verdwijnt. Hij verdwijnt. Wij verdwijnen. Ik verdween. Wij verdwenen. Verdwenen.
-
-[34:30.375] Onregelmatige werkwoorden
-EN: to hit
-NL: Slaan. Ik sla. Jij slaat. Hij slaat. Wij slaan. Ik sloeg. Wij sloegen. Geslagen.
-
-[35:03.764] Onregelmatige werkwoorden
-EN: to forget
-NL: Vergeten. Ik vergeet. Jij vergeet. Hij vergeet. Wij vergeten. Ik vergat. Wij vergaten. Vergeten.
-
-[35:41.565] Onregelmatige werkwoorden
-EN: to sit
-NL: Zitten. Ik zit. Jij zit. Hij zit. Wij zitten. Ik zat. Wij zaten. Gezeten.
-
-[36:14.582] Onregelmatige werkwoorden
-EN: to go away
-NL: Weggaan. Ik ga weg. Jij gaat weg. Hij gaat weg. Wij gaan weg. Ik ging weg. Wij gingen weg. Weggegaan.
-
-[36:38.172] Onregelmatige werkwoorden
-EN: to come back
-NL: Terugkomen. Ik kom terug. Jij komt terug. Hij komt terug. Wij komen terug. Ik kwam terug. Wij kwamen terug. Teruggekomen.
-
-[37:06.266] Onregelmatige werkwoorden
-EN: to find
-NL: Vinden. Ik vind. Jij vindt. Hij vindt. Wij vinden. Ik vond. Wij vonden. Gevonden.
-
-[37:36.683] Onregelmatige werkwoorden
-EN: to be lying
-NL: Liggen. Ik lig. Jij ligt. Hij ligt. Wij liggen. Ik lag. Wij lagen. Gelegen.
-
-[38:08.167] Onregelmatige werkwoorden
-EN: to begin
-NL: Beginnen. Ik begin. Jij begint. Hij begint. Wij beginnen. Ik begon. Wij begonnen. Begonnen.
-
-[38:40.534] Onregelmatige werkwoorden
+[01:05.310] Onregelmatige werkwoorden
 EN: to do
 NL: Doen. Ik doe. Jij doet. Hij doet. Wij doen. Ik deed. Wij deden. Gedaan.
 
-[39:10.905] Onregelmatige werkwoorden
+[01:20.117] Onregelmatige werkwoorden
+EN: to want
+NL: Willen. Ik wil. Jij wilt. Hij wil. Wij willen. Ik wilde. Wij wilden. Gewild.
+
+[01:36.548] Onregelmatige werkwoorden
+EN: must; to have to
+NL: Moeten. Ik moet. Jij moet. Hij moet. Wij moeten. Ik moest. Wij moesten. Gemoeten.
+
+[01:53.909] Onregelmatige werkwoorden
+EN: to know (a fact)
+NL: Weten. Ik weet. Jij weet. Hij weet. Wij weten. Ik wist. Wij wisten. Geweten.
+
+[02:11.874] Onregelmatige werkwoorden
+EN: to come
+NL: Komen. Ik kom. Jij komt. Hij komt. Wij komen. Ik kwam. Wij kwamen. Gekomen.
+
+[02:27.888] Onregelmatige werkwoorden
+EN: to say
+NL: Zeggen. Ik zeg. Jij zegt. Hij zegt. Wij zeggen. Ik zei. Wij zeiden. Gezegd.
+
+[02:40.744] Onregelmatige werkwoorden
+EN: to see
+NL: Zien. Ik zie. Jij ziet. Hij ziet. Wij zien. Ik zag. Wij zagen. Gezien.
+
+[02:57.176] Onregelmatige werkwoorden
+EN: to let; to leave
+NL: Laten. Ik laat. Jij laat. Hij laat. Wij laten. Ik liet. Wij lieten. Gelaten.
+
+[03:14.304] Onregelmatige werkwoorden
+EN: to think
+NL: Denken. Ik denk. Jij denkt. Hij denkt. Wij denken. Ik dacht. Wij dachten. Gedacht.
+
+[03:28.461] Onregelmatige werkwoorden
+EN: to become
+NL: Worden. Ik word. Jij wordt. Hij wordt. Wij worden. Ik werd. Wij werden. Geworden.
+
+[03:46.007] Onregelmatige werkwoorden
+EN: to hold; to like (houden van)
+NL: Houden. Ik houd. Jij houdt. Hij houdt. Wij houden. Ik hield. Wij hielden. Gehouden.
+
+[04:03.740] Onregelmatige werkwoorden
+EN: to sit
+NL: Zitten. Ik zit. Jij zit. Hij zit. Wij zitten. Ik zat. Wij zaten. Gezeten.
+
+[04:19.939] Onregelmatige werkwoorden
+EN: to give
+NL: Geven. Ik geef. Jij geeft. Hij geeft. Wij geven. Ik gaf. Wij gaven. Gegeven.
+
+[04:37.068] Onregelmatige werkwoorden
+EN: to find
+NL: Vinden. Ik vind. Jij vindt. Hij vindt. Wij vinden. Ik vond. Wij vonden. Gevonden.
+
+[04:52.014] Onregelmatige werkwoorden
+EN: to look; to watch
+NL: Kijken. Ik kijk. Jij kijkt. Hij kijkt. Wij kijken. Ik keek. Wij keken. Gekeken.
+
+[05:07.656] Onregelmatige werkwoorden
+EN: to get; to receive
+NL: Krijgen. Ik krijg. Jij krijgt. Hij krijgt. Wij krijgen. Ik kreeg. Wij kregen. Gekregen.
+
+[05:23.160] Onregelmatige werkwoorden
+EN: to stand
+NL: Staan. Ik sta. Jij staat. Hij staat. Wij staan. Ik stond. Wij stonden. Gestaan.
+
+[05:39.499] Onregelmatige werkwoorden
+EN: to stay
+NL: Blijven. Ik blijf. Jij blijft. Hij blijft. Wij blijven. Ik bleef. Wij bleven. Gebleven.
+
+[05:55.002] Onregelmatige werkwoorden
+EN: to take
+NL: Nemen. Ik neem. Jij neemt. Hij neemt. Wij nemen. Ik nam. Wij namen. Genomen.
+
+[06:11.387] Onregelmatige werkwoorden
+EN: may; to be allowed to
+NL: Mogen. Ik mag. Jij mag. Hij mag. Wij mogen. Ik mocht. Wij mochten. Gemogen.
+
+[06:22.757] Onregelmatige werkwoorden
+EN: to help
+NL: Helpen. Ik help. Jij helpt. Hij helpt. Wij helpen. Ik hielp. Wij hielpen. Geholpen.
+
+[06:39.050] Onregelmatige werkwoorden
+EN: to ask
+NL: Vragen. Ik vraag. Jij vraagt. Hij vraagt. Wij vragen. Ik vroeg. Wij vroegen. Gevraagd.
+
+[06:46.891] Onregelmatige werkwoorden
+EN: to bring
+NL: Brengen. Ik breng. Jij brengt. Hij brengt. Wij brengen. Ik bracht. Wij brachten. Gebracht.
+
+[07:02.998] Onregelmatige werkwoorden
+EN: to be lying
+NL: Liggen. Ik lig. Jij ligt. Hij ligt. Wij liggen. Ik lag. Wij lagen. Gelegen.
+
+[07:18.501] Onregelmatige werkwoorden
+EN: to understand
+NL: Begrijpen. Ik begrijp. Jij begrijpt. Hij begrijpt. Wij begrijpen. Ik begreep. Wij begrepen. Begrepen.
+
+[07:34.329] Onregelmatige werkwoorden
+EN: to speak
+NL: Spreken. Ik spreek. Jij spreekt. Hij spreekt. Wij spreken. Ik sprak. Wij spraken. Gesproken.
+
+[07:50.343] Onregelmatige werkwoorden
 EN: to search; to look for
 NL: Zoeken. Ik zoek. Jij zoekt. Hij zoekt. Wij zoeken. Ik zocht. Wij zochten. Gezocht.
 
-[39:43.550] Onregelmatige werkwoorden
+[08:06.775] Onregelmatige werkwoorden
+EN: to begin
+NL: Beginnen. Ik begin. Jij begint. Hij begint. Wij beginnen. Ik begon. Wij begonnen. Begonnen.
+
+[08:22.650] Onregelmatige werkwoorden
+EN: to walk
+NL: Lopen. Ik loop. Jij loopt. Hij loopt. Wij lopen. Ik liep. Wij liepen. Gelopen.
+
+[08:38.199] Onregelmatige werkwoorden
+EN: to fall
+NL: Vallen. Ik val. Jij valt. Hij valt. Wij vallen. Ik viel. Wij vielen. Gevallen.
+
+[08:54.399] Onregelmatige werkwoorden
+EN: to forget
+NL: Vergeten. Ik vergeet. Jij vergeet. Hij vergeet. Wij vergeten. Ik vergat. Wij vergaten. Vergeten.
+
+[09:13.014] Onregelmatige werkwoorden
+EN: to eat
+NL: Eten. Ik eet. Jij eet. Hij eet. Wij eten. Ik at. Wij aten. Gegeten.
+
+[09:29.028] Onregelmatige werkwoorden
+EN: to sleep
+NL: Slapen. Ik slaap. Jij slaapt. Hij slaapt. Wij slapen. Ik sliep. Wij sliepen. Geslapen.
+
+[09:43.927] Onregelmatige werkwoorden
+EN: to drink
+NL: Drinken. Ik drink. Jij drinkt. Hij drinkt. Wij drinken. Ik dronk. Wij dronken. Gedronken.
+
+[09:54.693] Onregelmatige werkwoorden
+EN: to drive
+NL: Rijden. Ik rijd. Jij rijdt. Hij rijdt. Wij rijden. Ik reed. Wij reden. Gereden.
+
+[10:09.221] Onregelmatige werkwoorden
+EN: to hit
+NL: Slaan. Ik sla. Jij slaat. Hij slaat. Wij slaan. Ik sloeg. Wij sloegen. Geslagen.
+
+[10:25.607] Onregelmatige werkwoorden
+EN: to write
+NL: Schrijven. Ik schrijf. Jij schrijft. Hij schrijft. Wij schrijven. Ik schreef. Wij schreven. Geschreven.
+
+[10:42.828] Onregelmatige werkwoorden
+EN: to lose
+NL: Verliezen. Ik verlies. Jij verliest. Hij verliest. Wij verliezen. Ik verloor. Wij verloren. Verloren.
+
+[11:01.211] Onregelmatige werkwoorden
+EN: to read
+NL: Lezen. Ik lees. Jij leest. Hij leest. Wij lezen. Ik las. Wij lazen. Gelezen.
+
+[11:18.386] Onregelmatige werkwoorden
+EN: to buy
+NL: Kopen. Ik koop. Jij koopt. Hij koopt. Wij kopen. Ik kocht. Wij kochten. Gekocht.
+
+[11:30.406] Onregelmatige werkwoorden
+EN: to win
+NL: Winnen. Ik win. Jij wint. Hij wint. Wij winnen. Ik won. Wij wonnen. Gewonnen.
+
+[11:46.745] Onregelmatige werkwoorden
+EN: to pull
+NL: Trekken. Ik trek. Jij trekt. Hij trekt. Wij trekken. Ik trok. Wij trokken. Getrokken.
+
+[12:01.459] Onregelmatige werkwoorden
+EN: to carry; to wear
+NL: Dragen. Ik draag. Jij draagt. Hij draagt. Wij dragen. Ik droeg. Wij droegen. Gedragen.
+
+[12:17.333] Onregelmatige werkwoorden
 EN: to leave; to depart
 NL: Vertrekken. Ik vertrek. Jij vertrekt. Hij vertrekt. Wij vertrekken. Ik vertrok. Wij vertrokken. Vertrokken.
+
+[12:35.530] Onregelmatige werkwoorden
+EN: to close
+NL: Sluiten. Ik sluit. Jij sluit. Hij sluit. Wij sluiten. Ik sloot. Wij sloten. Gesloten.
+
+[12:51.358] Onregelmatige werkwoorden
+EN: to break
+NL: Breken. Ik breek. Jij breekt. Hij breekt. Wij breken. Ik brak. Wij braken. Gebroken.
+
+[13:07.930] Onregelmatige werkwoorden
+EN: to hang
+NL: Hangen. Ik hang. Jij hangt. Hij hangt. Wij hangen. Ik hing. Wij hingen. Gehangen.
+
+[13:23.990] Onregelmatige werkwoorden
+EN: to fly
+NL: Vliegen. Ik vlieg. Jij vliegt. Hij vliegt. Wij vliegen. Ik vloog. Wij vlogen. Gevlogen.
+
+[13:36.614] Onregelmatige werkwoorden
+EN: to choose
+NL: Kiezen. Ik kies. Jij kiest. Hij kiest. Wij kiezen. Ik koos. Wij kozen. Gekozen.
+
+[13:48.309] Onregelmatige werkwoorden
+EN: to disappear
+NL: Verdwijnen. Ik verdwijn. Jij verdwijnt. Hij verdwijnt. Wij verdwijnen. Ik verdween. Wij verdwenen. Verdwenen.
+
+[14:06.088] Onregelmatige werkwoorden
+EN: to go away
+NL: Weggaan. Ik ga weg. Jij gaat weg. Hij gaat weg. Wij gaan weg. Ik ging weg. Wij gingen weg. Weggegaan.
+
+[14:17.644] Onregelmatige werkwoorden
+EN: to call; to shout
+NL: Roepen. Ik roep. Jij roept. Hij roept. Wij roepen. Ik riep. Wij riepen. Geroepen.
+
+[14:33.008] Onregelmatige werkwoorden
+EN: to take along
+NL: Meenemen. Ik neem mee. Jij neemt mee. Hij neemt mee. Wij nemen mee. Ik nam mee. Wij namen mee. Meegenomen.
+
+[14:52.644] Onregelmatige werkwoorden
+EN: to sing
+NL: Zingen. Ik zing. Jij zingt. Hij zingt. Wij zingen. Ik zong. Wij zongen. Gezongen.
+
+[15:06.243] Onregelmatige werkwoorden
+EN: to come back
+NL: Terugkomen. Ik kom terug. Jij komt terug. Hij komt terug. Wij komen terug. Ik kwam terug. Wij kwamen terug. Teruggekomen.
+
+[15:20.074] Onregelmatige werkwoorden
+EN: to jump
+NL: Springen. Ik spring. Jij springt. Hij springt. Wij springen. Ik sprong. Wij sprongen. Gesprongen.
+
+[15:37.249] Onregelmatige werkwoorden
+EN: to offer
+NL: Bieden. Ik bied. Jij biedt. Hij biedt. Wij bieden. Ik bood. Wij boden. Geboden.
+
+[15:53.031] Onregelmatige werkwoorden
+EN: to arrive
+NL: Aankomen. Ik kom aan. Jij komt aan. Hij komt aan. Wij komen aan. Ik kwam aan. Wij kwamen aan. Aangekomen.
+
+[16:11.739] Onregelmatige werkwoorden
+EN: to arrange; to meet
+NL: Afspreken. Ik spreek af. Jij spreekt af. Hij spreekt af. Wij spreken af. Ik sprak af. Wij spraken af. Afgesproken.
+
+[16:29.425] Onregelmatige werkwoorden
+EN: to swim
+NL: Zwemmen. Ik zwem. Jij zwemt. Hij zwemt. Wij zwemmen. Ik zwom. Wij zwommen. Gezwommen.
+
+[16:45.996] Onregelmatige werkwoorden
+EN: to get up
+NL: Opstaan. Ik sta op. Jij staat op. Hij staat op. Wij staan op. Ik stond op. Wij stonden op. Opgestaan.
+
+[17:04.657] Onregelmatige werkwoorden
+EN: to catch
+NL: Vangen. Ik vang. Jij vangt. Hij vangt. Wij vangen. Ik ving. Wij vingen. Gevangen.
+
+[17:19.742] Onregelmatige werkwoorden
+EN: to bite
+NL: Bijten. Ik bijt. Jij bijt. Hij bijt. Wij bijten. Ik beet. Wij beten. Gebeten.
+
+[17:36.592] Onregelmatige werkwoorden
+EN: to hold on
+NL: Vasthouden. Ik houd vast. Jij houdt vast. Hij houdt vast. Wij houden vast. Ik hield vast. Wij hielden vast. Vastgehouden.
+
+[17:55.485] Onregelmatige werkwoorden
+EN: to go out
+NL: Uitgaan. Ik ga uit. Jij gaat uit. Hij gaat uit. Wij gaan uit. Ik ging uit. Wij gingen uit. Uitgegaan.
+
+[18:10.849] Onregelmatige werkwoorden
+EN: to put on
+NL: Aantrekken. Ik trek aan. Jij trekt aan. Hij trekt aan. Wij trekken aan. Ik trok aan. Wij trokken aan. Aangetrokken.
+
+[18:25.238] Onregelmatige werkwoorden
+EN: to come home
+NL: Thuiskomen. Ik kom thuis. Jij komt thuis. Hij komt thuis. Wij komen thuis. Ik kwam thuis. Wij kwamen thuis. Thuisgekomen.
+
+[18:43.667] Onregelmatige werkwoorden
+EN: to give back
+NL: Teruggeven. Ik geef terug. Jij geeft terug. Hij geeft terug. Wij geven terug. Ik gaf terug. Wij gaven terug. Teruggegeven.
+
+[19:00.795] Onregelmatige werkwoorden
+EN: to take off
+NL: Uittrekken. Ik trek uit. Jij trekt uit. Hij trekt uit. Wij trekken uit. Ik trok uit. Wij trokken uit. Uitgetrokken.
+
+[19:17.227] Onregelmatige werkwoorden
+EN: to get back
+NL: Terugkrijgen. Ik krijg terug. Jij krijgt terug. Hij krijgt terug. Wij krijgen terug. Ik kreeg terug. Wij kregen terug. Teruggekregen.
+
+[19:34.124] Onregelmatige werkwoorden
+EN: to participate
+NL: Deelnemen. Ik neem deel. Jij neemt deel. Hij neemt deel. Wij nemen deel. Ik nam deel. Wij namen deel. Deelgenomen.
