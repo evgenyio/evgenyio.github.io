@@ -1,0 +1,258 @@
+/*
+  evgeny.io, direction C: Swiss grid + one canvas effect.
+
+  Lineage (notes/design-research.md): 2.5 Swiss / poster for the page, 2.4 "one big effect" for the sea.
+  Palette, decided before any CSS: paper #f4f2ec, ink #141414, muted #63605a. No accent colour.
+  Type: Archivo only, using its width axis. 87.5% width for the name, the headline and the years
+  (continuity with the LinkedIn post images), 100% width for reading text. Weights 400, 500, 600.
+  Sizes live in the custom properties below; nothing else introduces a size.
+*/
+
+:root {
+  --paper: #f4f2ec;
+  --ink: #141414;
+  --muted: #63605a;
+  --hair: #cfcbc2;          /* hairlines between rows */
+  --underline: #a8a49b;     /* resting link underline */
+
+  --max: 1040px;             /* content width; rules and the sea run edge to edge */
+  --margin: clamp(20px, 3vw, 44px);
+  --gutter: clamp(14px, 1.6vw, 24px);
+
+  --fs-h1: clamp(2.35rem, 6.4vw, 5.4rem);
+  --fs-year: clamp(1.5rem, 2vw, 1.875rem);
+  --fs-text: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
+  --fs-dense: 1rem;
+  --fs-small: 0.8125rem;
+
+  --wd-tight: 87.5%;
+  --wd-text: 100%;
+  --lh-h1: 0.95;
+
+  --above: clamp(28px, 4vh, 40px);   /* space above a section rule */
+  --below: 22px;                     /* space between the rule and the label */
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Archivo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-stretch: var(--wd-text);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: var(--fs-text);
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3 { font-weight: 500; font-size: inherit; line-height: inherit; }
+p { text-wrap: pretty; }
+ol, ul { list-style: none; }
+.dim { color: var(--muted); }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-color: var(--underline);
+}
+a:hover { text-decoration-color: currentColor; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decoration: none; }
+
+/* Grid container. On phones it is a plain block; the twelve columns switch on at 721px.
+   The padding grows past --max, so borders on these elements stay full-bleed while the content is centred. */
+.g { padding-inline: max(var(--margin), calc((100% - var(--max)) / 2)); }
+
+/* Header: name first, then where, then how to reach me. Each cell is two lines. */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gutter);
+  padding-block: 16px;
+  border-bottom: 1px solid var(--ink);
+  font-size: var(--fs-small);
+  line-height: 1.35;
+}
+.top p > .dim { display: block; }
+.mark a {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-stretch: var(--wd-tight);
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+.reach > a { text-decoration: none; }
+.reach > a:hover { text-decoration: underline; }
+.where { display: none; }
+.reach { text-align: right; }
+
+/* Hero: the sea fills the first screen; the headline sits on the water, near the horizon */
+.hero {
+  position: relative;
+  height: clamp(380px, 58vh, 760px);
+  border-bottom: 1px solid var(--ink);
+  overflow: hidden;
+}
+.sea {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  background: var(--paper);      /* what shows if the canvas ever resets */
+  overflow: hidden;
+}
+.sea canvas { display: block; width: 100%; height: 100%; background: var(--paper); touch-action: pan-y; }
+.hero > .g {
+  position: relative;
+  height: 100%;
+  padding-top: clamp(28px, 9vh, 88px);
+  pointer-events: none;          /* the water reacts to the pointer through the headline */
+}
+.hero h1 {
+  font-size: var(--fs-h1);
+  font-weight: 500;
+  font-stretch: var(--wd-tight);
+  letter-spacing: -0.035em;
+  line-height: var(--lh-h1);
+  text-wrap: balance;
+  /* a paper halo so the ink stays legible over the lines */
+  text-shadow: 0 0 3px var(--paper), 0 0 8px var(--paper), 0 0 18px var(--paper), 0 0 30px var(--paper);
+}
+.no-js .sea { display: none; }
+
+/* The year counter: a strip of numbers that rolls once on load and stops at the current count */
+.count {
+  display: inline-block;
+  position: relative;
+  height: calc(1em * var(--lh-h1));
+  width: 2ch;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+.count .strip { display: block; will-change: transform; }
+.count .strip > span { display: block; height: calc(1em * var(--lh-h1)); line-height: var(--lh-h1); }
+.count.roll .strip { transition: transform 1.6s cubic-bezier(0.1, 0.8, 0.15, 1); }
+@media (prefers-reduced-motion: reduce) { .count.roll .strip { transition: none; } }
+
+/* Intro */
+.intro { padding-block: clamp(28px, 5vh, 56px) var(--above); }
+.intro > p { max-width: 62ch; }
+
+/* Labelled sections: a rule, a label, then the material. A little more air above a rule than below it,
+   so the rule reads as the start of what follows, but the two never differ by more than about two to one. */
+.work, .projects, .now, .contact { border-top: 1px solid var(--ink); padding-top: var(--below); }
+.projects, .now, .contact { margin-top: var(--above); }
+.label h2 { font-weight: 500; }
+.label .dim { font-size: var(--fs-small); }
+
+/* Work: the heavy block. Big tabular years, tight rows. */
+.work ol { margin-top: 20px; }
+.work li { padding-block: 16px; border-top: 1px solid var(--hair); }
+.work li:first-child { border-top: 0; padding-top: 4px; }
+.work li:last-child { padding-bottom: 0; }
+.yrs {
+  font-size: var(--fs-year);
+  font-weight: 400;
+  font-stretch: var(--wd-tight);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.co { margin-top: 10px; }
+.co h3 { font-weight: 500; }
+.co p { font-size: var(--fs-small); color: var(--muted); margin-top: 2px; }
+.what { margin-top: 8px; font-size: var(--fs-dense); line-height: 1.4; }
+
+/* Side projects: tighter still */
+.projects ul { margin-top: 20px; font-size: var(--fs-dense); line-height: 1.4; }
+.projects li { padding-block: 10px; border-top: 1px solid var(--hair); }
+.projects li:first-child { border-top: 0; padding-top: 4px; }
+.projects h3 { font-weight: 500; }
+
+/* Now */
+.now dl { margin-top: 20px; }
+.now dt { font-size: var(--fs-small); color: var(--muted); padding-top: 14px; border-top: 1px solid var(--hair); }
+.now dt:first-child { border-top: 0; padding-top: 4px; }
+.now dd { margin-top: 4px; padding-bottom: 14px; max-width: 58ch; }
+.now dd:last-of-type { padding-bottom: 0; }
+
+/* Contact: one line, and it is the end of the page */
+.contact { padding-bottom: clamp(48px, 10vh, 120px); }
+.contact > p { margin-top: 20px; }
+
+
+/* The twelve-column grid, from 721px up */
+@media (min-width: 721px) {
+  .g {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--gutter);
+    align-items: start;
+  }
+
+  .top { padding-block: 16px; align-items: center; }
+  .hero { height: clamp(460px, 72vh, 760px); }
+  .mark { grid-column: 1 / 5; }
+  .where { display: block; grid-column: 5 / 9; }
+  .reach { grid-column: 9 / 13; text-align: right; }
+
+  .hero > .g { display: grid; }
+  .hero h1 { grid-column: 1 / 13; text-wrap: initial; }
+
+  .intro > p { grid-column: 1 / 8; }
+
+  .label { grid-column: 1 / 3; }
+
+  .work ol { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
+  .work li { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; align-items: baseline; padding-block: 18px; }
+  .work li:first-child { padding-top: 0; }
+  .work li:last-child { padding-bottom: 0; }
+  .yrs { grid-column: 1 / 3; }
+  .co { grid-column: 3 / 6; margin-top: 0; }
+  .what { grid-column: 6 / 11; margin-top: 0; }
+
+  .projects ul { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
+  .projects li { grid-column: span 5; display: grid; grid-template-columns: subgrid; column-gap: var(--gutter); padding-block: 12px; }
+  .projects li:nth-child(-n + 2) { border-top: 0; padding-top: 0; }
+  .projects h3 { grid-column: 1 / 3; }
+  .projects li p { grid-column: 3 / 6; }
+
+  .now dl { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
+  .now dt { grid-column: 1 / 3; padding-block: 14px; }
+  .now dd { grid-column: 3 / 9; padding-block: 14px; margin-top: 0; border-top: 1px solid var(--hair); }
+  .now dt:first-child, .now dt:first-child + dd { border-top: 0; padding-top: 0; }
+  .now dd:last-of-type { padding-bottom: 0; }
+
+  .contact > p { grid-column: 3 / 13; margin-top: 0; }
+
+}
+
+/* Between tablet and desktop the columns are narrow: wider text, projects in one column */
+@media (min-width: 721px) and (max-width: 1023px) {
+  .intro > p { grid-column: 1 / 9; }
+  .what { grid-column: 6 / 11; }
+  .now dd { grid-column: 3 / 11; }
+  .projects li { grid-column: 1 / -1; }
+  .projects li:nth-child(-n + 2) { border-top: 1px solid var(--hair); padding-top: 12px; }
+  .projects li:first-child { border-top: 0; padding-top: 0; }
+  .projects h3 { grid-column: 1 / 4; }
+  .projects li p { grid-column: 4 / 11; }
+}
+
+@media print {
+  html { background: #fff; color: #000; }
+  .sea { display: none; }
+  .hero { height: auto; padding-block: 24px; }
+  .hero h1 { text-shadow: none; }
+  .top, .work, .projects, .now, .contact { border-color: #000; }
+  a { text-decoration-color: #000; }
+  .work li, .projects li { break-inside: avoid; }
+  .yrs { font-size: 1.25rem; white-space: nowrap; }
+}
