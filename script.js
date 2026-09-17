@@ -105,7 +105,7 @@
   var INK = [20 / 255, 20 / 255, 20 / 255];
   var SEA = [[152 / 255, 178 / 255, 190 / 255], [22 / 255, 118 / 255, 140 / 255], [22 / 255, 44 / 255, 118 / 255]];   /* far haze, middle teal, near indigo */
   var ACCENT = [1, 128 / 255, 62 / 255];                        /* the light under the pointer */
-  var SUN = 0.75;                                               /* how strong that light gets, 0..1 */
+  var SUN = 1.5;                                                /* how strong that light gets; over 1 it saturates near the pointer */
   var FOAM = 0.5;                                               /* crest height above which a row gets its pale pass */
   var mono = /[?&]ink\b/.test(location.search);
 
@@ -118,14 +118,14 @@
   var KX = [1.0, 2.4, 6.0];      /* x frequency per world unit, per octave (scaled by aspect) */
   var KZ = [0.09, 0.2, 0.36];    /* depth frequency per row, per octave */
   var KW = [0.62, 0.24, 0.08];   /* octave weights */
-  var BUMP = 14;                 /* pointer swell, px at the foreground; a broad, soft mound */
+  var BUMP = 10;                 /* pointer swell, px at the foreground; a broad, soft mound */
 
   /* The wake: small rings shed every few px of pointer travel, overlapping into one continuous trail */
   var RING_GAP = 9;              /* px of travel between rings */
   var RING_SPEED = 180;          /* px per second */
   var RING_WIDTH = 30;           /* px, half-width of the ring profile */
   var RING_LIFE = 2.0;           /* seconds */
-  var RING_AMP = 6;              /* px at the foreground for a ring of size 1; a wake is the sum of many */
+  var RING_AMP = 4.5;            /* px at the foreground for a ring of size 1; a wake is the sum of many */
   var MAX_RINGS = 64;
   var TAP = 4;                   /* size of the ring a click or a tap drops */
   var PROF_U = 2.4;              /* the ring profile exp(-u^2) cos(2.4u) lives in |u| < PROF_U */
@@ -223,7 +223,7 @@
     '      float sdy = (yb - uPointer.y) * 1.15;',
     '      float sun = uStrength * depth * exp(-sdy * sdy * uSunInvY);',
     '      float g = clamp(1.0 - abs(x - uPointer.x) / uSunW, 0.0, 1.0);',
-    '      col = mix(col, uAccent, min(1.0, sun * SUN) * m * g);',
+    '      col = mix(col, uAccent, min(1.0, sun * SUN) * (0.35 + 0.65 * m) * g);',   /* the far rows are pale, but the light still reaches them */
     /* light on the crests: the high parts of the row, paler and a little wider */
     '      float f = smoothstep(FOAM - 0.1, FOAM + 0.1, h) * step(0.25, t);',
     '      col = mix(col, mix(uPaper, hue, m * 0.32), f);',

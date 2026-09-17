@@ -68,30 +68,29 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decor
    The padding grows past --max, so borders on these elements stay full-bleed while the content is centred. */
 .g { padding-inline: max(var(--margin), calc((100% - var(--max)) / 2)); }
 
-/* Header: name first, then where, then how to reach me. Each cell is two lines. */
+/* Header: one line. The name (with the role, where there is room), where I am, how to reach me. */
 .top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   gap: var(--gutter);
-  padding-block: 16px;
+  padding-block: 14px;
   border-bottom: 1px solid var(--ink);
   font-size: var(--fs-small);
   line-height: 1.35;
+  white-space: nowrap;
 }
-.top p > .dim { display: block; }
 .mark a {
-  display: inline-block;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 600;
   font-stretch: var(--wd-tight);
   letter-spacing: -0.02em;
   text-decoration: none;
-  margin-bottom: 2px;
 }
-.reach > a { text-decoration: none; }
-.reach > a:hover { text-decoration: underline; }
-.where { display: none; }
+.role { display: none; margin-left: 12px; }
+.reach a { text-decoration: none; }
+.reach a:hover { text-decoration: underline; }
+.where, .links { display: none; }
 .reach { text-align: right; }
 
 /* Hero: the sea fills the first screen; the headline sits on the water, near the horizon */
@@ -145,6 +144,7 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decor
 /* Intro */
 .intro { padding-block: clamp(28px, 5vh, 56px) var(--above); }
 .intro > p { max-width: 62ch; }
+.intro b { font-weight: 500; }   /* the employers, a step up from the text, not shouting */
 
 /* Labelled sections: a rule, a label, then the material. A little more air above a rule than below it,
    so the rule reads as the start of what follows, but the two never differ by more than about two to one. */
@@ -183,9 +183,9 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decor
 .now dd { margin-top: 4px; padding-bottom: 14px; max-width: 58ch; }
 .now dd:last-of-type { padding-bottom: 0; }
 
-/* Contact: one line, and it is the end of the page */
-.contact { padding-bottom: clamp(48px, 10vh, 120px); }
-.contact > p { margin-top: 20px; }
+/* Contact: three links with air between them, and it is the end of the page */
+.contact { padding-bottom: clamp(32px, 5vh, 56px); }
+.contact ul { margin-top: 20px; display: flex; flex-wrap: wrap; column-gap: clamp(28px, 4vw, 56px); row-gap: 10px; }
 
 
 /* The twelve-column grid, from 721px up */
@@ -197,10 +197,11 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decor
     align-items: start;
   }
 
-  .top { padding-block: 16px; align-items: center; }
+  .top { padding-block: 14px; align-items: baseline; }
   .hero { height: clamp(460px, 72vh, 760px); }
   .mark { grid-column: 1 / 5; }
   .where { display: block; grid-column: 5 / 9; }
+  .links { display: inline; }
   .reach { grid-column: 9 / 13; text-align: right; }
 
   .hero > .g { display: grid; }
@@ -230,9 +231,12 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decor
   .now dt:first-child, .now dt:first-child + dd { border-top: 0; padding-top: 0; }
   .now dd:last-of-type { padding-bottom: 0; }
 
-  .contact > p { grid-column: 3 / 13; margin-top: 0; }
+  .contact ul { grid-column: 3 / 13; margin-top: 0; }
 
 }
+
+/* Room for the role next to the name */
+@media (min-width: 1024px) { .role { display: inline; } }
 
 /* Between tablet and desktop the columns are narrow: wider text, projects in one column */
 @media (min-width: 721px) and (max-width: 1023px) {
