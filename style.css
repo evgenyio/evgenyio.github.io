@@ -13,9 +13,11 @@
   or in italic, rules are in ink. A click on the water moves the pen on to its next ink (--sea-lights). The
   sea is script.js, set up by the --sea-* properties on .sea below.
 
-  Layout: one left edge. The header, the headline, the intro and every section start at it; text runs in
-  one column of 760 px, running text in a 35em measure; the work history is dimensioned on one scale,
-  2012 to now, across that column, and the scale stays pinned while the jobs scroll past.
+  Layout: one column. The header, the headline, the lead, the scale and every section share its left and
+  right edges. It is 840px wide and grows with the screen from about 1600px, to 1120px; the headline grows
+  with it, its first line filling the column, and so does the lead, which keeps about 64 characters a line.
+  Running text keeps a 35em measure. The sea runs edge to edge. The work history is dimensioned on one
+  scale, 2012 to now, across the column, and the scale stays pinned while the jobs scroll past.
 */
 
 @font-face { font-family: Piazzolla; src: url(fonts/Piazzolla-VF.woff2) format('woff2'); font-weight: 300 500; font-display: swap; }
@@ -27,14 +29,14 @@
   --wet: #1f4fc4;           /* wet ink */
   --wet-tint: #dde5fa;      /* selection */
 
-  --wrap: 960px;            /* the page: header, headline */
-  --col: 760px;             /* the column: the lead, the scale */
+  --wrap: clamp(840px, 52vw, 1120px);   /* the column: header, headline, lead, scale, sections */
+  --col: var(--wrap);
   --measure: 35em;          /* running text, about 70 characters a line */
   --margin: clamp(20px, 6vw, 96px);
 
   --fs-h1: clamp(2.5rem, 1.2rem + 5.2vw, 5.25rem);
   --lh-h1: 1.03;
-  --fs-lead: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --fs-lead: max(clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem), min(1.5vw, 2rem));   /* grows again past 1600px */
   --fs-h2: clamp(1.625rem, 1.3rem + 1vw, 2.125rem);
   --fs-h3: 1.3125rem;
   --fs-text: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
@@ -109,8 +111,6 @@ a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decor
 .hero {
   --floor: 44px;
   position: relative;
-  max-width: 1680px;
-  margin-inline: auto;
   height: calc(clamp(260px, 38vh, 360px) + var(--floor));
   overflow: hidden;
 }
@@ -149,7 +149,7 @@ a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decor
   pointer-events: none;          /* the water reacts to the pointer through the headline */
 }
 .hero h1 {
-  font-size: var(--fs-h1);
+  font-size: min(var(--fs-h1), calc(var(--wrap) / 11));   /* never wider than the column */
   font-weight: 300;
   line-height: var(--lh-h1);
   letter-spacing: -0.012em;
@@ -182,7 +182,7 @@ a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decor
 
 /* Intro: the lead */
 .intro { padding-top: clamp(8px, 2vh, 24px); }   /* the paper under the sea is most of the gap */
-.intro p { max-width: var(--col); font-size: var(--fs-lead); line-height: 1.45; }
+.intro p { max-width: min(var(--col), 30em); font-size: var(--fs-lead); line-height: 1.45; }   /* about 64 characters a line */
 
 /* Sections: a heading in italic, then the material, all from the same edge */
 .work, .projects, .next, .contact { margin-top: var(--section); }
@@ -359,6 +359,9 @@ h2 { font-size: var(--fs-h2); font-style: italic; line-height: 1.15; }
 
 /* Room for the role next to the name */
 @media (min-width: 1024px) { .top .role { display: inline; } }
+
+/* From 1200px the headline's first line fills the column, however wide the column grows */
+@media (min-width: 1200px) { :root { --fs-h1: calc(var(--wrap) / 11); } }
 
 @media print {
   .sea { display: none; }
