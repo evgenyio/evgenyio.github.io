@@ -1,36 +1,47 @@
 /*
-  evgeny.io, direction C: Swiss grid + one canvas effect.
+  evgeny.io, set like a well-made book: one serif, one ink, one left edge.
 
-  Lineage (notes/design-research.md): 2.5 Swiss / poster for the page, 2.4 "one big effect" for the sea.
-  Palette, decided before any CSS: paper #f4f2ec, ink #141414, muted #63605a. No accent colour.
-  Type: Archivo only, using its width axis. 87.5% width for the name, the headline and the years
-  (continuity with the LinkedIn post images), 100% width for reading text. Weights 400, 500, 600.
-  Sizes live in the custom properties below; nothing else introduces a size.
+  Type: Piazzolla by Juan Pablo del Peral (Huerta Tipográfica, OFL, see fonts/OFL.txt), a compact text face
+  with optical sizes 8–30. Light at display size, italic as the second voice, real small caps for acronyms,
+  text figures in prose, lining tabular figures wherever years are measured. Project names in italic, as
+  titles of works.
+
+  Colour: white paper and one ink, blue-black iron-gall ink, in its two states. Wet, it is blue (the dye
+  that shows until the iron oxidises); dry, it is near-black. Everything still being drawn is wet: the far
+  rows of the sea (a row is laid down at the horizon and dries as it comes towards you), the current job,
+  the year counter while it rolls. Everything else is dry. No greys anywhere: secondary text is set smaller
+  or in italic, rules are in ink. A click on the water moves the pen on to its next ink (--sea-lights). The
+  sea is script.js, set up by the --sea-* properties on .sea below.
+
+  Layout: one left edge. The header, the headline, the intro and every section start at it; text runs in
+  one column of 760 px, running text in a 35em measure; the work history is dimensioned on one scale,
+  2012 to now, across that column, and the scale stays pinned while the jobs scroll past.
 */
 
+@font-face { font-family: Piazzolla; src: url(fonts/Piazzolla-VF.woff2) format('woff2'); font-weight: 300 500; font-display: swap; }
+@font-face { font-family: Piazzolla; src: url(fonts/Piazzolla-Italic-VF.woff2) format('woff2'); font-weight: 300 500; font-style: italic; font-display: swap; }
+
 :root {
-  --paper: #f4f2ec;
-  --ink: #141414;
-  --muted: #63605a;
-  --hair: #cfcbc2;          /* hairlines between rows */
-  --underline: #a8a49b;     /* resting link underline */
+  --paper: #ffffff;
+  --ink: #101217;           /* dry ink */
+  --wet: #1f4fc4;           /* wet ink */
+  --wet-tint: #dde5fa;      /* selection */
 
-  --max: 1040px;             /* content width; rules and the sea run edge to edge */
-  --margin: clamp(20px, 3vw, 44px);
-  --gutter: clamp(14px, 1.6vw, 24px);
+  --wrap: 960px;            /* the page: header, headline */
+  --col: 760px;             /* the column: the lead, the scale */
+  --measure: 35em;          /* running text, about 70 characters a line */
+  --margin: clamp(20px, 6vw, 96px);
 
-  --fs-h1: clamp(2.35rem, 6.4vw, 5.4rem);
-  --fs-year: clamp(1.5rem, 2vw, 1.875rem);
-  --fs-text: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
-  --fs-dense: 1rem;
-  --fs-small: 0.8125rem;
+  --fs-h1: clamp(2.5rem, 1.2rem + 5.2vw, 5.25rem);
+  --lh-h1: 1.03;
+  --fs-lead: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --fs-h2: clamp(1.625rem, 1.3rem + 1vw, 2.125rem);
+  --fs-h3: 1.3125rem;
+  --fs-text: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --fs-small: 0.9375rem;
+  --fs-scale: 0.8125rem;
 
-  --wd-tight: 87.5%;
-  --wd-text: 100%;
-  --lh-h1: 0.95;
-
-  --above: clamp(28px, 4vh, 40px);   /* space above a section rule */
-  --below: 22px;                     /* space between the rule and the label */
+  --section: clamp(64px, 10vh, 112px);   /* space above a section */
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -38,225 +49,320 @@
 html {
   background: var(--paper);
   color: var(--ink);
-  font-family: Archivo, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-stretch: var(--wd-text);
+  font-family: Piazzolla, 'Iowan Old Style', Georgia, serif;
+  font-optical-sizing: auto;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
   font-size: var(--fs-text);
-  line-height: 1.45;
-  font-variant-numeric: tabular-nums;
+  line-height: 1.55;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-kerning: normal;
 }
+::selection { background: var(--wet-tint); color: var(--ink); }
 
-h1, h2, h3 { font-weight: 500; font-size: inherit; line-height: inherit; }
-p { text-wrap: pretty; }
+h1, h2, h3 { font-weight: 400; font-size: inherit; line-height: inherit; }
+p, dd { text-wrap: pretty; }
 ol, ul { list-style: none; }
-.dim { color: var(--muted); }
+em { font-style: italic; }
+b { font-weight: 500; }
+abbr { text-decoration: none; font-variant-caps: all-small-caps; letter-spacing: 0.035em; }
 
 a {
   color: inherit;
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.16em;
-  text-decoration-color: var(--underline);
+  text-underline-offset: 0.19em;
+  text-decoration-color: var(--wet);
 }
-a:hover { text-decoration-color: currentColor; }
-a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; text-decoration: none; }
+a:hover { color: var(--wet); }
+a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decoration: none; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }   /* the header's “open to remote” scrolls down to Next */
 
-/* Grid container. On phones it is a plain block; the twelve columns switch on at 721px.
-   The padding grows past --max, so borders on these elements stay full-bleed while the content is centred. */
-.g { padding-inline: max(var(--margin), calc((100% - var(--max)) / 2)); }
+/* One left edge for everything */
+.wrap { width: min(100% - 2 * var(--margin), var(--wrap)); margin-inline: auto; }
 
-/* Header: one line. The name (with the role, where there is room), where I am, how to reach me. */
+/* Header: name and role on the left, where and how to reach on the right, all on one baseline */
 .top {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: var(--gutter);
-  padding-block: 14px;
-  border-bottom: 1px solid var(--ink);
+  column-gap: 24px;
+  padding-block: 20px 18px;
   font-size: var(--fs-small);
-  line-height: 1.35;
+  line-height: 1.3;
   white-space: nowrap;
 }
-.mark a {
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-stretch: var(--wd-tight);
-  letter-spacing: -0.02em;
-  text-decoration: none;
-}
-.role { display: none; margin-left: 12px; }
-.reach a { text-decoration: none; }
-.reach a:hover { text-decoration: underline; }
+.top p { white-space: nowrap; }
+.mark a { font-size: 1.25rem; font-weight: 500; text-decoration: none; }
+.mark a:hover { color: inherit; text-decoration: underline; text-decoration-color: var(--wet); }
+.top .role, .where { font-style: italic; }
+.top .role { display: none; margin-left: 14px; }
 .where, .links { display: none; }
-.reach { text-align: right; }
+.reach a { text-decoration: none; }
+.reach a:hover { color: inherit; text-decoration: underline; text-decoration-color: var(--wet); }
+.where { margin-right: 28px; }
+.links a { margin-left: 18px; }
 
-/* Hero: the sea fills the first screen; the headline sits on the water, near the horizon */
+/* Hero: the sea, the headline on the water near the horizon. No rule under it: the sea keeps --floor of paper
+   below its front row, so the last wave is drawn whole and is where the sea ends */
 .hero {
+  --floor: 44px;
   position: relative;
-  height: clamp(380px, 58vh, 760px);
-  border-bottom: 1px solid var(--ink);
+  max-width: 1680px;
+  margin-inline: auto;
+  height: calc(clamp(260px, 38vh, 360px) + var(--floor));
   overflow: hidden;
 }
 .sea {
   position: absolute;
   inset: 0;
   margin: 0;
-  background: var(--paper);      /* what shows if the canvas ever resets */
+  background: var(--paper);
   overflow: hidden;
+  --sea-paper: #ffffff;
+  --sea-far: var(--wet);        /* laid down wet at the horizon */
+  --sea-mid: #16307a;           /* half dry */
+  --sea-near: #101217;          /* dry, the same ink as the text */
+  --sea-light: var(--wet);
+  /* a click fills the pen with the next ink: vermilion, violet, turquoise, magenta, and back to the blue */
+  --sea-lights: #1f4fc4 #e5422b #6a3bd4 #0a9cb4 #d4196f;
+  --sea-dry-from: 0.42;
+  --sea-dry-to: 0.92;
+  --sea-fade: 0.46;
+  --sea-haze: 0.14;
+  --sea-crest: #1f4fc4;         /* the crests stay wet */
+  --sea-foam: 0.6;
+  --sea-glow: 0.34;             /* only the rings a click drops carry colour */
+  --sea-wake-glow: 0;
+  --sea-wake: 0.3;              /* moving the pointer barely stirs the water */
+  --sea-bump: 3;
+  --sea-sun: 0;
+  --sea-width: 1;
+  --sea-floor: var(--floor);
 }
 .sea canvas { display: block; width: 100%; height: 100%; background: var(--paper); touch-action: pan-y; }
-.hero > .g {
+.hero > .wrap {
   position: relative;
   height: 100%;
-  padding-top: clamp(28px, 9vh, 88px);
+  padding-top: clamp(26px, 7vh, 72px);
   pointer-events: none;          /* the water reacts to the pointer through the headline */
 }
 .hero h1 {
   font-size: var(--fs-h1);
-  font-weight: 500;
-  font-stretch: var(--wd-tight);
-  letter-spacing: -0.035em;
+  font-weight: 300;
   line-height: var(--lh-h1);
+  letter-spacing: -0.012em;
   text-wrap: balance;
   /* a paper halo so the ink stays legible over the lines */
-  text-shadow: 0 0 3px var(--paper), 0 0 8px var(--paper), 0 0 18px var(--paper), 0 0 30px var(--paper);
+  text-shadow: 0 0 2px var(--paper), 0 0 6px var(--paper), 0 0 14px var(--paper), 0 0 26px var(--paper);
 }
+.hero h1 em { font-weight: 300; }
 .no-js .sea { display: none; }
+.no-js .hero { height: auto; }                           /* no sea: no empty water under the headline */
+.no-js .hero > .wrap { padding-bottom: clamp(32px, 6vh, 64px); }
 
 /* The year counter: a strip of numbers that rolls once on load and stops at the current count */
 .count {
   display: inline-block;
   position: relative;
   height: calc(1em * var(--lh-h1));
-  width: 2ch;
   overflow: hidden;
   vertical-align: top;
   text-align: left;
+  font-variant-numeric: lining-nums tabular-nums;
+  transition: color 1.8s ease 0.9s;
 }
 .count .strip { display: block; will-change: transform; }
 .count .strip > span { display: block; height: calc(1em * var(--lh-h1)); line-height: var(--lh-h1); }
 .count.roll .strip { transition: transform 1.6s cubic-bezier(0.1, 0.8, 0.15, 1); }
-@media (prefers-reduced-motion: reduce) { .count.roll .strip { transition: none; } }
+/* the number is written in wet ink and dries as it settles */
+@media (prefers-reduced-motion: no-preference) { .js .count:not(.roll) { color: var(--wet); } }
+@media (prefers-reduced-motion: reduce) { .count.roll .strip { transition: none; } .count { transition: none; } }
 
-/* Intro */
-.intro { padding-block: clamp(28px, 5vh, 56px) var(--above); }
-.intro > p { max-width: 62ch; }
-.intro b { font-weight: 500; }   /* the employers, a step up from the text, not shouting */
+/* Intro: the lead */
+.intro { padding-top: clamp(8px, 2vh, 24px); }   /* the paper under the sea is most of the gap */
+.intro p { max-width: var(--col); font-size: var(--fs-lead); line-height: 1.45; }
 
-/* Labelled sections: a rule, a label, then the material. A little more air above a rule than below it,
-   so the rule reads as the start of what follows, but the two never differ by more than about two to one. */
-.work, .projects, .now, .contact { border-top: 1px solid var(--ink); padding-top: var(--below); }
-.projects, .now, .contact { margin-top: var(--above); }
-.label h2 { font-weight: 500; }
-.label .dim { font-size: var(--fs-small); }
+/* Sections: a heading in italic, then the material, all from the same edge */
+.work, .projects, .next, .contact { margin-top: var(--section); }
+h2 { font-size: var(--fs-h2); font-style: italic; line-height: 1.15; }
 
-/* Work: the heavy block. Big tabular years, tight rows. */
-.work ol { margin-top: 20px; }
-.work li { padding-block: 16px; border-top: 1px solid var(--hair); }
-.work li:first-child { border-top: 0; padding-top: 4px; }
-.work li:last-child { padding-bottom: 0; }
-.yrs {
-  font-size: var(--fs-year);
-  font-weight: 400;
-  font-stretch: var(--wd-tight);
-  letter-spacing: -0.02em;
-  line-height: 1;
-}
-.co { margin-top: 10px; }
-.co h3 { font-weight: 500; }
-.co p { font-size: var(--fs-small); color: var(--muted); margin-top: 2px; }
-.what { margin-top: 8px; font-size: var(--fs-dense); line-height: 1.4; }
+/* Work. On phones, the years as plain labels; from 721px, a scale and a dimension line per job. */
+.work { --span: 15; --now: 14.72; }
+.scale { display: none; }
+.work ol { max-width: var(--col); margin-top: 8px; }
+.work li { padding-top: 26px; }
+.dim { position: relative; }
+.dim i { display: none; }
+.yrs { font-style: italic; font-variant-numeric: lining-nums tabular-nums; line-height: 1.3; }
+.open .yrs { color: var(--wet); }
+.yrs .y, .yrs .md, .dim .hit { display: none; }   /* phones: the months are the label, there is no hover */
+.work h3 { margin-top: 2px; font-size: var(--fs-h3); font-weight: 500; line-height: 1.3; }
+.work .role { margin-top: 1px; font-size: var(--fs-small); font-style: italic; line-height: 1.4; }
+.what { max-width: var(--measure); margin-top: 8px; }
 
-/* Side projects: tighter still */
-.projects ul { margin-top: 20px; font-size: var(--fs-dense); line-height: 1.4; }
-.projects li { padding-block: 10px; border-top: 1px solid var(--hair); }
-.projects li:first-child { border-top: 0; padding-top: 4px; }
-.projects h3 { font-weight: 500; }
+/* Side projects: titles of works, in italic */
+.projects ul { max-width: var(--col); margin-top: 14px; }
+.projects li + li { margin-top: 14px; }
+.projects h3 { font-size: var(--fs-h3); font-style: italic; line-height: 1.3; }
+.projects li p { max-width: var(--measure); margin-top: 1px; }
+.more { max-width: var(--col); margin-top: 20px; font-style: italic; }
 
-/* Now */
-.now dl { margin-top: 20px; }
-.now dt { font-size: var(--fs-small); color: var(--muted); padding-top: 14px; border-top: 1px solid var(--hair); }
-.now dt:first-child { border-top: 0; padding-top: 4px; }
-.now dd { margin-top: 4px; padding-bottom: 14px; max-width: 58ch; }
-.now dd:last-of-type { padding-bottom: 0; }
+/* Next */
+.next dl { max-width: var(--col); margin-top: 14px; }
+.next dt { font-style: italic; font-size: var(--fs-small); margin-top: 18px; }
+.next dt:first-child { margin-top: 0; }
+.next dd { max-width: var(--measure); margin-top: 1px; }
 
-/* Contact: three links with air between them, and it is the end of the page */
-.contact { padding-bottom: clamp(32px, 5vh, 56px); }
-.contact ul { margin-top: 20px; display: flex; flex-wrap: wrap; column-gap: clamp(28px, 4vw, 56px); row-gap: 10px; }
+/* Contact, and the end of the page */
+.contact { padding-bottom: clamp(40px, 7vh, 72px); }
+.contact ul { margin-top: 12px; display: flex; flex-wrap: wrap; column-gap: 36px; row-gap: 4px; font-size: var(--fs-lead); line-height: 1.4; }
 
 
-/* The twelve-column grid, from 721px up */
+/* From 721px: the header gets its middle, the work history gets its scale */
 @media (min-width: 721px) {
-  .g {
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    column-gap: var(--gutter);
-    align-items: start;
-  }
-
-  .top { padding-block: 14px; align-items: baseline; }
-  .hero { height: clamp(460px, 72vh, 760px); }
-  .mark { grid-column: 1 / 5; }
-  .where { display: block; grid-column: 5 / 9; }
+  .top { align-items: baseline; }
+  .where { display: inline; }
   .links { display: inline; }
-  .reach { grid-column: 9 / 13; text-align: right; }
 
-  .hero > .g { display: grid; }
-  .hero h1 { grid-column: 1 / 13; text-wrap: initial; }
+  html { scroll-padding-top: 64px; }   /* focus and anchors land below the pinned scale */
+  .hero { --floor: 64px; height: calc(clamp(310px, 42vh, 440px) + var(--floor)); }
 
-  .intro > p { grid-column: 1 / 8; }
+  /* the scale: one tick a year, 2012 to 2027, across the column */
+  /* it stays at the top of the window while the jobs scroll past, so every dimension can be read against it */
+  .scale {
+    display: grid;
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-width: var(--col);
+    height: 46px;
+    margin-top: 10px;
+    background: var(--paper);
+    border-bottom: 1px solid var(--ink);
+    font-size: var(--fs-scale);
+    line-height: 1;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .scale::after { content: ''; position: absolute; right: 0; bottom: 0; height: 10px; border-left: 1px solid var(--ink); }
+  .scale span { position: relative; align-self: end; height: 6px; border-left: 1px solid var(--ink); }
+  .scale span:nth-child(odd) { height: 10px; }
+  .scale em { position: absolute; bottom: 14px; left: 0; transform: translateX(-50%); font-style: normal; white-space: nowrap; }
+  .scale span:first-child em { transform: none; left: -1px; }
+  /* today, in wet ink: where the current job's dimension ends */
+  .scale .now { position: absolute; bottom: 0; left: calc(var(--now) / var(--span) * 100%); height: 10px; border-left: 1px solid var(--wet); }
 
-  .label { grid-column: 1 / 3; }
+  .work ol { margin-top: 0; }
+  .work li { padding-top: 4px; }
+  .work li + li { margin-top: 30px; }
 
-  .work ol { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
-  .work li { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; align-items: baseline; padding-block: 18px; }
-  .work li:first-child { padding-top: 0; }
-  .work li:last-child { padding-bottom: 0; }
-  .yrs { grid-column: 1 / 3; }
-  .co { grid-column: 3 / 6; margin-top: 0; }
-  .what { grid-column: 6 / 11; margin-top: 0; }
+  .dim { height: 46px; }
+  .dim i {
+    display: block;
+    position: absolute;
+    left: calc(var(--from) / var(--span) * 100%);
+    width: calc((var(--to) - var(--from)) / var(--span) * 100%);
+    bottom: 12px;
+    border-top: 1px solid var(--ink);
+  }
+  /* extension lines, from the scale's side of the line to just past it */
+  .dim i::before, .dim i::after { content: ''; position: absolute; bottom: -9px; height: 20px; border-left: 1px solid var(--ink); }
+  .dim i::before { left: 0; }
+  .dim i::after { right: 0; }
+  /* arrowheads, 12 by 6, centred on the line */
+  .dim b { position: absolute; top: -3.5px; width: 0; height: 0; border-block: 3px solid transparent; }
+  .dim b:first-child { left: 0; border-right: 12px solid var(--ink); }
+  .dim b:last-child { right: 0; border-left: 12px solid var(--ink); }
+  .dim .yrs {
+    position: absolute;
+    left: calc((var(--from) + var(--to)) / 2 / var(--span) * 100%);
+    bottom: 16px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+  /* a dimension too short for its text: arrows outside pointing in, the text beside it */
+  .short .dim i { left: calc(var(--from) / var(--span) * 100% - 26px); width: calc((var(--to) - var(--from)) / var(--span) * 100% + 52px); }
+  .short .dim i::before { left: 26px; }
+  .short .dim i::after { right: 26px; }
+  .short .dim b:first-child { left: 14px; border-right: 0; border-left: 12px solid var(--ink); }
+  .short .dim b:last-child { right: 14px; border-left: 0; border-right: 12px solid var(--ink); }
+  .short .dim .yrs { left: calc(var(--to) / var(--span) * 100% + 34px); transform: none; bottom: 3px; }
+  /* The years stay where they are. Resting the pointer on the dimension (the .hit area the script lays over the
+     line and its label) brings up a tooltip with the months after a moment; leaving it takes the tooltip away at
+     once. The tooltip sits over the years with a small pointer to them, above everything including the pinned
+     scale, and the script shifts it (--tshift) to keep it inside the column. */
+  .dim { cursor: default; }
+  .dim .hit { display: block; position: absolute; top: 0; bottom: 0; left: var(--hl, 0); width: var(--hw, 100%); }
+  .yrs .y { display: inline; }
+  .dim .yrs { padding-inline: 4px; margin-left: -4px; background: var(--paper); pointer-events: none; }   /* paper over the extension lines */
+  .placed .dim .yrs { left: var(--yx); transform: none; }
+  .measuring .dim .yrs { left: 0; transform: none; }
+  .dim .yrs .m {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    display: grid;
+    justify-items: center;
+    row-gap: 1px;
+    padding: 6px 12px 7px;
+    border: 1px solid currentColor;
+    background: var(--paper);
+    font-size: 0.875rem;
+    line-height: 1.25;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translate(calc(-50% + var(--tshift, 0px)), 4px);
+    transition: opacity 0.1s ease-in, transform 0.1s ease-in;
+    pointer-events: none;
+  }
+  .dim .yrs .md { display: block; font-size: 0.8125rem; font-style: normal; font-variant-numeric: lining-nums; }
+  /* the pointer: an outlined triangle under the tooltip, aimed at the middle of the years */
+  .dim .yrs .m::before, .dim .yrs .m::after {
+    content: '';
+    position: absolute;
+    left: calc(50% - var(--tshift, 0px));
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom: 0;
+    transform: translateX(-50%);
+  }
+  .dim .yrs .m::before { top: 100%; border-top-color: currentColor; }
+  .dim .yrs .m::after { top: calc(100% - 1.5px); border-top-color: var(--paper); }
+  .hit:hover + .yrs { z-index: 2; }   /* over the pinned scale while it is up; the labels still scroll under it */
+  .hit:hover + .yrs .m {
+    opacity: 1;
+    transform: translate(calc(-50% + var(--tshift, 0px)), 0);
+    transition: opacity 0.18s ease-out 0.3s, transform 0.18s ease-out 0.3s;
+  }
+  /* the current job is still being drawn: wet ink, and the far extension line is not closed */
+  .open .dim i { border-top-color: var(--wet); }
+  .open .dim i::before { border-left-color: var(--wet); }
+  .open .dim i::after { border-left: 1px dashed var(--wet); }
+  .open .dim b:first-child { border-right-color: var(--wet); }
+  .open .dim b:last-child { border-left-color: var(--wet); }
+}
 
-  .projects ul { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
-  .projects li { grid-column: span 5; display: grid; grid-template-columns: subgrid; column-gap: var(--gutter); padding-block: 12px; }
-  .projects li:nth-child(-n + 2) { border-top: 0; padding-top: 0; }
-  .projects h3 { grid-column: 1 / 3; }
-  .projects li p { grid-column: 3 / 6; }
-
-  .now dl { grid-column: 3 / 13; display: grid; grid-template-columns: subgrid; margin-top: 0; }
-  .now dt { grid-column: 1 / 3; padding-block: 14px; }
-  .now dd { grid-column: 3 / 9; padding-block: 14px; margin-top: 0; border-top: 1px solid var(--hair); }
-  .now dt:first-child, .now dt:first-child + dd { border-top: 0; padding-top: 0; }
-  .now dd:last-of-type { padding-bottom: 0; }
-
-  .contact ul { grid-column: 3 / 13; margin-top: 0; }
-
+@media (min-width: 721px) and (hover: none) {
+  .yrs .y, .yrs .md, .dim .hit { display: none; }
+  .dim .yrs .m { position: static; display: inline; padding: 0; border: 0; background: none; font-size: inherit; line-height: inherit; opacity: 1; transform: none; }
+  .dim .yrs .m::before, .dim .yrs .m::after { display: none; }
+  .placed .dim .yrs { left: var(--mx); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dim .yrs .m, .hit:hover + .yrs .m { transform: translate(calc(-50% + var(--tshift, 0px)), 0); }
+  .hit:hover + .yrs .m { transition: opacity 0s linear 0.3s; }
 }
 
 /* Room for the role next to the name */
-@media (min-width: 1024px) { .role { display: inline; } }
-
-/* Between tablet and desktop the columns are narrow: wider text, projects in one column */
-@media (min-width: 721px) and (max-width: 1023px) {
-  .intro > p { grid-column: 1 / 9; }
-  .what { grid-column: 6 / 11; }
-  .now dd { grid-column: 3 / 11; }
-  .projects li { grid-column: 1 / -1; }
-  .projects li:nth-child(-n + 2) { border-top: 1px solid var(--hair); padding-top: 12px; }
-  .projects li:first-child { border-top: 0; padding-top: 0; }
-  .projects h3 { grid-column: 1 / 4; }
-  .projects li p { grid-column: 4 / 11; }
-}
+@media (min-width: 1024px) { .top .role { display: inline; } }
 
 @media print {
-  html { background: #fff; color: #000; }
   .sea { display: none; }
-  .hero { height: auto; padding-block: 24px; }
+  .hero { height: auto; padding-block: 24px; border: 0; }
   .hero h1 { text-shadow: none; }
-  .top, .work, .projects, .now, .contact { border-color: #000; }
-  a { text-decoration-color: #000; }
   .work li, .projects li { break-inside: avoid; }
-  .yrs { font-size: 1.25rem; white-space: nowrap; }
 }
