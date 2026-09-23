@@ -147,9 +147,10 @@
    current one. A job starts at the beginning of its first month and ends at the end of its last, counted in years
    from January 2012. The label shows the years. Resting the pointer on a dimension (its line or its label, not the
    rest of the row) brings up the months and how long it lasted; on phones and tablets the months are the label.
-   A dimension too short for its label gets its arrows outside and the label beside it. Which side, where each
-   label sits, where its tooltip goes and how far the pointer area reaches are all measured, so nothing runs off
-   the column at any width. */
+   The years go over their dimension, shortened to 2022–23 when that is what it takes to fit, and beside it when
+   nothing fits; its arrows go outside only when even they have no room. Which side, where each label sits, where
+   its tooltip goes and how far the pointer area reaches are all measured, so nothing runs off the column at any
+   width. The second half keeps the job you are reading on the pinned scale. */
 (function () {
   var work = document.querySelector('.work');
   if (!work) return;
@@ -185,24 +186,39 @@
       yrs.appendChild(tip);
       dim.insertBefore(el('span', 'hit'), yrs);   /* the pointer area, just before the label for the :hover + rule */
     }
-    return { li: li, dim: dim, yrs: yrs, from: from, to: to };
+    var label = yrs.querySelector('.y') || yrs, full = label.textContent;
+    var abbr = full.replace(/^(\d\d)(\d\d)–\1(\d\d)$/, '$1$2–$3');   /* 2022–2023, shortened: 2022–23 */
+    return { li: li, dim: dim, yrs: yrs, label: label, full: full, abbr: abbr !== full && abbr, from: from, to: to };
   }).filter(Boolean);
   work.style.setProperty('--now', Math.min(SPAN, today).toFixed(3));
 
-  var GAP = 34, OUT = 26;   /* label to a short dimension; how far a short dimension's arrows reach outside, px */
+  /* label to a dimension with its arrows outside; how far those arrows reach; label to a dimension with its arrows
+     inside; the least room between the years over a line and its extension lines; an arrowhead's length, px */
+  var GAP = 34, OUT = 26, SIDE = 12, ROOM = 3, ARROW = 12;
   function place() {
     work.classList.add('measuring');   /* labels unplaced for a moment, just long enough to be measured */
     jobs.forEach(function (j) {
       var W = j.dim.getBoundingClientRect().width;
       if (!W) return;
       var a = j.from / SPAN * W, b = j.to / SPAN * W;
-      var y = j.yrs.querySelector('.y'), m = j.yrs.querySelector('.m');
-      var wy = (y || j.yrs).getBoundingClientRect().width, wm = m ? m.getBoundingClientRect().width : wy;
-      var short = b - a < wy + 10;   /* the label sits above the line: it has to be no wider than the line */
+      var m = j.yrs.querySelector('.m');
+      /* The years go over the line when they fit between its extension lines, shortened to 2022–23 if that is what
+         it takes. If not, they go beside it, and the arrows stay inside unless even they have no room. */
+      j.label.textContent = j.full;
+      var wy = j.label.getBoundingClientRect().width, over = b - a >= wy + 2 * ROOM;
+      if (!over && j.abbr) {
+        j.label.textContent = j.abbr;
+        var wa = j.label.getBoundingClientRect().width;
+        if (b - a >= wa + 2 * ROOM) { over = true; wy = wa; } else j.label.textContent = j.full;
+      }
+      var short = !over && b - a < 2 * ARROW + 10;
       j.li.classList.toggle('short', short);
+      j.li.classList.toggle('aside', !over && !short);
+      var wm = m ? m.getBoundingClientRect().width : wy;
       function x(w) {
-        if (!short) return Math.min(W - w, Math.max(0, (a + b - w) / 2));    /* centred on the line, kept in the column */
-        return b + GAP + w <= W ? b + GAP : Math.max(0, a - GAP - w);          /* beside it: after, or before at the end */
+        if (over) return Math.min(W - w, Math.max(0, (a + b - w) / 2));    /* centred on the line, kept in the column */
+        var g = short ? GAP : SIDE;
+        return b + g + w <= W ? b + g : Math.max(0, a - g - w);            /* beside it: after, or before at the end */
       }
       var xy = x(wy);
       j.li.style.setProperty('--yx', xy + 'px');
@@ -223,6 +239,139 @@
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(place);
   if ('ResizeObserver' in window) new ResizeObserver(place).observe(work.querySelector('ol'));
   else window.addEventListener('resize', place);
+
+  /* The scale keeps the job you are reading. Once a job's dimension line has scrolled up under the pinned scale
+     (under its paper, which reaches PAPER px below its line), that is the job being read, and the scale washes its
+     years in wet ink; read on and the wash slides to the next one. Where each line sits in the page is measured
+     once, and again only when the layout changes, so scrolling costs arithmetic. The wash moves on transforms
+     only, on a critically damped spring, which keeps its speed when the job changes on the way. A click on the
+     scale goes to the job at that year; resting the pointer on it washes that job's years paler and names it. */
+  var scale = work.querySelector('.scale');
+  if (!scale || !jobs.length) return;
+  var PAPER = 4, LAND = 2, OMEGA = 14;   /* px; where a click leaves a job's line, px above the scale's; the spring, 1/s */
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  jobs.forEach(function (j) {
+    j.line = j.dim.querySelector('i');
+    j.name = j.li.querySelector('h3').textContent.trim();
+    j.a = j.from;
+    j.b = j.to;
+  });
+  /* neighbours share a month, the one the older job ends in and the newer one starts in: on the scale the boundary
+     goes through the middle of it */
+  var byTime = jobs.slice().sort(function (p, q) { return p.a - q.a; });
+  for (var k = 0; k + 1 < byTime.length; k++) {
+    var older = byTime[k], newer = byTime[k + 1];
+    if (older.b > newer.a) older.b = newer.a = (older.b + newer.a) / 2;
+  }
+  jobs.forEach(function (j) {
+    j.wash = scale.appendChild(el('i', 'wash'));
+    j.wash.style.setProperty('--a', j.a.toFixed(3));
+    j.wash.style.setProperty('--b', j.b.toFixed(3));
+  });
+  var reading = scale.appendChild(el('i', 'reading')), tag = scale.appendChild(el('i', 'tag'));
+
+  var lineY = [], axis = 0, W = 0, current = -2;
+  function measure() {
+    W = scale.clientWidth;
+    if (!W) return;   /* phones: there is no scale */
+    var sy = window.scrollY;
+    lineY = jobs.map(function (j) { var r = j.line.getBoundingClientRect(); return sy + (r.top + r.bottom) / 2; });
+    axis = (parseFloat(getComputedStyle(scale).top) || 0) + scale.offsetHeight - 0.5;   /* the scale's line, pinned */
+    current = -2;
+    update();
+    if (current >= 0) aim(jobs[current], true);   /* a new width: the ends snap again, in place */
+  }
+
+  /* the wash: where it is and how fast it moves, in years, and where it is going */
+  var pos = null, vel = null, goal = null, raf = 0, last = 0;
+  function draw() {
+    var a = pos.a / SPAN * W, b = pos.b / SPAN * W;
+    reading.style.transform = 'translateX(' + a.toFixed(2) + 'px) scaleX(' + ((b - a) / W).toFixed(5) + ')';
+  }
+  function tick(now) {
+    var dt = last ? Math.min(0.05, (now - last) / 1000) : 1 / 60, moving = false;
+    last = now;
+    ['a', 'b'].forEach(function (e) {
+      /* the exact step of x'' = -OMEGA^2 x - 2 OMEGA x', so every frame rate gives the same motion */
+      var x = pos[e] - goal[e], v = vel[e], c = v + OMEGA * x, q = Math.exp(-OMEGA * dt);
+      pos[e] = goal[e] + (x + c * dt) * q;
+      vel[e] = (v - OMEGA * c * dt) * q;
+      if (Math.abs(pos[e] - goal[e]) / SPAN * W > 0.05 || Math.abs(vel[e]) / SPAN * W > 1) moving = true;
+    });
+    if (!moving) { pos = { a: goal.a, b: goal.b }; vel = { a: 0, b: 0 }; }
+    draw();
+    raf = moving ? requestAnimationFrame(tick) : 0;
+  }
+  /* an end within a few pixels of a year goes on the year: an edge that close to a tick reads as a slip */
+  function snap(y) { var r = Math.round(y); return Math.abs(y - r) / SPAN * W < 3.5 ? r : y; }
+  function aim(j, jump) {
+    goal = { a: snap(j.a), b: snap(j.b) };
+    if (jump || !pos || reduce.matches) {
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+      pos = { a: goal.a, b: goal.b };
+      vel = { a: 0, b: 0 };
+      draw();
+    } else if (!raf) {
+      last = 0;
+      raf = requestAnimationFrame(tick);
+    }
+  }
+  function update() {
+    if (!W) return;
+    var limit = window.scrollY + axis + PAPER, n = -1;
+    while (n + 1 < jobs.length && lineY[n + 1] <= limit) n++;
+    if (n === current) return;
+    current = n;
+    jobs.forEach(function (j, i) { j.li.classList.toggle('docked', i <= n); });
+    if (n < 0) { reading.classList.remove('on'); return; }
+    aim(jobs[n], !reading.classList.contains('on'));   /* appearing: in place, not sliding in from where it last was */
+    reading.classList.add('on');
+  }
+
+  var queued = false;
+  window.addEventListener('scroll', function () {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(function () { queued = false; update(); });
+  }, { passive: true });
+  scale.classList.add('still');   /* no transitions for the state the page opens in */
+  measure();
+  scale.getBoundingClientRect();
+  requestAnimationFrame(function () { scale.classList.remove('still'); });
+  window.addEventListener('resize', measure);
+  if ('ResizeObserver' in window) new ResizeObserver(function () { measure(); }).observe(document.documentElement);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+
+  /* the job at a point on the scale: the one whose years are nearest */
+  function jobAt(x) {
+    var s = scale.getBoundingClientRect(), y = (x - s.left) / s.width * SPAN, best = -1, gap = Infinity;
+    jobs.forEach(function (j, i) {
+      var e = y < j.a ? j.a - y : y > j.b ? y - j.b : 0;
+      if (e < gap) { gap = e; best = i; }
+    });
+    return best;
+  }
+  var shown = -1;
+  function show(i) {
+    if (i === shown) return;
+    if (shown >= 0) jobs[shown].wash.classList.remove('hover');
+    shown = i;
+    if (i < 0) { tag.classList.remove('show'); return; }
+    var j = jobs[i];
+    j.wash.classList.add('hover');
+    tag.textContent = j.name;
+    var w = tag.offsetWidth, c = (j.a + j.b) / 2 / SPAN * W;
+    tag.style.left = Math.min(W - w, Math.max(0, c - w / 2)) + 'px';
+    tag.classList.add('show');
+  }
+  scale.addEventListener('pointermove', function (e) { if (e.pointerType === 'mouse') show(jobAt(e.clientX)); });
+  scale.addEventListener('pointerleave', function () { show(-1); });
+  /* a click goes to the job: its line lands just under the scale, its heading right below */
+  scale.addEventListener('click', function (e) {
+    var i = jobAt(e.clientX);
+    if (i >= 0) window.scrollTo(0, lineY[i] - (axis - LAND));
+  });
 })();
 </script>
 <script src="script.js" defer></script>
