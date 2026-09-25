@@ -53,6 +53,8 @@
       -webkit-tap-highlight-color: transparent;
     }
     button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+    /* No double-tap zoom on phones: pressing "next" twice quickly should mean twice. */
+    button, a, .line { touch-action: manipulation; }
     button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 10px; }
     svg { display: block; width: 100%; height: 100%; }
 
@@ -381,7 +383,7 @@
     <aside class="rail" aria-label="Library">
       <div class="brand"><img class="logo" src="icons/logo.svg" alt="">luisterspoor</div>
       <nav id="railList"></nav>
-      <a class="elsewhere" href="https://oefenschrift.nl/">
+      <a class="elsewhere" href="https://oefenschrift.nl/" target="_blank" rel="noopener">
         <span>Preparing for inburgering?</span>
         <b>oefenschrift.nl ↗</b>
         <span>Free practice for the exams: reading, listening, writing, speaking and KNM.</span>
@@ -471,7 +473,7 @@
         </div>`).join('') + `
         <div class="grp">
           <span class="grp-label">Inburgering exams</span>
-          <div class="grp-pills"><a class="chip link" href="https://oefenschrift.nl/">oefenschrift.nl ↗</a></div>
+          <div class="grp-pills"><a class="chip link" href="https://oefenschrift.nl/" target="_blank" rel="noopener">oefenschrift.nl ↗</a></div>
         </div>`;
       $('#railList').innerHTML = state.sets.map((set) => `
         <section>
@@ -689,6 +691,8 @@
     });
 
     player.on('item', () => {
+      // While a newly picked track's phrases load there is no item yet; keep the old view until then.
+      if (!state.item) return;
       renderCurrent();
       $('#counter').textContent = `${state.index + 1} / ${state.items.length}`;
       $('#category').textContent = state.item?.category || '';
@@ -706,7 +710,7 @@
         lastProgressPaint = performance.now();
         paintCurrentProgress();
       }
-      if (!current) return;
+      if (!current || current.item !== state.item) return;
       light(current.en, current.item.hasPrompt ? player.spokenFraction('en') : 1);
       light(current.nl, player.spokenFraction('nl'));
       if (state.phase === 'think') {

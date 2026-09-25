@@ -338,14 +338,13 @@ export function createPlayer({ audio, tracksUrl = 'tracks.json' } = {}) {
     }
     savePosition();
     const token = ++loadToken;
-    const manifest = await manifestFor(track);
-    if (token !== loadToken) return;
-
     const saved = Number(store.get(KEYS.position(track.id)) || 0);
     state.track = track;
-    state.items = manifest.items.map((item) => prepareItem(item, track));
+    state.items = [];
     state.index = -1;
+    state.item = null;
     state.segmentIndex = -1;
+    state.segment = null;
     store.set(KEYS.track, track.id);
 
     pendingTime = Number.isFinite(saved) && saved > 0 && saved < track.duration_seconds - 2 ? saved : 0;
@@ -354,9 +353,14 @@ export function createPlayer({ audio, tracksUrl = 'tracks.json' } = {}) {
     el.src = track.audioUrl;
     el.defaultPlaybackRate = state.rate;
     el.playbackRate = state.rate;
+    // Start the audio before waiting for the phrase list: iOS only lets play() through close to the tap.
+    if (autoplay) play();
+
+    const manifest = await manifestFor(track);
+    if (token !== loadToken) return;
+    state.items = manifest.items.map((item) => prepareItem(item, track));
     emit('track');
     sync(true);
-    if (autoplay) play();
   }
 
   function play() {
@@ -556,6 +560,11 @@ export function createPlayer({ audio, tracksUrl = 'tracks.json' } = {}) {
   el.addEventListener('ratechange', updatePositionState);
   el.addEventListener('ended', () => {
     savePosition();
+    emit('play');
+  });
+  // A track that can't load (offline before its audio was saved) must not leave the button spinning.
+  el.addEventListener('error', () => {
+    state.waiting = false;
     emit('play');
   });
   addEventListener('pagehide', savePosition);

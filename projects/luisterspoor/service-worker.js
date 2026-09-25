@@ -3,7 +3,7 @@
 // Audio lives in its own cache, keyed by content-hashed URLs from tracks.json. The page asks
 // for it to be filled in the background ('warm-media'), and a release that only changes the
 // interface downloads no audio again.
-const SHELL_CACHE = 'luisterspoor-shell-7f1d9a810f';
+const SHELL_CACHE = 'luisterspoor-shell-a2da19ee78';
 const MEDIA_CACHE = 'luisterspoor-media';
 const SHELL = [
   "./",
