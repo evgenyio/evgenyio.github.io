@@ -144,7 +144,7 @@ a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decor
   --sea-width: 1;
   --sea-floor: var(--floor);
 }
-.sea canvas { display: block; width: 100%; height: 100%; background: var(--paper); touch-action: pan-y; }
+.sea canvas { display: block; width: 100%; height: 100%; background: var(--paper); touch-action: pan-y pinch-zoom; }
 .hero > .wrap {
   position: relative;
   height: 100%;
@@ -161,9 +161,9 @@ a:focus-visible { outline: 2px solid var(--wet); outline-offset: 3px; text-decor
   text-shadow: 0 0 2px var(--paper), 0 0 6px var(--paper), 0 0 14px var(--paper), 0 0 26px var(--paper);
 }
 .hero h1 em { font-weight: 300; }
-.no-js .sea { display: none; }
-.no-js .hero { height: auto; }                           /* no sea: no empty water under the headline */
-.no-js .hero > .wrap { padding-bottom: clamp(32px, 6vh, 64px); }
+.no-js .sea, .no-sea .sea { display: none; }
+.no-js .hero, .no-sea .hero { height: auto; }             /* no sea: no empty water under the headline */
+.no-js .hero > .wrap, .no-sea .hero > .wrap { padding-bottom: clamp(32px, 6vh, 64px); }
 
 /* The year counter: a strip of numbers that rolls once on load and stops at the current count */
 .count {
@@ -231,13 +231,17 @@ h2 { font-size: var(--fs-h2); font-style: italic; line-height: 1.15; }
 
   html { scroll-padding-top: 64px; }   /* focus and anchors land below the pinned scale */
   .hero { --floor: 64px; height: calc(clamp(310px, 42vh, 440px) + var(--floor)); }
+}
 
-  /* the scale: one tick a year, 2012 to 2027, across the column */
+/* From 721px on screens: the work history gets its scale. Print keeps the plain labels, as phones do: a pinned
+   scale and labels placed in screen pixels don't survive a page. */
+@media screen and (min-width: 721px) {
+  /* the scale: one tick a year, from 2012 to the end of this year (the script adds a column each January) */
   /* it stays at the top of the window while the jobs scroll past, so every dimension can be read against it.
      Over the years it keeps room for a job's name, and 4px of paper under its line hide what scrolls beneath. */
   .scale {
     display: grid;
-    grid-template-columns: repeat(15, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--span), minmax(0, 1fr));
     position: sticky;
     top: 0;
     z-index: 1;
@@ -279,7 +283,7 @@ h2 { font-size: var(--fs-h2); font-style: italic; line-height: 1.15; }
   .scale .tag { position: absolute; top: 4px; left: 0; font-style: italic; white-space: nowrap; opacity: 0; transition: opacity 0.12s linear; pointer-events: none; }
   .scale .tag.show { opacity: 1; }
   .scale.still .wash, .scale.still .reading, .scale.still .tag { transition: none; }
-  .work li.docked .dim { visibility: hidden; }   /* gone under the scale: the wash stands for it now */
+  .work li.docked .dim { opacity: 0; pointer-events: none; }   /* gone under the scale: the wash stands for it now */
 
   .work ol { margin-top: 0; }
   .work li { padding-top: 4px; }
@@ -375,8 +379,8 @@ h2 { font-size: var(--fs-h2); font-style: italic; line-height: 1.15; }
   .open .dim b:last-child { border-left-color: var(--wet); }
 }
 
-@media (min-width: 721px) and (hover: none) {
-  .yrs .y, .yrs .md, .dim .hit { display: none; }
+@media screen and (min-width: 721px) and (hover: none) {
+  .yrs .y, .dim .yrs .md, .dim .hit { display: none; }
   .dim .yrs .m { position: static; display: inline; padding: 0; border: 0; background: none; font-size: inherit; line-height: inherit; opacity: 1; transform: none; }
   .dim .yrs .m::before, .dim .yrs .m::after { display: none; }
   .placed .dim .yrs { left: var(--mx); }

@@ -64,19 +64,19 @@
       <i class="now"></i>
     </div>
     <ol>
-      <li class="open short" data-from="2025-04" data-to="now" style="--from: 13.25; --to: 14.72">
+      <li class="open" data-from="2025-04" data-to="now" style="--from: 13.25; --to: 14.72">
         <p class="dim"><i><b></b><b></b></i><span class="yrs">2025–now</span></p>
         <h3><a href="https://poolside.ai">Poolside</a></h3>
         <p class="role">Member of engineering, full-stack · Amsterdam,&nbsp;remote</p>
         <p class="what">Poolside trains its own <abbr>LLM</abbr>s. My part is the tools around them: the VS&nbsp;Code extension and the desktop app, and Model Factory, the internal services and pipelines the models are built with. I’m pulling those together into one proper product. Plus support for enterprise customers, and a lot of experiments with&nbsp;agents.</p>
       </li>
-      <li class="short" data-from="2023-06" data-to="2025-04" style="--from: 11.417; --to: 13.333">
+      <li data-from="2023-06" data-to="2025-04" style="--from: 11.417; --to: 13.333">
         <p class="dim"><i><b></b><b></b></i><span class="yrs">2023–2025</span></p>
         <h3><a href="https://dubformer.ai">Dubformer</a></h3>
         <p class="role">Lead full-stack engineer ·&nbsp;Amsterdam</p>
         <p class="what">Two of Dubformer’s products started with me in an empty repo: a dubbing service for regular users, and <abbr>AI</abbr> Dubbing Studio, a <abbr>B2B</abbr> tool for localisation teams. I led and built both and took them to production, product design, dev tooling, <abbr>CI/CD</abbr>, performance and stability&nbsp;included.</p>
       </li>
-      <li class="short" data-from="2022-01" data-to="2023-06" style="--from: 10; --to: 11.5">
+      <li data-from="2022-01" data-to="2023-06" style="--from: 10; --to: 11.5">
         <p class="dim"><i><b></b><b></b></i><span class="yrs">2022–2023</span></p>
         <h3><a href="https://cloud.google.com/kubernetes-engine">Google Cloud</a></h3>
         <p class="role">Software engineer, <abbr>GKE</abbr> console ·&nbsp;Warsaw</p>
@@ -155,11 +155,24 @@
 (function () {
   var work = document.querySelector('.work');
   if (!work) return;
-  var SPAN = 15, MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var d = new Date(), today = d.getFullYear() - 2012 + (d.getMonth() + d.getDate() / 31) / 12;
   var thisMonth = { y: d.getFullYear(), m: d.getMonth() + 1 };
+  /* one column a year, from 2012 to the end of this one: each January the scale gains a year, the new last
+     one written in full like the first, the one before it shortened like the rest */
+  var SPAN = Math.max(15, d.getFullYear() - 2012 + 1), ticks = work.querySelector('.scale');
+  work.style.setProperty('--span', SPAN);
+  if (ticks) {
+    var spans = ticks.querySelectorAll('span'), lastTick = spans[spans.length - 1], nowTick = ticks.querySelector('.now');
+    for (var yr = 2012 + spans.length; yr < 2012 + SPAN; yr++) {
+      lastTick.firstChild.textContent = String(yr - 1).slice(2);
+      lastTick = document.createElement('span');
+      lastTick.appendChild(document.createElement('em')).textContent = String(yr);
+      ticks.insertBefore(lastTick, nowTick);
+    }
+  }
   function parse(s) { var m = /^(\d{4})(?:-(\d{2}))?$/.exec(s || ''); return m && { y: +m[1], m: m[2] ? +m[2] : 0 }; }
-  function at(p, end) { return p.y - 2012 + (p.m ? p.m - 1 + (end ? 1 : 0) : 0) / 12; }
+  function at(p, end) { return p.y - 2012 + (p.m ? (p.m - 1 + (end ? 1 : 0)) / 12 : end ? 1 : 0); }
   function name(p) { return p.m ? MONTHS[p.m - 1] + ' ' + p.y : String(p.y); }
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
   /* how long, counting both the first and the last month, the way LinkedIn does */
@@ -195,7 +208,7 @@
 
   /* label to a dimension with its arrows outside; how far those arrows reach; label to a dimension with its arrows
      inside; the least room between the years over a line and its extension lines; an arrowhead's length, px */
-  var GAP = 34, OUT = 26, SIDE = 12, ROOM = 3, ARROW = 12;
+  var GAP = 34, OUT = 26, SIDE = 12, ROOM = 3, ARROW = 12, PAD = 4;   /* PAD: the paper a label carries on each side */
   function place() {
     work.classList.add('measuring');   /* labels unplaced for a moment, just long enough to be measured */
     jobs.forEach(function (j) {
@@ -206,8 +219,9 @@
       /* The years go over the line when they fit between its extension lines, shortened to 2022–23 if that is what
          it takes. If not, they go beside it, and the arrows stay inside unless even they have no room. */
       j.label.textContent = j.full;
-      var wy = j.label.getBoundingClientRect().width, over = b - a >= wy + 2 * ROOM;
-      if (!over && j.abbr) {
+      var touch = m && getComputedStyle(j.label).display === 'none';   /* tablets: the months are the label */
+      var wy = (touch ? m : j.label).getBoundingClientRect().width, over = b - a >= wy + 2 * ROOM;
+      if (!over && j.abbr && !touch) {
         j.label.textContent = j.abbr;
         var wa = j.label.getBoundingClientRect().width;
         if (b - a >= wa + 2 * ROOM) { over = true; wy = wa; } else j.label.textContent = j.full;
@@ -217,9 +231,9 @@
       j.li.classList.toggle('aside', !over && !short);
       var wm = m ? m.getBoundingClientRect().width : wy;
       function x(w) {
-        if (over) return Math.min(W - w, Math.max(0, (a + b - w) / 2));    /* centred on the line, kept in the column */
+        if (over) return Math.min(W - w - PAD, Math.max(0, (a + b - w) / 2));    /* centred on the line, kept in the column */
         var g = short ? GAP : SIDE;
-        return b + g + w <= W ? b + g : Math.max(0, a - g - w);            /* beside it: after, or before at the end */
+        return b + g + w + PAD <= W ? b + g : Math.max(0, a - g - w);            /* beside it: after, or before at the end */
       }
       var xy = x(wy);
       j.li.style.setProperty('--yx', xy + 'px');
@@ -271,7 +285,7 @@
   });
   var reading = scale.appendChild(el('i', 'reading')), tag = scale.appendChild(el('i', 'tag'));
 
-  var lineY = [], axis = 0, W = 0, current = -2;
+  var lineY = [], axis = 0, W = 0, current = -2, chosen = -1;
   function measure() {
     W = scale.clientWidth;
     if (!W) return;   /* phones: there is no scale */
@@ -322,6 +336,7 @@
     if (!W) return;
     var limit = window.scrollY + axis + PAPER, n = -1;
     while (n + 1 < jobs.length && lineY[n + 1] <= limit) n++;
+    if (chosen >= 0) n = chosen;
     if (n === current) return;
     current = n;
     jobs.forEach(function (j, i) { j.li.classList.toggle('docked', i <= n); });
@@ -371,7 +386,13 @@
   /* a click goes to the job: its line lands just under the scale, its heading right below */
   scale.addEventListener('click', function (e) {
     var i = jobAt(e.clientX);
-    if (i >= 0) window.scrollTo(0, lineY[i] - (axis - LAND));
+    if (i < 0) return;
+    chosen = i;   /* near the end of the page the line may never reach the scale: the click still names the job */
+    update();
+    window.scrollTo(0, lineY[i] - (axis - LAND));
+  });
+  ['wheel', 'touchstart', 'keydown'].forEach(function (type) {
+    window.addEventListener(type, function () { if (chosen >= 0) { chosen = -1; update(); } }, { passive: true });
   });
 })();
 </script>

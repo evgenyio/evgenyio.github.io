@@ -79,21 +79,23 @@
     if (word) word.textContent = WORDS[n] || String(n);
     var strip = box.querySelector('.strip');
     if (reduce.matches) { strip.innerHTML = '<span>' + n + '</span>'; return; }
-    var html = '', i, done = false;
+    var html = '', i, done = false, started = false;
     /* only the final number is read out; the ones it rolls past are decoration */
     for (i = 1; i <= n; i++) html += '<span' + (i < n ? ' aria-hidden="true"' : '') + '>' + i + '</span>';
     strip.innerHTML = html;
     /* once it has rolled, the strip is just the number again, so copying the headline gives "14", not "1 2 3 … 14" */
-    strip.addEventListener('transitionend', function (e) {
-      if (e.target !== strip || e.propertyName !== 'transform') return;
+    function finish() {
       done = true;
       strip.style.transition = 'none';
       strip.innerHTML = '<span>' + n + '</span>';
       strip.style.transform = 'none';
+    }
+    strip.addEventListener('transitionend', function (e) {
+      if (e.target === strip && e.propertyName === 'transform') finish();
     });
+    strip.addEventListener('transitioncancel', function (e) { if (e.target === strip) finish(); });
     var lh = parseFloat(getComputedStyle(box).height);   /* one line, in px */
     strip.style.transform = 'translateY(0)';
-    var started = false;
     /* wait for the font so the roll happens in the real face, then release the strip */
     var go = function () {
       if (started) return;
@@ -109,11 +111,12 @@
       document.fonts.ready.then(go, go);
       setTimeout(go, 1500);
     } else go();
-    /* if the line height changes (font swap, resize), re-aim the strip */
+    /* a resize before or during the roll: skip to the number, since a re-aimed strip would never see its
+       transition end and would keep every number in the headline */
     window.addEventListener('resize', function () {
       if (done) return;
-      var h = parseFloat(getComputedStyle(box).height);
-      if (h && h !== lh) { lh = h; strip.style.transition = 'none'; strip.style.transform = 'translateY(' + (-(n - 1) * lh) + 'px)'; }
+      started = true;
+      finish();
     });
   })();
 
@@ -128,7 +131,7 @@
   var soft = false;
   var gl = canvas.getContext('webgl', ATTR);
   if (!gl) { ATTR.failIfMajorPerformanceCaveat = false; gl = canvas.getContext('webgl', ATTR); soft = !!gl; }
-  if (!gl) { fig.style.display = 'none'; return; }
+  if (!gl) { fig.style.display = 'none'; document.documentElement.classList.add('no-sea'); return; }
 
   /* Colour. Each row has its own hue by depth: haze at the horizon, teal in the middle distance, indigo in
      front. Under the pointer the water catches a warm light (the rows near it blend towards ACCENT, fading
@@ -542,7 +545,7 @@
     draw(t);
   }
 
-  try { setup(); } catch (e) { fig.style.display = 'none'; if (window.console) console.error(e); return; }
+  try { setup(); } catch (e) { fig.style.display = 'none'; document.documentElement.classList.add('no-sea'); if (window.console) console.error(e); return; }
   layout();
   still();
 
@@ -560,10 +563,22 @@
   /* any resize rebuilds the strip and redraws in the same task, so a cleared canvas is never on screen */
   function relayout() { if (lost) return; layout(); draw(t); }
   if ('ResizeObserver' in window) {
-    new ResizeObserver(relayout).observe(canvas);
+    var sized = new ResizeObserver(relayout);
+    /* in device pixels, so a window moved to a screen with another pixel ratio redraws too; Safari only knows CSS
+       pixels, and the resolution query below covers it */
+    try { sized.observe(canvas, { box: 'device-pixel-content-box' }); } catch (e) { sized.observe(canvas); }
   } else {
     window.addEventListener('resize', relayout);
   }
+  (function watchRatio() {
+    var ratio = window.matchMedia('(resolution: ' + (window.devicePixelRatio || 1) + 'dppx)');
+    if (!ratio.addEventListener) return;
+    ratio.addEventListener('change', function changed() {
+      ratio.removeEventListener('change', changed);
+      relayout();
+      watchRatio();
+    });
+  })();
 
   function onReduce() { if (reduce.matches) { if (raf) window.cancelAnimationFrame(raf); raf = 0; still(); } else start(); }
   if (reduce.addEventListener) reduce.addEventListener('change', onReduce);
