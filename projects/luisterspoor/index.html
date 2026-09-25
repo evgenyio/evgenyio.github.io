@@ -737,10 +737,26 @@
   </script>
   <script>
     if ('serviceWorker' in navigator) {
+      // A page that already had a service worker reloads when a new release takes over,
+      // but never in the middle of listening: with audio playing it waits for a pause.
+      const hadController = Boolean(navigator.serviceWorker.controller);
+      let reloading = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!hadController || reloading) return;
+        const reload = () => {
+          if (reloading) return;
+          reloading = true;
+          location.reload();
+        };
+        const audio = document.querySelector('audio');
+        if (!audio || audio.paused) reload();
+        else audio.addEventListener('pause', reload, { once: true });
+      });
       addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js').catch((error) => {
-          console.warn('Service worker registration failed', error);
-        });
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => navigator.serviceWorker.ready)
+          .then((registration) => registration.active && registration.active.postMessage('warm-media'))
+          .catch((error) => console.warn('Service worker registration failed', error));
       });
     }
   </script>
