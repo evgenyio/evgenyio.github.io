@@ -9,3 +9,5 @@ The personal site of Evgeny Nikiforov, product engineer. Plain HTML, CSS and one
 - `og.png`: the card a link to the site unfolds into, 1200 by 630. It is a screenshot of the page itself, the header and the headline over the sea; `og-gen.js` retakes it with headless Chrome (`node og-gen.js`). Worth rerunning when the headline changes, and in January, when the counter turns over (the scale adds the new year by itself).
 - `robots.txt`, `sitemap.xml`: everything a crawler is told. The sitemap lists the page and the apps under `projects/` and `games/`.
 - `projects/` and `games/`: side projects deployed here by their own repositories; not part of the site's sources.
+
+Project hover previews and asset provenance are documented in [docs/project-previews.md](docs/project-previews.md). Run a local static server and open `/#projects` to check the previews.
