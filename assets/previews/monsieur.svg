@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Monsieur: speak French, type English</title>
+  <desc id="desc">An illustrated Mac message window contains the English sentence Could we move the meeting to tomorrow. A dictation overlay below shows the spoken French sentence On peut déplacer la réunion à demain. Control Option Space starts and stops dictation.</desc>
+  <defs>
+    <linearGradient id="desktop" x2="1" y2="1"><stop stop-color="#efedf7"/><stop offset="1" stop-color="#dee7f0"/></linearGradient>
+  </defs>
+  <rect width="1100" height="760" fill="url(#desktop)"/>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="66" font-size="30" font-weight="600" fill="#2b263c">monsieur</text>
+    <text x="1036" y="64" text-anchor="end" font-size="20" fill="#625c72">Dictation for macOS</text>
+    <rect x="66" y="118" width="972" height="339" rx="16" fill="#8894ab" opacity=".12"/>
+    <rect x="64" y="108" width="972" height="339" rx="16" fill="#fff" stroke="#d2d5df"/>
+    <path d="M80 108h940a16 16 0 0 1 16 16v44H64v-44a16 16 0 0 1 16-16Z" fill="#f7f7fa"/>
+    <path d="M64 168h972" stroke="#e6e6ec"/>
+    <circle cx="92" cy="138" r="7" fill="#ff6058"/><circle cx="116" cy="138" r="7" fill="#febc2e"/><circle cx="140" cy="138" r="7" fill="#28c840"/>
+    <text x="550" y="146" text-anchor="middle" font-size="21" fill="#625e6a">Message</text>
+    <text x="108" y="236" font-size="19" fill="#747080">English, where your cursor is</text>
+    <text x="108" y="304" font-size="38" fill="#24232c">Could we move the meeting</text>
+    <text x="108" y="359" font-size="38" fill="#24232c">to tomorrow?<tspan fill="#7354b3">│</tspan></text>
+    <rect x="130" y="485" width="840" height="193" rx="24" fill="#2c2938"/>
+    <text x="166" y="532" font-size="19" fill="#d5cce9">You speak French</text>
+    <g stroke="#b8a0ed" stroke-width="3" stroke-linecap="round">
+      <path d="M898 518v12m8-18v24m8-27v30m8-24v18m8-14v10"/>
+    </g>
+    <text x="166" y="597" font-size="29" fill="#fff">On peut déplacer la réunion à demain ?</text>
+    <text x="166" y="643" font-size="18" fill="#b8b2c5">⌃ ⌥ Space to start or stop</text>
+    <text x="64" y="725" font-size="17" fill="#716b7d">Illustrated example</text>
+  </g>
+</svg>
