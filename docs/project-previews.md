@@ -1,12 +1,18 @@
 # Project previews
 
-The project list keeps its original typography and vertical spacing. Descriptions use the original 35em measure; hover previews stay 300px wide. The subtitle reads “Always free and open source”, without a full stop. `pixel-picnic` sits before `water-sort`; the psychologist-bot description covers its current diary, memory and letter features.
+The project list keeps its original typography and desktop spacing. Descriptions use the original 35em measure; hover previews stay 300px wide. The subtitle reads “Always free and open source”, without a full stop. `pixel-picnic` sits before `water-sort`; the psychologist-bot description covers its current diary, memory and letter features.
 
-On desktop, hovering a project or focusing its title shows a screenshot beside the text. Escape dismisses it. The image opens a native dialog for a larger view, with a link to the project. On narrow or touch screens, a small picture icon beside each heading opens that dialog. Every popup has the same width at a given viewport size. All images are landscape or square and sit in the centre without stretching. Hover images are capped at 360px and 52% of the viewport height; the whole popup is capped at 500px and stays within the window. There are no inline previews or desktop Preview buttons.
+On desktop, hovering a project or focusing its title shows a screenshot beside the text. Escape dismisses it. Clicking the image opens a native dialog. The title itself links directly to the project.
+
+On narrow or touch screens, tapping the project title opens the dialog. There is no separate preview button. Titles have a touch target at least 44px tall, and their links retain their destinations for modified clicks and use without JavaScript. The dialog slides up by 20px and fades in over 220ms; closing takes 160ms and fades the backdrop. Escape, the close button and a backdrop tap use the same closing animation. Reduced-motion settings disable these animations.
+
+Hover captions contain only the title and subtitle. The dialog includes the screenshot, its subtitle and a “View on GitHub” link for every project. Projects with a live app also have an “Open project” link. It has no full-size image link or image-type label. Asset provenance remains documented below and in image alternative text.
+
+Every popup has the same width at a given viewport size. All images are landscape or square and sit in the centre without stretching. Hover previews stay 300px wide; their images are capped at 360px and 52% of the viewport height. The whole popup is capped at 500px and stays within the window. There are no inline previews.
 
 Local review tools live in `_review/`, which is ignored by Git.
 
-Every project title remains a normal link. Dialogs support Escape, backdrop dismissal and focus return. A failed image leaves a fallback message and usable project links. Without JavaScript, the original text and links remain available.
+Every project title retains its destination in `href`. Dialogs support Escape, backdrop dismissal and focus return. A failed image leaves a fallback message and usable project links. Without JavaScript, the original text and links remain available.
 
 ## Assets and provenance
 
@@ -22,6 +28,6 @@ Captured 2026-09-27 through the browser, with no private account data:
 
 ## Verification
 
-The selected hover layout was reviewed in a 1280px desktop viewport and a 388px phone frame. All six popups are 300px wide, including the square game image; descriptions retain their original width. Checks covered the new screenshots, square and landscape proportions, keyboard focus, Escape, focus return and the missing-image fallback. The phone layout has no horizontal overflow. JavaScript syntax and Git whitespace checks pass; `style.css` has no changes.
+Reviewed in Firefox on 2026-09-28 at 1280px on desktop and at 320px and 468px on mobile. All six title links open their matching mobile dialogs, with the correct GitHub destination and a service link where one exists. The repository URLs were verified with the GitHub CLI. Checks covered entry and exit animations, reduced motion, keyboard Enter and Escape, closing through the button and backdrop, focus return, the missing-image fallback and horizontal overflow. Desktop titles still navigate normally, and hover previews retain their title and subtitle. No script errors occurred. JavaScript syntax and Git whitespace checks pass; `style.css` has no changes.
 
 CSS and JavaScript URLs in `index.html` include the first ten characters of each file’s SHA-256 hash to refresh cached preview resources after an update.
