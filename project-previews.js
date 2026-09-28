@@ -6,10 +6,12 @@
   const stageImage = stage.querySelector('img');
   const dialog = document.querySelector('.preview-dialog');
   const hover = matchMedia('(min-width: 900px) and (hover: hover)');
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let current = null;
   let opener;
   let hideTimer;
   let dismissed = false;
+  let closeAnimation;
 
   function imageFallback(image) {
     const message = document.createElement('span');
@@ -53,7 +55,6 @@
     const name = row.querySelector('h3 a').textContent;
     stage.querySelector('.stage-name').textContent = name;
     stage.querySelector('.stage-caption').textContent = row.dataset.caption;
-    stage.querySelector('.stage-kind').textContent = row.dataset.kind;
     stage.querySelector('button').setAttribute('aria-label', `Enlarge ${name} preview`);
     stage.hidden = !hover.matches || dismissed || dialog.open;
     positionStage();
@@ -71,11 +72,14 @@
     enlarged.height = image.height;
     enlarged.src = image.getAttribute('src');
     enlarged.alt = image.alt;
-    dialog.querySelector('.dialog-original').href = image.getAttribute('src');
     dialog.querySelector('.dialog-caption').textContent = row.dataset.caption;
-    dialog.querySelector('.dialog-kind').textContent = row.dataset.kind;
     dialog.querySelector('.dialog-extra').hidden = !row.dataset.extra;
-    dialog.querySelector('.dialog-visit').href = row.querySelector('h3 a').href;
+    const projectLink = row.querySelector('h3 a');
+    const visitLink = dialog.querySelector('.dialog-visit');
+    const githubLink = dialog.querySelector('.dialog-github');
+    visitLink.href = projectLink.href;
+    githubLink.href = row.dataset.github;
+    visitLink.hidden = visitLink.href === githubLink.href;
     stage.hidden = true;
     dialog.showModal();
     dialog.scrollTop = 0;
@@ -89,6 +93,22 @@
     }, 180);
   }
 
+  function close() {
+    if (!dialog.open || closeAnimation) return;
+    if (hover.matches || reducedMotion.matches) {
+      dialog.close();
+      return;
+    }
+    // Keep the native dialog open while its content and backdrop fade away.
+    const style = getComputedStyle(dialog);
+    dialog.classList.add('is-closing');
+    closeAnimation = dialog.animate([
+      { opacity: style.opacity, transform: style.transform },
+      { opacity: 0, transform: 'translateY(16px)' }
+    ], { duration: 160, easing: 'ease-in', fill: 'forwards' });
+    closeAnimation.finished.then(() => dialog.close());
+  }
+
   for (const row of rows) {
     row.addEventListener('pointerenter', event => {
       if (event.pointerType === 'touch') return;
@@ -97,18 +117,38 @@
     });
     row.addEventListener('pointerleave', scheduleHide);
     row.addEventListener('focusin', () => { dismissed = false; select(row); });
-    row.querySelector('.preview-trigger').addEventListener('click', event => open(row, event.currentTarget));
+    row.querySelector('h3 a').addEventListener('click', event => {
+      if (hover.matches || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      open(row, event.currentTarget);
+    });
+  }
+  function updateTitleLinks() {
+    for (const row of rows) {
+      const link = row.querySelector('h3 a');
+      if (hover.matches) {
+        link.removeAttribute('aria-haspopup');
+        link.removeAttribute('aria-controls');
+      } else {
+        link.setAttribute('aria-haspopup', 'dialog');
+        link.setAttribute('aria-controls', dialog.id);
+      }
+    }
   }
   section.addEventListener('focusout', scheduleHide);
   stage.addEventListener('pointerenter', () => clearTimeout(hideTimer));
   stage.addEventListener('pointerleave', scheduleHide);
   stage.querySelector('button').addEventListener('click', event => open(current, event.currentTarget));
-  dialog.querySelector('.preview-close').addEventListener('click', () => dialog.close());
+  dialog.querySelector('.preview-close').addEventListener('click', close);
+  dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
   dialog.addEventListener('click', event => {
     const box = dialog.getBoundingClientRect();
-    if (event.target === dialog && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) dialog.close();
+    if (event.target === dialog && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) close();
   });
   dialog.addEventListener('close', () => {
+    closeAnimation?.cancel();
+    closeAnimation = null;
+    dialog.classList.remove('is-closing');
     if (stage.contains(opener)) { dismissed = false; select(current); }
     opener?.focus({ preventScroll: true });
     if (!stage.contains(opener)) { dismissed = true; stage.hidden = true; }
@@ -124,8 +164,8 @@
     if (!stage.hidden) positionStage();
   }, { passive: true });
   addEventListener('resize', () => { stage.hidden = true; });
-  hover.addEventListener('change', () => { stage.hidden = true; });
-  section.classList.add('project-previews-ready');
+  hover.addEventListener('change', () => { stage.hidden = true; updateTitleLinks(); });
+  updateTitleLinks();
   if (location.hash === '#projects' && document.fonts) {
     document.fonts.ready.then(() => section.scrollIntoView({ behavior: 'instant' }));
   }
