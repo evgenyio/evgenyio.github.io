@@ -79,6 +79,7 @@
       if (started) return;
       started = true;
       window.requestAnimationFrame(function () {
+        if (done) return;   /* a resize got here first and already settled it on the number */
         lh = parseFloat(getComputedStyle(box).height) || lh;
         box.classList.add('roll');
         void strip.offsetHeight;
