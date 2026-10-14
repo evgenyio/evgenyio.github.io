@@ -1,7 +1,9 @@
 (() => {
   const section = document.querySelector('#projects');
   if (!section) return;
-  const rows = [...section.querySelectorAll('.project')];
+  // Side projects and games share one preview and one dialog.
+  const lists = [...document.querySelectorAll('.projects')];
+  const rows = lists.flatMap(list => [...list.querySelectorAll('.project')]);
   const stage = section.querySelector('.project-stage');
   const stageImage = stage.querySelector('img');
   const dialog = document.querySelector('.preview-dialog');
@@ -135,7 +137,7 @@
       }
     }
   }
-  section.addEventListener('focusout', scheduleHide);
+  for (const list of lists) list.addEventListener('focusout', scheduleHide);
   stage.addEventListener('pointerenter', () => clearTimeout(hideTimer));
   stage.addEventListener('pointerleave', scheduleHide);
   stage.querySelector('button').addEventListener('click', event => open(current, event.currentTarget));
@@ -166,7 +168,8 @@
   addEventListener('resize', () => { stage.hidden = true; });
   hover.addEventListener('change', () => { stage.hidden = true; updateTitleLinks(); });
   updateTitleLinks();
-  if (location.hash === '#projects' && document.fonts) {
-    document.fonts.ready.then(() => section.scrollIntoView({ behavior: 'instant' }));
+  const target = lists.find(list => '#' + list.id === location.hash);
+  if (target && document.fonts) {
+    document.fonts.ready.then(() => target.scrollIntoView({ behavior: 'instant' }));
   }
 })();

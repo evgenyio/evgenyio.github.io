@@ -1,0 +1,49 @@
+/*
+  The games page: one more chapter of the same book. style.css sets the paper, the ink, the type, the header
+  and the column; this sets the chapter. A title and a lead, a line of contents, then an entry per game: its
+  name in italic, as the title of a work, a short paragraph on how it plays, where to play it and where its
+  code is, and four screens from it set as plates under the text, each with its caption, framed in ink so
+  that the pale ones keep their edge on the paper. Four plates across the column; on a phone they are a row
+  you swipe through, running out to the edges of the screen, the next plate showing at the edge.
+*/
+
+html { scroll-padding-top: 32px; }   /* no pinned scale on this page: a contents link lands just above the title */
+
+.chapter { padding-top: clamp(28px, 7vh, 72px); }
+.chapter h1 {
+  font-size: min(var(--fs-h1), calc(var(--wrap) / 11));
+  font-weight: 300;
+  line-height: var(--lh-h1);
+  letter-spacing: -0.012em;
+}
+.chapter .lead { max-width: min(var(--col), 30em); margin-top: clamp(16px, 3vh, 28px); font-size: var(--fs-lead); line-height: 1.45; }
+.contents { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 2px; margin-top: 20px; font-style: italic; }
+
+.game { margin-top: var(--section); }
+.game .about { max-width: var(--measure); margin-top: 10px; }
+.game .go { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 2px; margin-top: 12px; }
+
+.shots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: clamp(16px, 2.2vw, 32px); margin-top: 28px; }
+.shots img { display: block; width: 100%; height: auto; border: 1px solid var(--ink); }
+.shots figcaption { margin-top: 9px; font-size: var(--fs-small); line-height: 1.35; text-wrap: pretty; }
+
+@media (max-width: 720px) {
+  .shots {
+    display: flex;
+    gap: 14px;
+    margin-inline: calc(var(--margin) * -1);
+    padding-inline: var(--margin);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--margin);
+    scrollbar-width: none;
+  }
+  .shots::-webkit-scrollbar { display: none; }
+  .shots li { flex: 0 0 min(62vw, 250px); scroll-snap-align: start; }
+}
+
+@media print {
+  .shots { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .game { break-inside: avoid; }
+}

@@ -1,7 +1,7 @@
 /* Keep the site's original text layout and use compact hover previews. */
-#projects { scroll-margin-top: 24px; }
+#projects, #games { scroll-margin-top: 24px; }
 .project-intro { margin-top: 3px; font-size: var(--fs-small); }
-@media (min-width: 721px) { #projects { scroll-margin-top: -32px; } }
+@media (min-width: 721px) { #projects, #games { scroll-margin-top: -32px; } }
 .project-visual { display: none; }
 .stage-image, .preview-close { font: inherit; color: inherit; cursor: pointer; background: none; border: 0; }
 .stage-image:focus-visible, .preview-close:focus-visible { outline: 2px solid var(--wet); outline-offset: 4px; }

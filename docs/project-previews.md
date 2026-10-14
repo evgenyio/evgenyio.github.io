@@ -1,6 +1,6 @@
 # Project previews
 
-The project list keeps its original typography and desktop spacing. Descriptions use the original 35em measure; hover previews stay 300px wide. The subtitle reads “Always free and open source”, without a full stop. `pixel-picnic` sits before `water-sort`; the psychologist-bot description covers its current diary, memory and letter features.
+The front page has two lists in the same typography and desktop spacing: Side projects, and Games after it. Both share one hover preview and one dialog. Descriptions use the original 35em measure; hover previews stay 300px wide. The subtitles, “Always free and open source” and “Cosy puzzles for a phone or a computer, with no ads”, have no full stop. The games run newest first, and the Games list ends with a link to the games page, `/games/`, which has four screens and the links for each game. The psychologist-bot description covers its current diary, memory and letter features.
 
 On desktop, hovering a project or focusing its title shows a screenshot beside the text. Escape dismisses it. Clicking the image opens a native dialog. The title itself links directly to the project.
 
@@ -16,9 +16,16 @@ Every project title retains its destination in `href`. Dialogs support Escape, b
 
 ## Assets and provenance
 
+Captured 2026-10-14, with no private account data:
+
+- `full-and-down.jpg`: level 12 in the Baltic, a bulk carrier at Kiel, captured with headless Chrome in a 1280 × 800 viewport from the deployed game's local copy.
+- `mise-en-place.jpg`: level 9 in the trattoria, captured the same way.
+- `pot-luck.jpg`: level 55 in the dim sum house, from the pot-luck repository's `docs/screenshots/desktop-kitchen.jpg`, resized to 1280 × 800.
+- `pixel-picnic.jpg`: level 199, beavers carrying away a panda, from the pixel-picnic repository's `docs/desktop.jpg`, resized to 1280 × 800.
+- `assets/games/`: the games page's phone screens, 540px wide at most. Full & Down, Mise en Place, three of Pixel Picnic's and Water Sort's come from the `docs` screenshots in each game's repository; Pot Luck's four and Pixel Picnic's crew picker were captured with headless Chrome at 390 × 844, twice the pixel density, from the deployed games' local copies.
+
 Captured 2026-09-27 through the browser, with no private account data:
 
-- `pixel-picnic.jpg`: level 1 in a 1280 × 720 landscape frame in the daytime theme, with yellow and pink ants carrying cubes from a partly eaten frog, from the deployed game's local copy.
 - `water-sort-square.jpg`: a Very Hard free-play puzzle captured directly in a 900 × 900 game viewport, with ten bottles, hidden layers and a storage jar, from the deployed game's local copy.
 - `oefenschrift.jpg`: public A2 listening exercise, oefenschrift.nl/sets/a2-listening-09, with a bakery illustration, audio waveform and a question about a birthday cake.
 - `luisterspoor.jpg`: public player, evgeny.io/projects/luisterspoor/.
@@ -30,4 +37,6 @@ Captured 2026-09-27 through the browser, with no private account data:
 
 Reviewed in Firefox on 2026-09-28 at 1280px on desktop and at 320px and 468px on mobile. All six title links open their matching mobile dialogs, with the correct GitHub destination and a service link where one exists. The repository URLs were verified with the GitHub CLI. Checks covered entry and exit animations, reduced motion, keyboard Enter and Escape, closing through the button and backdrop, focus return, the missing-image fallback and horizontal overflow. Desktop titles still navigate normally, and hover previews retain their title and subtitle. No script errors occurred. JavaScript syntax and Git whitespace checks pass; `style.css` has no changes.
 
-CSS and JavaScript URLs in `index.html` include the first ten characters of each file’s SHA-256 hash to refresh cached preview resources after an update.
+Reviewed again on 2026-10-14, in Firefox at 1440px and 375px and in Chrome at 768px, after the games moved into their own list: hovering a game shows its preview, the preview opens the dialog with the game and its repository, a tap on a game's title opens the dialog on a phone, `/#games` lands on the list, and neither page scrolls sideways. No script errors.
+
+CSS and JavaScript URLs in `index.html` include the first ten characters of each file’s SHA-256 hash to refresh cached resources after an update: the previews’ files, and the site’s own `style.css`, `script.js` and `sea-foot.js`.

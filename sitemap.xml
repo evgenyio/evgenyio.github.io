@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://evgeny.io/</loc></url>
+  <url><loc>https://evgeny.io/games/</loc></url>
+  <url><loc>https://evgeny.io/games/full-and-down/</loc></url>
+  <url><loc>https://evgeny.io/games/mise-en-place/</loc></url>
+  <url><loc>https://evgeny.io/games/pot-luck/</loc></url>
+  <url><loc>https://evgeny.io/games/pixel-picnic/</loc></url>
+  <url><loc>https://evgeny.io/games/water-sort/</loc></url>
   <url><loc>https://evgeny.io/projects/luisterspoor/</loc></url>
   <url><loc>https://evgeny.io/projects/gracht.app/</loc></url>
-  <url><loc>https://evgeny.io/games/water-sort/</loc></url>
-  <url><loc>https://evgeny.io/games/pixel-picnic/</loc></url>
 </urlset>
